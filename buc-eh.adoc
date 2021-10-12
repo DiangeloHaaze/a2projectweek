@@ -9,7 +9,7 @@ Er moet nagegaan worden of dit mogelijk is en een kost op de lopende rekening ge
 
 === Preconditie
 
-Klant is geidentificeerd
+Klant is geïdentificeerd
 
 === Basis pad
 
