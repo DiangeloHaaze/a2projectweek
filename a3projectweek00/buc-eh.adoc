@@ -21,7 +21,7 @@ Klant is geïdentificeerd
 .   De _medewerker_ gaat na dat de dag waarop het exemplaar teruggebracht moet worden, geen voorziene sluitingsdag is.
 .   De _medewerker_ noteert de verhuring.
 .   De _medewerker_ voegt de kost toe aan de lopende rekening van de klant volgens <<domeinregels.adoc#_dr_kep_kost_van_een_exemplaar_voor_een_periode,*DR_KEP*>> .
-.   De use case eindigd.
+.   De use case eindigt.
 
 ==== Postconditie
 
@@ -45,13 +45,13 @@ Niks gewijzigd.
 [start=3]
 .   De _medewerker_ merkt dat de klant deze titel niet mag huren.
 .   De _medewerker_ informeert de klant hierover.
-.   De use case eindigd.
+.   De use case eindigt.
 
 ==== Postconditie
 
 Niks gewijzigd
 
-=== Alternatief 
+=== Alternatief C: Exemplaar niet verhuurbaar gedurende de gevraagde periode
 
 [start=5]
 .   De _medewerker_ merkt dat het exemplaar niet verhuurbaar is voor de gevraagde periode.
@@ -63,38 +63,10 @@ _Merk op dat een gelijkwaardig exemplaar zoeken in alternatief C, zinloos zou zi
 === Alternatief D: Exemplaar moet teruggebracht worden op sluitingsdag.
 
 [start=6]
-.   De _medewerker_ merkt dat het exemplaar moet teruggebracht worden op een voorziene sluitingsdat.
+.   De _medewerker_ merkt dat het exemplaar moet teruggebracht worden op een voorziene sluitingsdag.
 .   De _medewerker_ verlengt de verhuurperiode zodanig dat het exemplaar niet meer op een voorziene sluitingsdag moet teruggebracht worden.
 .   De _medewerker_ informeert de klant hierover.
 .   De use case gaat verder met de volgende stap van het basispad.
 
 _Merk op dat in alternatief D, het exemplaar sowieso verhuurbaar zal zijn op elke voorziene sluitingsdag, er zijn dan immers geen passende reservaties. 
 Het is dus zeker dat het exemplaar verhuurbaar zal zijn in de verlengde verhuurperiode._
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

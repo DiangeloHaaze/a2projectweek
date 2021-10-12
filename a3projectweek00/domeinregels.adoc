@@ -4,14 +4,15 @@ Een volwassenenfilm kan enkel door meerderjarigen gehuurd worden (i.e. 18 jaar o
 
 == DR_EVP - Exemplaar is Verhuurbaar gedurende Periode
 
-Een exemplaar is verhuurbaar gedurende een periode, als het eleke dag in die periode verhuurbaar is.
+Een exemplaar is verhuurbaar gedurende een periode, als het elke dag in die periode verhuurbaar is.
 
 == DR_KEP - Kost van een Exemplaar voor een Periode
 De kost van een verhuring over een periode is gelijk aan het product van de dagprijs voor de eerste dag van de periode en het aantal dagen in die periode.
 De dag waarop het exemplaar moet teruggebracht worden telt hierbij niet mee.
 
 == DR_VPS - Verhuurperiode en SluitingsDagen
-Exemplaren moeten steeds tijdig teruggebracht kunnen worden m.b.t. voorziene sluitingsdagen. De verhuurperiode mag dus niet eindigen op de dag vóór zo'n sluitingsdag.
+Exemplaren moeten steeds tijdig teruggebracht kunnen worden m.b.t. voorziene sluitingsdagen. 
+De verhuurperiode mag dus niet eindigen op de dag vóór zo'n sluitingsdag.
 
 //Iets van DR ivm gratis op (on)voorziene sluitingsdagen?
 
