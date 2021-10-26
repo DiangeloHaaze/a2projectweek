@@ -1,8 +1,3 @@
-[%autowidth]
-|====
-| link:..\verslag_groep_A01.adoc[Verslag] 
-|====
-
 == BUC_GA Geld Afhalen
 De klant probeert geld af te halen. Er moet nagegaan worden hoeveel geld de klant op zijn rekening heeft staan, of dit genoeg is.
 
@@ -14,43 +9,43 @@ Klant is geïdentificeerd
 
 === Basis pad 
 
- . De KLANT wil geld afhalen
- . De MEDEWERKER vraagt de klant voor zijn rekeningnummer
- . De KLANT geeft zijn rekeningnummer aan de medewerker
- . De MEDEWERKER gaat na of de klant wel een afhaling mag doen op die rekening volgens => link:domeinregels.adoc[DR_VGR,window=blank] en link:domeinregels.adoc[DR_AZR,window=blank]
- . De MEDEWERKER vraag aan de klant hoeveel geld hij wilt afhalen
- . De KLANT geeft aan hoeveel geld hij wilt afhalen
- . De MEDEWERKER gaat na of de klant het bedrag kan afhalen via => link:domeinregels.adoc[DR_VMB,window=blank]
- . De MEDEWERKER werkt het saldo van de rekening bij volgens => link:domeinregels.adoc[DR_VNS,window=blank] 
- . De MEDEWERKER noteert de transactie in de boekhouding => link:domeinregels.adoc[DR_VIB,window=blank]
- . De MEDEWERKER geeft het bedrag in cash aan de klant.
- . De use case eindigt
+    . De KLANT wil geld afhalen
+    . De MEDEWERKER vraagt de klant voor zijn rekeningnummer
+    . De KLANT geeft zijn rekeningnummer aan de medewerker
+    . De MEDEWERKER gaat na of de klant wel een afhaling mag doen op die rekening volgens => link:domeinregels.adoc[DR_VGR,window=blank] en link:domeinregels.adoc[DR_AZR,window=blank]
+    . De MEDEWERKER vraag aan de klant hoeveel geld hij wilt afhalen
+    . De KLANT geeft aan hoeveel geld hij wilt afhalen
+    . De MEDEWERKER gaat na of de klant het bedrag kan afhalen via => link:domeinregels.adoc[DR_VMB,window=blank]
+    . De MEDEWERKER werkt het saldo van de rekening bij volgens => link:domeinregels.adoc[DR_VNS,window=blank] 
+    . De MEDEWERKER noteert de transactie in de boekhouding => link:domeinregels.adoc[DR_VIB,window=blank]
+    . De MEDEWERKER geeft het bedrag in cash aan de klant.
+    . De use case eindigt
 
 ==== Postconditie
 De klant heeft het bedrag cash gekregen, en is van zijn rekening afgehaald.
 
 === Alternatief A: Stoppen
- . De KLANT kan op elk moment beslissen om te stoppen.
- . De MEDEWERKER maakt eventuele wijzigingen ongedaan.
- . De use case eindigt.
+    . De KLANT kan op elk moment beslissen om te stoppen.
+    . De MEDEWERKER maakt eventuele wijzigingen ongedaan.
+    . De use case eindigt.
 
 ==== Postconditie
 Niets gewijzigd
 
 === Alternatief B: Klant mag geen geld van de opgegeven rekening halen.
 [start = 4]
- . De MEDEWERKER stelt vast dat de klant geen geld mag afhalen van de opgegeven rekening.
- . De MEDEWERKER informeert de klant hierover.
- . De use case eindigt.
+    . De MEDEWERKER stelt vast dat de klant geen geld mag afhalen van de opgegeven rekening.
+    . De MEDEWERKER informeert de klant hierover.
+    . De use case eindigt.
 
 ==== Postconditie
 Niets gewijzigd
 
 === Alternatief C: Klant wil een te groot bedrag afhalen
 [start = 7]
- . De MEDEWERKER merkt op dat de klant een te groot bedrag wilt afhalen.
- . De MEDEWERKER informeert de klant hierover.
- . De use case gaat verder met stap 5 van het basispad.
+    . De MEDEWERKER merkt op dat de klant een te groot bedrag wilt afhalen.
+    . De MEDEWERKER informeert de klant hierover.
+    . De use case gaat verder met stap 5 van het basispad.
 
 ==== Postconditie
 De klant is op de hoogte van zijn saldo, en kan dus alsnog beslissen om geld af te halen. Hij kan ook stoppen.

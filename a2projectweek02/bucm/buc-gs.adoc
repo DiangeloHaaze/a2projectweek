@@ -1,8 +1,3 @@
-[%autowidth]
-|====
-| link:..\verslag_groep_A01.adoc[Verslag] 
-|====
-
 == BUC_GS Geld Storten
 De klant wil een welbepaald geldbedrag op zijn of een ander bankrekening plaatsen.
 
@@ -14,33 +9,33 @@ Klant is geïdentificeerd
 
 === Basis pad 
 
- . De KLANT wil een bepaald bedrag storten. 
- . De MEDEWERKER vraagt de klant voor het rekeningnummer
- . De KLANT geeft zijn rekeningnummer aan de medewerker
- . De MEDEWERKER gaat na of de klant wel een storting mag doen op die rekening volgens => link:domeinregels.adoc[DR_VGR,window=blank]
- . De MEDEWERKER vraagt de klant voor het te storten bedrag.
- . De KLANT geeft het cash bedrag aan de medewerker.
- . De MEDEWERKER telt het bedrag na.
- . De MEDEWERKER werkt het saldo van de rekening bij volgens => link:domeinregels.adoc[DR_VNS,window=blank] 
- . De MEDEWERKER noteert de transactie in de boekhouding => link:domeinregels.adoc[DR_VIB,window=blank]
- . De use case eindigt.
+    . De KLANT wil een bepaald bedrag storten. 
+    . De MEDEWERKER vraagt de klant voor het rekeningnummer
+    . De KLANT geeft zijn rekeningnummer aan de medewerker
+    . De MEDEWERKER gaat na of de klant wel een storting mag doen op die rekening volgens => link:domeinregels.adoc[DR_VGR,window=blank]
+    . De MEDEWERKER vraagt de klant voor het te storten bedrag.
+    . De KLANT geeft het cash bedrag aan de medewerker.
+    . De MEDEWERKER telt het bedrag na.
+    . De MEDEWERKER werkt het saldo van de rekening bij volgens => link:domeinregels.adoc[DR_VNS,window=blank] 
+    . De MEDEWERKER noteert de transactie in de boekhouding => link:domeinregels.adoc[DR_VIB,window=blank]
+    . De use case eindigt.
 
 ==== Postconditie
 Het saldo van de desbetreffende rekening werd bijgewerkt. 
  
 === Alternatief A: Stoppen
- . De KLANT kan op elk moment beslissen om te stoppen.
- . De MEDEWERKER maakt eventuele wijzigingen ongedaan.
- . De use case eindigt.
+    . De KLANT kan op elk moment beslissen om te stoppen.
+    . De MEDEWERKER maakt eventuele wijzigingen ongedaan.
+    . De use case eindigt.
 
 ==== Postconditie
 Niets gewijzigd
 
 === Alternatief B: Klant mag geen geld op de opgegeven rekening storten.
 [start = 4]
- . De MEDEWERKER stelt vast dat de klant geen geld mag storten op de opgegeven rekening.
- . De MEDEWERKER informeert de klant hierover.
- . De use case eindigt.
+    . De MEDEWERKER stelt vast dat de klant geen geld mag storten op de opgegeven rekening.
+    . De MEDEWERKER informeert de klant hierover.
+    . De use case eindigt.
 
 ==== Postconditie
 Niets gewijzigd
