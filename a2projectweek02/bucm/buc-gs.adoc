@@ -16,8 +16,6 @@ Klant is geïdentificeerd
 
  . De KLANT wil een bepaald bedrag storten. 
  => link:domeinregels.adoc[DR_VBK]
- . De KLANT biedt zich aan bij de medewerker voor identificatie.
- => link:domeinregels.adoc[DR_RGVV]
  . De MEDEWERKER geeft de klant toegang tot zijn rekening(en).
  . De KLANT geeft aan hoeveel hij wil storten.
  . De KLANT specifieert op welke rekening het bedrag geplaatst wordt.
@@ -31,11 +29,6 @@ Klant is geïdentificeerd
 ==== Postconditie
 Het saldo van de desbetreffende rekening werd bijgewerkt. 
  
-=== Alternatief A: De klant kan niet worden geïdentificeerd.
-[start = 2]
-. De KLANT heeft geen toegang tot de bankrekening.
-. Use case eindigd.
-
 === Alternatief B: De klant heeft geen toegang tot de rekening (Gelijk aan A)
 [start = 2]
 . Toegang voor KLANT wordt geweigerd tot een specifieke rekening.

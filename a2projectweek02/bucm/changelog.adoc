@@ -13,3 +13,6 @@
     - Medewerker gaat na of de klant wel titularis is van de rekening, en of de rekening wel bestaat binnen de bank
     - Medewerker gaat na of de afhaling wel vanuit een zichtrekening gebeurt
     - Herwerking alternatieve paden
+
+== buc-gs.adoc
+    - Medewerker identificeert de klant niet meer (gebeurt al in de preconditie)
