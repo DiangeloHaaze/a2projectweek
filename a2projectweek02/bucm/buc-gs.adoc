@@ -32,15 +32,3 @@ Het saldo van de desbetreffende rekening werd bijgewerkt.
 [start = 2]
 . Toegang voor KLANT wordt geweigerd tot een specifieke rekening.
 . Use case eindigd.
-
-=== Alternatief D: Rekening is ontoereikend.
-[start = 4]
-. Er staat geen genoeg geld op de rekening van de klant.
-=> link:domeinregels.adoc[DR_ROS]
-. De MEDEWERKER informeert de klant hierover.
-. De use case gaat verder met stap 4.
-
-
-
-
-

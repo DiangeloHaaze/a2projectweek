@@ -24,3 +24,4 @@
     - Medewerker kijkt of de klant wel een storting kan uitvoeren op die rekening
     - Medewerker vraagt niet langer naar het gestorte bedrag, maar ontvangt de storting onmiddelijk
     - De transactie wordt niet meer geverifieerd (zoals ook niet in buc-ga gebeurt)
+    - Alternatief D verwijderd: ging over overschrijvingen/afhalingen, geen stortingen
