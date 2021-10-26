@@ -3,10 +3,10 @@
 | link:..\verslag_groep_A01.adoc[Verslag] 
 |====
 
-= BUC_GS Geld Storten
+== BUC_GS Geld Storten
 De klant wil een welbepaald geldbedrag op zijn of een ander bankrekening plaatsen.
 
-== Actors
+=== Actors
 *Klant*, medewerker
 
 === Preconditie 

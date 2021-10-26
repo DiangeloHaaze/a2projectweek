@@ -15,4 +15,5 @@
     - Herwerking alternatieve paden
 
 == buc-gs.adoc
+    - Titel is nu van niveau '==' i.p.v. '='
     - Medewerker identificeert de klant niet meer (gebeurt al in de preconditie)
