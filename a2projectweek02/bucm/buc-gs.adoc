@@ -28,6 +28,14 @@ Klant is geïdentificeerd
 ==== Postconditie
 Het saldo van de desbetreffende rekening werd bijgewerkt. 
  
+=== Alternatief A: Stoppen
+ . De KLANT kan op elk moment beslissen om te stoppen.
+ . De MEDEWERKER maakt eventuele wijzigingen ongedaan.
+ . De use case eindigt.
+
+==== Postconditie
+Niets gewijzigd
+
 === Alternatief B: De klant heeft geen toegang tot de rekening (Gelijk aan A)
 [start = 2]
 . Toegang voor KLANT wordt geweigerd tot een specifieke rekening.
