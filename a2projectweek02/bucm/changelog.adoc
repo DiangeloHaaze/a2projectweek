@@ -9,3 +9,4 @@
     - Meer dialoog tussen de klant en medewerker
     - Nieuwe verwoording van 'kost' naar 'saldo bijwerken'
     - Medewerker houdt transacties bij in boekhouding
+    - Medewerker gaat na of de klant het bedrag kan afhalen (rekening houdende met de kredietlimiet)
