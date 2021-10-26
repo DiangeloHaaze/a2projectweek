@@ -4,3 +4,4 @@
 
 == buc-ga.adoc
     - Titel is nu van niveau '==' i.p.v. '='
+    - Rekeningen kunnen niet geblokkeerd zijn

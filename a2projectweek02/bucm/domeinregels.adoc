@@ -30,8 +30,8 @@ De kost is gelijk aan het afgehaalde bedrag.
 === *DR_ROS* : Rekening bedraagt Onvoldoende Saldo
 De klant kan maar het gevraagde bedrag afhalen als dit op de rekening staat.
  
-=== *DR_RG* : Rekening is Geblokeerd 
-De geblokkeerde rekening kan geen enkele transacties uitvoeren.
+//=== *DR_RG* : Rekening is Geblokeerd 
+//De geblokkeerde rekening kan geen enkele transacties uitvoeren.
 
 === *DR_ROS* : Rekening bedraagt Onvoldoende Saldo
 Een klant kan maar zo veel geld afhalen als er op zijn rekening staat. 
