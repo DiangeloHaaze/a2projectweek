@@ -21,9 +21,7 @@ Klant is geïdentificeerd
  . De MEDEWERKER vraagt de klant voor het te storten bedrag.
  . De KLANT geeft het cash bedrag aan de medewerker.
  . De MEDEWERKER telt het bedrag na.
- . De MEDEWERKER verifiëerd de transactie.
- => link:domeinregels.adoc[DR_VU]
- . Het saldo van de gekozen rekenening wordt bijgewerkt.
+ . De MEDEWERKER werkt het saldo van de rekening bij volgens => link:domeinregels.adoc[DR_VNS,window=blank] 
  . De MEDEWERKER noteert de transactie in de boekhouding => link:domeinregels.adoc[DR_VIB,window=blank]
  . De use case eindigt.
 
@@ -33,12 +31,6 @@ Het saldo van de desbetreffende rekening werd bijgewerkt.
 === Alternatief B: De klant heeft geen toegang tot de rekening (Gelijk aan A)
 [start = 2]
 . Toegang voor KLANT wordt geweigerd tot een specifieke rekening.
-. Use case eindigd.
-
-=== Alternatief C: De transactie is niet geldig.
-[start = 6]
-. Het gestorte bedrag kan niet worden geverifiëerd door de bank.
-=> link:domeinregels.adoc[DR_VNU]
 . Use case eindigd.
 
 === Alternatief D: Rekening is ontoereikend.

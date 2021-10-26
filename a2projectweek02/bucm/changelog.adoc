@@ -22,4 +22,5 @@
     - Stortingen gebeuren niet meer via IBS
     - Medewerker houdt transacties bij in boekhouding
     - Medewerker kijkt of de klant wel een storting kan uitvoeren op die rekening
-    - Medewerker vraagt niet langer naar het gestorte berag, maar ontvangt de storting onmiddelijk
+    - Medewerker vraagt niet langer naar het gestorte bedrag, maar ontvangt de storting onmiddelijk
+    - De transactie wordt niet meer geverifieerd (zoals ook niet in buc-ga gebeurt)
