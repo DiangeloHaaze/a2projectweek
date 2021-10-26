@@ -15,7 +15,9 @@ Klant is geïdentificeerd
 === Basis pad 
 
  . De KLANT wil een bepaald bedrag storten. 
- => link:domeinregels.adoc[DR_VBK]
+ . De MEDEWERKER vraagt de klant voor het rekeningnummer
+ . De KLANT geeft zijn rekeningnummer aan de medewerker
+ . De MEDEWERKER gaat na of de klant wel een storting mag doen op die rekening volgens => link:domeinregels.adoc[DR_VGR,window=blank]
  . De MEDEWERKER geeft de klant toegang tot zijn rekening(en).
  . De KLANT geeft aan hoeveel hij wil storten.
  . De KLANT specifieert op welke rekening het bedrag geplaatst wordt.
