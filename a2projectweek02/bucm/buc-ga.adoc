@@ -22,6 +22,7 @@ Klant is geïdentificeerd
  . De MEDEWERKER gaat na of de klant genoeg geld heeft via => link:domeinregels.adoc[DR_ROS,window=blank]
  . De MEDEWERKER noteert de geldafname
  . De MEDEWERKER werkt het saldo van de rekening bij volgens => link:domeinregels.adoc[DR_ANS,window=blank] 
+ . De MEDEWERKER noteert de transactie in de boekhouding => link:domeinregels.adoc[DR_TIB,window=blank]
  . De MEDEWERKER geeft het bedrag in cash aan de klant.
  . De use case eindigt
 

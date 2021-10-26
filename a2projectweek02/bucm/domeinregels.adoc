@@ -14,6 +14,9 @@
 === *DR_ANS* : Afhaling Nieuw Saldo
 Na een afhaling wordt het afgehaalde bedrag van het saldo van de rekening getrokken.
 
+== *DR_TIB* : Transactie In Boekhouding
+Alle financiele transacties moeten bijgehouden worden in de boekhouding; deze transactie bevat de datum, de opdrachtgever, het bedrag, de betrokken rekening(en), de locatie en een optionele commentaar.
+
 == *Domeinregels m.b.t. Verrichtingen*
 
 === *DR_VBK* : Verrichtingen Binnen kredietslimiet

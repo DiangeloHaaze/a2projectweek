@@ -8,3 +8,4 @@
     - Er wordt niet meer gecontroleerd of de bank genoeg cash heeft
     - Meer dialoog tussen de klant en medewerker
     - Nieuwe verwoording van 'kost' naar 'saldo bijwerken'
+    - Medewerker houdt transacties bij in boekhouding
