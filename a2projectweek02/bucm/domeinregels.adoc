@@ -59,6 +59,6 @@ Dit systeem kan overschrijvingsgegevens accepteren van de VSB en zal proberen de
 === *DR_TBS* : Toegankelijkheid Interbancair Systeem
 Het interbancair systeem (IBS)is steeds beschikbaar.
 
-== Domeinregels m.b.t. inventaris
-=== *DR_IOC* : Inventaris bedraagt Onvoldoende Cash 
-Het gevraagde bedrag van de klant moet minder bedragen dan het bezittende bedrag van de medewerker.
+//== Domeinregels m.b.t. inventaris
+//=== *DR_IOC* : Inventaris bedraagt Onvoldoende Cash 
+//Het gevraagde bedrag van de klant moet minder bedragen dan het bezittende bedrag van de medewerker.

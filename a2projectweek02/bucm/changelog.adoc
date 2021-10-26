@@ -5,3 +5,4 @@
 == buc-ga.adoc
     - Titel is nu van niveau '==' i.p.v. '='
     - Rekeningen kunnen niet geblokkeerd zijn
+    - Er wordt niet meer gecontroleerd of de bank genoeg cash heeft

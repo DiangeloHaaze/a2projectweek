@@ -18,7 +18,6 @@ Klant is geïdentificeerd
  . De KLANT geeft zijn rekeningnummer aan de medewerker
  . De KLANT geeft aan hoeveel geld hij wilt afhalen
  . De MEDEWERKER gaat na of de klant genoeg geld heeft via => link:domeinregels.adoc[DR_ROS,window=blank]
- . De MEDEWERKER gaat na of hij genoeg cash heeft via => link:domeinregels.adoc[DR_IOC,window=blank] 
  . De MEDEWERKER noteert de geldafname
  . De MEDEWERKER trekt de kost van de rekening van de klant volgens => link:domeinregels.adoc[DR_KA,window=blank] 
  . De use case eindigt
@@ -48,13 +47,3 @@ De klant is op de hoogte van zijn saldo, en kan dus alsnog beslissen om geld af 
  . De MEDEWERKER stelt vast dat de klant geen geld mag afhalen.
  . De MEDEWERKER informeert de klant hierover.
  . De use case eindigt.
-
-=== Alternatief D: Medewerker heeft niet genoeg cash.
-[start = 7 ]
- . De MEDEWERKER merkt op dat hij niet genoeg cash heeft.
- . De MEDEWERKER informeert de klant hierover.
- . De MEDEWERKER vraagt om een hervulling van cash.
- . De use case gaat verder met stap 4 van het basispad
-
-==== Postconditie
-De klant is op de hoogte en kan een nieuwe poging doen om minder geld af te halen.
