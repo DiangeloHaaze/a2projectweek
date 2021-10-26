@@ -1,0 +1,49 @@
+[%autowidth]
+|====
+| link:verslag_groep_A01.adoc[Verslag] |
+  link:vragen_voor_de_opdrachtgever.adoc[Vragenlijst] |
+  link:bucm\buc-ga.adoc[BUC_GA] |
+  link:bucm\buc-gs.adoc[BUC_GS] |
+  link:bucm\domeinregels.adoc[Domeinregels] |
+  link:bucm\titels.adoc[Titels] 
+|====
+
+== Projectweek : *1*
+
+Eindverantwoordelijke: *Pieter Daenen*
+
+=== Projectmomenten
+
+[%autowidth]
+|====
+|22/10/2021 | Campus Mercator | 4 | +- 45min
+|====
+
+=== Activiteiten per groepslid
+
+==== Arno
+
+Arno heeft gewerkt aan de BUC Geld Afhalen, alsook de bijbehorende domeinregels. Arno is hiermee samen met mij een uurtje of 2 a 3 bezig geweest.
+De domeinregels hebben we per BUC apart gedaan, om ze op het einde samen te voegen in groep tijdens het projectmoment.
+
+==== Pieter
+
+Ikzelf heb me beziggehouden met de BUC Geld Afhalen, samen met Arno. Eens dit af was hebben we de BUC Geld Storten vergeleken en besproken met de groep tijdens het eindmoment.
+De domeinregels hebben we per BUC apart gedaan, om op het einde samen te voegen in groep. Ik ben ongeveer een uurtje of 2 a 3 bezig geweest.
+De vragen hebben we samen in het lesmoment in groep gedaan.
+
+==== Toon
+
+Toon heeft met Sahsenem gewerkt ook de BUC Geld Storten, alsook de bijbehorende domeinregels. De domeinregels zijn op het laatste projectmoment besproken in groep.
+Hij is hier een dik anderhalf uur bezig geweest.
+
+==== Sahsenem
+
+Sahsenem heeft met Toon gewerkt aan het BUC Geld Storten, alsook de bijbehorende domeinregels. De domeinregels zijn op het laatste moment besproken en samengevoegd.
+Ze is hier ongeveer een uur a anderhalf bezig geweest.
+
+
+
+
+
+- Versie 1 : Projectweek 1 ( 26-10-2021)

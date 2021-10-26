@@ -1,0 +1,20 @@
+[%autowidth]
+|====
+| link:..\verslag_groep_A01.adoc[Verslag] 
+|====
+
+== BUCM Titels
+
+=== Business Use Cases
+. geld afhalen
+. geld storten
+. rekening aanmaken
+. rekening afsluiten
+. overschrijving uitvoeren
+. saldo checken
+. lening aanvragen
+. lening wijzigen
+. gegevens aanpassen
+. interest berekenen
+. interest storten
+. overzicht rekeninguitreksels aanvragen

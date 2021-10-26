@@ -1,0 +1,60 @@
+[%autowidth]
+|====
+| link:..\verslag_groep_A01.adoc[Verslag] 
+|====
+
+= BUC_GS Geld Storten
+De klant wil een welbepaald geldbedrag op zijn of een ander bankrekening plaatsen.
+
+== Actors
+*Klant*, medewerker
+
+=== Preconditie 
+Klant is geïdentificeerd
+
+=== Basis pad 
+
+ . De KLANT wil een bepaald bedrag storten. 
+ => link:domeinregels.adoc[DR_VBK]
+ . De KLANT biedt zich aan bij de medewerker voor identificatie.
+ => link:domeinregels.adoc[DR_RGVV]
+ . De MEDEWERKER geeft de klant toegang tot zijn rekening(en).
+ . De KLANT geeft aan hoeveel hij wil storten.
+ . De KLANT specifieert op welke rekening het bedrag geplaatst wordt.
+ . De MEDEWERKER verifiëerd de transactie.
+ => link:domeinregels.adoc[DR_VU]
+ . De transactie gebeurt via IBS.
+ => link:domeinregels.adoc[DR_ISC en DR_VUDIS]
+ . Het saldo van de gekozen rekenening wordt bijgewerkt.
+ . De use case eindigt.
+
+==== Postconditie
+Het saldo van de desbetreffende rekening werd bijgewerkt. 
+ 
+=== Alternatief A: De klant kan niet worden geïdentificeerd.
+[start = 2]
+. De KLANT heeft geen toegang tot de bankrekening.
+. Use case eindigd.
+
+=== Alternatief B: De klant heeft geen toegang tot de rekening (Gelijk aan A)
+[start = 2]
+. Toegang voor KLANT wordt geweigerd tot een specifieke rekening.
+. Use case eindigd.
+
+=== Alternatief C: De transactie is niet geldig.
+[start = 6]
+. Het gestorte bedrag kan niet worden geverifiëerd door de bank.
+=> link:domeinregels.adoc[DR_VNU]
+. Use case eindigd.
+
+=== Alternatief D: Rekening is ontoereikend.
+[start = 4]
+. Er staat geen genoeg geld op de rekening van de klant.
+=> link:domeinregels.adoc[DR_ROS]
+. De MEDEWERKER informeert de klant hierover.
+. De use case gaat verder met stap 4.
+
+
+
+
+
