@@ -7,7 +7,7 @@
 De klant probeert geld af te halen. Er moet nagegaan worden hoeveel geld de klant op zijn rekening heeft staan, of dit genoeg is.
 
 === Actors
-*Klant*, medewerker
+KLANT, MEDEWERKER
 
 === Preconditie 
 Klant is geïdentificeerd
