@@ -1,0 +1,41 @@
+
+
+== BUC_ZO Zichtrekening openen
+De KLANT wilt een zichtrekening openen.
+
+=== Actors
+KLANT, MEDEWERKER, SYSTEEM
+
+=== Preconditie
+
+=== Basis pad
+. De KLANT wilt een zichtrekening openen.
+. De MEDEWERKER moet de KLANT identificeren.
+. De KLANT identificeert zichzelf.
+. De MEDEWERKER vraagt aan de KLANT zijn gegevens in te vullen.
+. De KLANT vult zijn gegevens in.
+. De MEDEWERKER controleerd of de gegevens correct zijn ingevuld.
+. De MEDEWERKER vult de gegevens in en vraagt een rekeningnummer aan het SYSTEEM.
+. Het SYSTEEM geeft een geldig rekeningnummer.
+. De MEDEWERKER geeft rekeningnummer aan de KLANT door.
+. De MEDEWERKER maakt een aanvraag voor een bankkaart met het rekeningnummer.
+. De MEDEWERKER vertelt de KLANT wanneer de bankkaart toekomt.
+. De use case eindigd.
+
+=== Postconditie
+KLANT heeft een zichtrekening maar bezit nog geen bankkaart.
+
+=== Alternatief A: De KLANT bestaat uit meerdere titularissen
+[start = 2]
+. De MEDEWERKER moet de titularis en de co-titularis identificeren.
+. De titularissen identificeren zichzelf.
+
+=== Alternatief B: KLANT heeft zijn gegevens verkeerd ingevuld.
+[start = 7]
+. De MEDEWERKER vraagt de KLANT zijn gegevens opnieuw in te vullen.
+. De use case gaat verder vanaf 5.
+
+=== Alternatief C: KLANT is minderjarig en heeft geen volwassen Co-titularis bij
+[start = 4]
+. De MEDEWERKER weigert het opmaken van de zichtrekening voor de KLANT.
+. De use case eindigd.

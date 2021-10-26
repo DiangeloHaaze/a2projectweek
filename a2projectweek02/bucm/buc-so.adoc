@@ -1,0 +1,24 @@
+
+
+== BUC_SO Spaarrekening openen
+De klant wilt een spaarrekkening openen.
+
+=== Actors
+*klant*,medewerker
+
+=== Preconditie
+Bezit een zichtrekening.
+
+=== Basis pad
+. De *KLANT* wilt een Spaarrekening openen.
+. De medewerker moet de *KLANT* identificeren.
+. De *KLANT* identificeert zichzelf.
+. De medewerker vraagt de klant zijn zichtrekening
+
+. De medewerker vraagt aan de *KLANT* zijn gegevens in te vullen.
+. De *KLANT* vult zijn gegevens in.
+. De medewerker controleerd of de gegevens correct zijn ingevuld.
+. De medewerker vult de gegevens in en vraagt een rekeningnummer aan het systeem.
+. Het systeem geeft een (geldig/niet gebruikt) rekeningnummer.
+. De medewerker geeft rekeningnummer aan de *KLANT* door.
+. De use case eindigd.
