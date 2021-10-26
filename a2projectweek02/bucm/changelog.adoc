@@ -10,3 +10,4 @@
     - Nieuwe verwoording van 'kost' naar 'saldo bijwerken'
     - Medewerker houdt transacties bij in boekhouding
     - Medewerker gaat na of de klant het bedrag kan afhalen (rekening houdende met de kredietlimiet)
+    - Medewerker gaat na of de klant wel titularis is van de rekening, en of de rekening wel bestaat binnen de bank.

@@ -22,6 +22,9 @@ Het maximumbedrag dat men kan verrichten vanuit een rekening is de kredietlimiet
 == *DR_VIB* : Verrichting In Boekhouding
 Een financiele verrichting moet altijd bijgehouden worden in de boekhouding; deze transactie bevat de datum, de opdrachtgever, het bedrag, de betrokken rekening(en), de locatie en een optionele commentaar (max 20 karakters).
 
+== *DR_VGR* : Verrichting Geldige Rekening
+Een verrichting kan gebeuren vanaf een rekening die in de VSB geregistreerd is en waarvan de opdrachtgever een (co-)titularis is.
+
 == *Domeinregels m.b.t. Verrichtingen*
 
 //=== *DR_VBK* : Verrichtingen Binnen kredietslimiet
