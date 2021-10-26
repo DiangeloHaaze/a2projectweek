@@ -11,9 +11,6 @@
 . rekening aanmaken
 . rekening afsluiten
 . overschrijving uitvoeren
-. saldo checken
-. lening aanvragen
-. lening wijzigen
 . gegevens aanpassen
 . interest berekenen
 . interest storten

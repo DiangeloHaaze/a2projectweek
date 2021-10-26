@@ -1,0 +1,3 @@
+== bucm_titels.adoc
+    - Saldo checken verwijderd
+    - Leningen aanvragen en wijzingen verwijderd
