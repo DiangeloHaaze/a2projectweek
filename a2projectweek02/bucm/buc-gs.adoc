@@ -22,6 +22,7 @@ Klant is geïdentificeerd
  . De MEDEWERKER verifiëerd de transactie.
  => link:domeinregels.adoc[DR_VU]
  . Het saldo van de gekozen rekenening wordt bijgewerkt.
+ . De MEDEWERKER noteert de transactie in de boekhouding => link:domeinregels.adoc[DR_VIB,window=blank]
  . De use case eindigt.
 
 ==== Postconditie
