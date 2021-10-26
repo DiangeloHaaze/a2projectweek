@@ -36,7 +36,11 @@ Het saldo van de desbetreffende rekening werd bijgewerkt.
 ==== Postconditie
 Niets gewijzigd
 
-=== Alternatief B: De klant heeft geen toegang tot de rekening (Gelijk aan A)
-[start = 2]
-. Toegang voor KLANT wordt geweigerd tot een specifieke rekening.
-. Use case eindigd.
+=== Alternatief B: Klant mag geen geld op de opgegeven rekening storten.
+[start = 4]
+ . De MEDEWERKER stelt vast dat de klant geen geld mag storten op de opgegeven rekening.
+ . De MEDEWERKER informeert de klant hierover.
+ . De use case eindigt.
+
+==== Postconditie
+Niets gewijzigd
