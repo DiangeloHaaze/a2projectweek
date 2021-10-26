@@ -3,7 +3,7 @@
 | link:..\verslag_groep_A01.adoc[Verslag] 
 |====
 
-= BUC_GA Geld Afhalen
+== BUC_GA Geld Afhalen
 De klant probeert geld af te halen. Er moet nagegaan worden hoeveel geld de klant op zijn rekening heeft staan, of dit genoeg is.
 
 === Actors

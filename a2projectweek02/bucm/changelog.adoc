@@ -1,3 +1,6 @@
 == bucm_titels.adoc
     - Saldo checken verwijderd
     - Leningen aanvragen en wijzingen verwijderd
+
+== buc-ga.adoc
+    - Titel is nu van niveau '==' i.p.v. '='
