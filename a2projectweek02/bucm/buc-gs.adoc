@@ -18,9 +18,9 @@ Klant is geïdentificeerd
  . De MEDEWERKER vraagt de klant voor het rekeningnummer
  . De KLANT geeft zijn rekeningnummer aan de medewerker
  . De MEDEWERKER gaat na of de klant wel een storting mag doen op die rekening volgens => link:domeinregels.adoc[DR_VGR,window=blank]
- . De MEDEWERKER geeft de klant toegang tot zijn rekening(en).
- . De KLANT geeft aan hoeveel hij wil storten.
- . De KLANT specifieert op welke rekening het bedrag geplaatst wordt.
+ . De MEDEWERKER vraagt de klant voor het te storten bedrag.
+ . De KLANT geeft het cash bedrag aan de medewerker.
+ . De MEDEWERKER telt het bedrag na.
  . De MEDEWERKER verifiëerd de transactie.
  => link:domeinregels.adoc[DR_VU]
  . Het saldo van de gekozen rekenening wordt bijgewerkt.
