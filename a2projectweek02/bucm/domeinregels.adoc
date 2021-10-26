@@ -25,6 +25,9 @@ Een financiele verrichting moet altijd bijgehouden worden in de boekhouding; dez
 == *DR_VGR* : Verrichting Geldige Rekening
 Een verrichting kan gebeuren vanaf een rekening die in de VSB geregistreerd is en waarvan de opdrachtgever een (co-)titularis is.
 
+== *DR_AZR* : Afhaling ZichtRekening
+Een afhaling kan enkel gebeuren vanuit een zichtrekening.
+
 == *Domeinregels m.b.t. Verrichtingen*
 
 //=== *DR_VBK* : Verrichtingen Binnen kredietslimiet
