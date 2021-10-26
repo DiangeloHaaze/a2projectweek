@@ -12,3 +12,4 @@
     - Medewerker gaat na of de klant het bedrag kan afhalen (rekening houdende met de kredietlimiet)
     - Medewerker gaat na of de klant wel titularis is van de rekening, en of de rekening wel bestaat binnen de bank
     - Medewerker gaat na of de afhaling wel vanuit een zichtrekening gebeurt
+    - Herwerking alternatieve paden
