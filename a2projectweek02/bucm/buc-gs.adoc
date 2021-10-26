@@ -21,8 +21,6 @@ Klant is geïdentificeerd
  . De KLANT specifieert op welke rekening het bedrag geplaatst wordt.
  . De MEDEWERKER verifiëerd de transactie.
  => link:domeinregels.adoc[DR_VU]
- . De transactie gebeurt via IBS.
- => link:domeinregels.adoc[DR_ISC en DR_VUDIS]
  . Het saldo van de gekozen rekenening wordt bijgewerkt.
  . De use case eindigt.
 
