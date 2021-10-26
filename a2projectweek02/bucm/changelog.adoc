@@ -17,4 +17,5 @@
 
 == buc-gs.adoc
     - Titel is nu van niveau '==' i.p.v. '='
+    - Opmaak actors is nu consistent met opmaak van het basispad
     - Medewerker identificeert de klant niet meer (gebeurt al in de preconditie)

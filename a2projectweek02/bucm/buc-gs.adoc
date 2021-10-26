@@ -7,7 +7,7 @@
 De klant wil een welbepaald geldbedrag op zijn of een ander bankrekening plaatsen.
 
 === Actors
-*Klant*, medewerker
+KLANT, MEDEWERKER
 
 === Preconditie 
 Klant is geïdentificeerd
