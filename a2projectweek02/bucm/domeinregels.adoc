@@ -1,37 +1,37 @@
-[%autowidth]
-|====
-| link:..\verslag_groep_A01.adoc[Verslag] 
-|====
-
+// titel '=' heeft speciale betekenis
+//= Project "Vreemde Service Bank" Domeinregels
 
 :toc:
 
-
-= Project "Vreemde Service Bank" Domeinregels
-
-== *Nieuwe domeinregels*
-
-=== *DR_VNS* : Verichting Nieuw Saldo
-Bij een verrichting moet het saldo bijgewerkt worden zodat:
-    - als een rekening geld ontvangt na een verrichting, het bedrag opgeteld wordt bij het saldo.
-    - als een rekening geld overdraagt na een verrichting, het bedrag afgetrokken wordt bij het saldo.
-
-=== *DR_VMB* : Verrichting MaximumBedrag
-Het maximumbedrag dat men kan verrichten vanuit een rekening is de kredietlimiet van de rekening + het resterend saldo van de rekening.
-
-== *DR_VIB* : Verrichting In Boekhouding
-Een financiele verrichting moet altijd bijgehouden worden in de boekhouding; deze transactie bevat de datum, de opdrachtgever, het bedrag, de betrokken rekening(en), de locatie en een optionele commentaar (max 20 karakters).
-
-== *DR_VGR* : Verrichting Geldige Rekening
-Een verrichting kan gebeuren vanaf een rekening die in de VSB geregistreerd is en waarvan de opdrachtgever een (co-)titularis is.
-
-== *DR_AZR* : Afhaling ZichtRekening
-Een afhaling kan enkel gebeuren vanuit een zichtrekening.
-
 == *Domeinregels m.b.t. Verrichtingen*
 
-//=== *DR_VBK* : Verrichtingen Binnen kredietslimiet
-//Een klant kan enkel een overschrijving verrichtingen  binnen de toegestane kredietslimiet.
+=== *Algemene verrichtingen*
+
+==== *DR_VNS* : Verichting Nieuw Saldo
+Bij een verrichting moet het saldo bijgewerkt worden zodat:
+
+    * als een rekening geld ontvangt na een verrichting, het bedrag opgeteld wordt bij het saldo.
+    * als een rekening geld overdraagt na een verrichting, het bedrag afgetrokken wordt bij het saldo.
+
+==== *DR_VMB* : Verrichting MaximumBedrag
+Het maximumbedrag dat men kan verrichten vanuit een rekening is de kredietlimiet van de rekening + het resterend saldo van de rekening.
+
+==== *DR_VIB* : Verrichting In Boekhouding
+Een financiele verrichting moet altijd bijgehouden worden in de boekhouding; deze transactie bevat de datum, de opdrachtgever, het bedrag, de betrokken rekening(en), de locatie en een optionele commentaar (max 20 karakters).
+
+==== *DR_VGR* : Verrichting Geldige Rekening
+Een verrichting kan gebeuren vanaf een rekening die in de VSB geregistreerd is en waarvan de opdrachtgever een (co-)titularis is.
+
+=== *Afhalingen*
+
+==== *DR_AZR* : Afhaling ZichtRekening
+De klant kan enkel van een zichtrekening geld afhalen.
+
+
+// Deze domeinregels worden momenteel niet gebruikt
+////
+=== *DR_VBK* : Verrichtingen Binnen kredietslimiet
+Een klant kan enkel een overschrijving verrichtingen  binnen de toegestane kredietslimiet.
 
 === *DR_VU*: Verrichting uitvoerbaar
 De ontvangende bank merkt dat de doelrekening bestaat of het IBS bank vindt op basis van het rekeningsnummer, wordt het bedrag overgeschreven.
@@ -44,8 +44,8 @@ Indien de ontvangende bank merkt dat de doelrekening niet bestaat of het IBS gee
 === *DR_ROS* : Rekening bedraagt Onvoldoende Saldo
 De klant kan maar het gevraagde bedrag afhalen als dit op de rekening staat.
  
-//=== *DR_RG* : Rekening is Geblokeerd 
-//De geblokkeerde rekening kan geen enkele transacties uitvoeren.
+=== *DR_RG* : Rekening is Geblokeerd 
+De geblokkeerde rekening kan geen enkele transacties uitvoeren.
 
 === *DR_ROS* : Rekening bedraagt Onvoldoende Saldo
 Een klant kan maar zo veel geld afhalen als er op zijn rekening staat. 
@@ -73,6 +73,7 @@ Dit systeem kan overschrijvingsgegevens accepteren van de VSB en zal proberen de
 === *DR_TBS* : Toegankelijkheid Interbancair Systeem
 Het interbancair systeem (IBS)is steeds beschikbaar.
 
-//== Domeinregels m.b.t. inventaris
-//=== *DR_IOC* : Inventaris bedraagt Onvoldoende Cash 
-//Het gevraagde bedrag van de klant moet minder bedragen dan het bezittende bedrag van de medewerker.
+== Domeinregels m.b.t. inventaris
+=== *DR_IOC* : Inventaris bedraagt Onvoldoende Cash 
+Het gevraagde bedrag van de klant moet minder bedragen dan het bezittende bedrag van de medewerker.
+////
