@@ -9,6 +9,11 @@
 
 = Project "Vreemde Service Bank" Domeinregels
 
+== *Nieuwe domeinregels*
+
+=== *DR_ANS* : Afhaling Nieuw Saldo
+Na een afhaling wordt het afgehaalde bedrag van het saldo van de rekening getrokken.
+
 == *Domeinregels m.b.t. Verrichtingen*
 
 === *DR_VBK* : Verrichtingen Binnen kredietslimiet
@@ -19,11 +24,6 @@ De ontvangende bank merkt dat de doelrekening bestaat of het IBS bank vindt op b
 
 === *DR_VNU* : Verrichting niet uitvoerbaar
 Indien de ontvangende bank merkt dat de doelrekening niet bestaat of het IBS geen bank vindt op basis van het rekeningsnummer, wordt het bedrag in een nieuwe overschrijving teruggestuurd (met verduidelijkend commentaar).
-
-== *Domeinregels m.b.t. Kosten*
-=== *DR_KA* : Kost Afhaling
-De kost is gelijk aan het afgehaalde bedrag.
-
 
 == *Domeinregels m.b.t. Rekeningen*
 
