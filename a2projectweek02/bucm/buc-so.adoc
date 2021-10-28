@@ -1,24 +1,45 @@
 
 
 == BUC_SO Spaarrekening openen
-De klant wilt een spaarrekkening openen.
+De KLANT wilt een spaarrekening openen.
 
 === Actors
-*klant*,medewerker
+KLANT, MEDEWERKER, SYSTEEM
 
 === Preconditie
-Bezit een zichtrekening.
+Bezit een zichtrekening en is al geïdentificeerd.
 
 === Basis pad
-. De *KLANT* wilt een Spaarrekening openen.
-. De medewerker moet de *KLANT* identificeren.
-. De *KLANT* identificeert zichzelf.
-. De medewerker vraagt de klant zijn zichtrekening
+. De KLANT wilt een Spaarrekening openen.
+. De MEDEWERKER vraagt de klant zijn rekeningnummer.
+. De KLANT geeft zijn rekeningnummer.
+. De MEDEWERKER controleerd de rekeningnummer. => link:domeinregels.adoc[DR_SKZ,window=blank]
+. De MEDEWERKER haalt de gegevens van de KLANT op uit het SYSTEEM.
+. De MEDEWERKER vraagt of de KLANT zijn gegevens hetzelfde zijn.
+. De MEDEWERKER vult de gegevens in en vraagt een rekeningnummer aan het SYSTEEM.
+. Het SYSTEEM geeft een geldig rekeningnummer.
+. De MEDEWERKER geeft het rekeningnummer aan de KLANT door.
+. De use case eindigt.
 
-. De medewerker vraagt aan de *KLANT* zijn gegevens in te vullen.
-. De *KLANT* vult zijn gegevens in.
-. De medewerker controleerd of de gegevens correct zijn ingevuld.
-. De medewerker vult de gegevens in en vraagt een rekeningnummer aan het systeem.
-. Het systeem geeft een (geldig/niet gebruikt) rekeningnummer.
-. De medewerker geeft rekeningnummer aan de *KLANT* door.
-. De use case eindigd.
+
+==== Postconditie
+De klant heeft een spaarrekening geopend.
+
+=== Alternatief A: Stoppen
+    . De KLANT kan op elk moment beslissen om te stoppen.
+    . De MEDEWERKER maakt eventuele wijzigingen ongedaan.
+    . De use case eindigt.
+
+==== Postconditie
+Niets gewijzigd
+
+=== Alternatief B: De KLANT geeft geen geldige zichtrekening.
+[start = 5]
+. De MEDEWERKER merkt op dat de KLANT geen geldige zichtrekening heeft opgegeven.
+. De MEDEWERKER informeert de KLANT hierover.
+. De use case gaat verder van stap 2.
+
+=== Alternatief C: KLANT zijn gegevens zijn verandert.
+. De KLANT geeft de geweizigde gegevens door aan de MEDEWERKER.
+. De MEDEWERKER weizigt de geweizigde gegevens.
+. De use case gaat verder van stap 7.

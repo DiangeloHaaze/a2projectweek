@@ -1,18 +1,7 @@
-[%autowidth]
-|====
-| link:verslag_groep_A01.adoc[Verslag]
-|====
-
 == Vragen BUCM
 
-
-. Heeft een co-titularis dezelfde rechten als een titularis?
-. Op welke basis van welke wisselkoers werkt de bank?
-. Wanneer wordt de interest uitbetaald?
-. Wat als de schulden niet betaald kunnen worden?
-. Werkt de bank met domiciliering?
-. Welke locatie wordt bijgehouden/bepaald bij een verrichting (ip/plaatsnaam/...?
-. Werkt de bank (en zijn systemen) op zondag?
-. Wat is het standaard kredietlimiet?
-. Wat zijn de voorwaarden voor het krijgen van een lening?
-. Zijn er vereisten om een rekening te openen?
+. Wie beslist over het kredietlimiet?
+. Hoeveel geld mag je afhalen per dag?
+. Moet de titularis een belgische identiteit bezitten?
+. Mag je een nieuwe zichtrekening openen als je op een andere rekening onder nul bent.
+. Moet elke spaarrekening een zichtrekening gebonden hebben.

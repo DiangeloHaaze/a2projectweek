@@ -14,28 +14,42 @@ KLANT, MEDEWERKER, SYSTEEM
 . De KLANT identificeert zichzelf.
 . De MEDEWERKER vraagt aan de KLANT zijn gegevens in te vullen.
 . De KLANT vult zijn gegevens in.
-. De MEDEWERKER controleerd of de gegevens correct zijn ingevuld.
+. De MEDEWERKER controleerd of de gegevens correct zijn ingevuld. => link:domeinregels.adoc[DR_GGC,window=blank]
 . De MEDEWERKER vult de gegevens in en vraagt een rekeningnummer aan het SYSTEEM.
 . Het SYSTEEM geeft een geldig rekeningnummer.
-. De MEDEWERKER geeft rekeningnummer aan de KLANT door.
+. De MEDEWERKER geeft het rekeningnummer aan de KLANT door.
 . De MEDEWERKER maakt een aanvraag voor een bankkaart met het rekeningnummer.
 . De MEDEWERKER vertelt de KLANT wanneer de bankkaart toekomt.
-. De use case eindigd.
+. De use case eindigt.
 
-=== Postconditie
+==== Postconditie
 KLANT heeft een zichtrekening maar bezit nog geen bankkaart.
 
-=== Alternatief A: De KLANT bestaat uit meerdere titularissen
+=== Alternatief A: Stoppen
+    . De KLANT kan op elk moment beslissen om te stoppen.
+    . De MEDEWERKER maakt eventuele wijzigingen ongedaan.
+    . De use case eindigt.
+
+==== Postconditie
+    Niets gewijzigd.
+
+=== Alternatief B: De KLANT bestaat uit meerdere titularissen
 [start = 2]
 . De MEDEWERKER moet de titularis en de co-titularis identificeren.
 . De titularissen identificeren zichzelf.
+. De MEDEWERKER vraagt de gegevens van de titularissen.
+. De titularissen vullen hun gegevens aan.
+. De use case gaat verder vanaf stap 6.
 
-=== Alternatief B: KLANT heeft zijn gegevens verkeerd ingevuld.
+=== Alternatief C: KLANT heeft zijn gegevens verkeerd ingevuld.
 [start = 7]
 . De MEDEWERKER vraagt de KLANT zijn gegevens opnieuw in te vullen.
-. De use case gaat verder vanaf 5.
+. De use case gaat verder vanaf stap 5.
 
-=== Alternatief C: KLANT is minderjarig en heeft geen volwassen Co-titularis bij
+=== Alternatief D: KLANT is minderjarig en heeft geen volwassen Co-titularis bij
 [start = 4]
 . De MEDEWERKER weigert het opmaken van de zichtrekening voor de KLANT.
-. De use case eindigd.
+. De use case eindigt.
+
+==== Postconditie
+Niets gewijzigd.

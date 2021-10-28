@@ -1,16 +1,6 @@
-[%autowidth]
-|====
-| link:verslag_groep_A01.adoc[Verslag] |
-  link:vragen_voor_de_opdrachtgever.adoc[Vragenlijst] |
-  link:bucm\buc-ga.adoc[BUC_GA] |
-  link:bucm\buc-gs.adoc[BUC_GS] |
-  link:bucm\domeinregels.adoc[Domeinregels] |
-  link:bucm\titels.adoc[Titels] 
-|====
-
 == Projectweek : *1*
 
-Eindverantwoordelijke: *Pieter Daenen*
+Eindverantwoordelijke: *Diangelo*
 
 === Projectmomenten
 
