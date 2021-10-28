@@ -10,8 +10,8 @@
 ==== *DR_VNS* : Verichting Nieuw Saldo
 Bij een verrichting moet het saldo bijgewerkt worden zodat:
 
-    * als een rekening geld ontvangt na een verrichting, het bedrag opgeteld wordt bij het saldo.
-    * als een rekening geld overdraagt na een verrichting, het bedrag afgetrokken wordt bij het saldo.
+    * als een rekening geld ontvangt, het bedrag opgeteld wordt bij het saldo.
+    * als een rekening geld overdraagt, het bedrag afgetrokken wordt bij het saldo.
 
 ==== *DR_VMB* : Verrichting MaximumBedrag
 Het maximumbedrag dat men kan verrichten vanuit een rekening is de kredietlimiet van de rekening + het resterend saldo van de rekening.
