@@ -1,8 +1,12 @@
-== bucm_titels.adoc
+== Changelog
+
+In dit document staan alle veranderingen die we deze week hebben gemaakt.
+
+=== bucm_titels.adoc
     - Saldo checken verwijderd
     - Leningen aanvragen en wijzingen verwijderd
 
-== buc-ga.adoc
+=== buc-ga.adoc
     - Titel is nu van niveau '==' i.p.v. '='
     - Opmaak actors is nu consistent met opmaak van het basispad
     - Rekeningen kunnen niet geblokkeerd zijn
@@ -14,8 +18,9 @@
     - Medewerker gaat na of de klant wel titularis is van de rekening, en of de rekening wel bestaat binnen de bank
     - Medewerker gaat na of de afhaling wel vanuit een zichtrekening gebeurt
     - Herwerking alternatieve paden
+    - Representatieve scenario's toegevoegd
 
-== buc-gs.adoc
+=== buc-gs.adoc
     - Titel is nu van niveau '==' i.p.v. '='
     - Opmaak actors is nu consistent met opmaak van het basispad
     - Medewerker identificeert de klant niet meer (gebeurt al in de preconditie)
@@ -23,11 +28,21 @@
     - Medewerker houdt transacties bij in boekhouding
     - Medewerker kijkt of de klant wel een storting kan uitvoeren op die rekening
     - Medewerker vraagt niet langer naar het gestorte bedrag, maar ontvangt de storting onmiddelijk
-    - De transactie wordt niet meer geverifieerd (zoals ook niet in buc-ga gebeurt)
+    - De transactie wordt niet meer apart geverifieerd
     - Alternatief D verwijderd: ging over overschrijvingen/afhalingen, geen stortingen
-    - Alternatief A toegevoed: Een klant kan op elk moment stoppen (zoals in buc-ga)
-    - Alternatief B is nu meer analoog aan Alternatief B uit buc-ga
+    - Alternatief A toegevoed: Een klant kan op elk moment stoppen (zoals in BUC_GA)
+    - Alternatief B is nu meer analoog aan Alternatief B uit BUC_GA
 
-== domeinregels.adoc
+=== domeinregels.adoc
     - Alle niet gebruikte domeinregels staan voorlopig in commentaar zodat dit conform is met de opgave: "Maak in de bucm folder ook een domeinregels.adoc document waarin je de domeinregels schrijft die je nodig hebt bij de use cases. Link vanuit de business use cases naar dit domeinregels document."
     - *TODO: Dit document moet opnieuw gestructureerd worden!*
+
+=== *_nieuw:_* buc-zo.adoc
+    - Use case zichtrekening openen 
+
+=== *_nieuw:_* buc-so.adoc
+    - Use case spaarrekening openen 
+
+=== vragen_voor_de_opdrachtgever.adoc
+    - Oude vragen verwijderd
+    - 5 nieuwe vragen toegevoegd

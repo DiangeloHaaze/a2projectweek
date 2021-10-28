@@ -49,3 +49,37 @@ Niets gewijzigd
 
 ==== Postconditie
 De klant is op de hoogte van zijn saldo, en kan dus alsnog beslissen om geld af te halen. Hij kan ook stoppen.
+
+=== Representatieve Scenario’s
+
+==== SC-GA-1 Basis Pad
+
+Ashkan wil 200 euro afhalen van zijn zichtrekening met rekeningnummer BE00 0000 000 0000. 
+Hij heeft nog 1000 euro op zijn zichtrekening staan en heeft een kredietlimiet van 500 euro. 
+Hij is titularis van zijn rekeningen. 
+
+Dit scenario volgt het basispad tot het einde.
+
+==== SC-GA-2 Klant mag geen afhaling doen op de rekening
+
+Ashkan wil 200 euro afhalen van zijn spaarrekening met rekeningnummer BE11 1111 111 1111. 
+Hij heeft nog 1000 euro op zijn zichtrekening staan en heeft een kredietlimiet van 500 euro. 
+Hij is titularis van zijn rekeningen. 
+
+Dit scenario volgt het basispad tot in stap 4 en schakelt dan over naar alternatief B.
+
+==== SC-GA-3 Klant wil een te groot bedrag afhalen
+
+Ashkan wil 2000 euro afhalen van zijn zichtrekening met rekeningnummer BE00 0000 000 0000. 
+Hij heeft nog 1000 euro op zijn zichtrekening staan en heeft een kredietlimiet van 500 euro. 
+Hij is titularis van zijn rekeningen. 
+
+Dit scenario volgt het basispad tot in stap 7 en schakelt dan over naar alternatief C.
+
+==== SC-GA-4 Klant stopt
+
+Ashkan wil 2000 euro afhalen van zijn zichtrekening met rekeningnummer BE00 0000 000 0000. 
+Hij heeft nog 1000 euro op zijn zichtrekening staan en heeft een kredietlimiet van 500 euro. 
+Hij is titularis van zijn rekeningen. 
+
+Dit scenario volgt het basispad tot op het moment dat Askan beslist om te stoppen en schakelt dan over naar alternatief A.

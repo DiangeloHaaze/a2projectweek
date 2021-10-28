@@ -13,9 +13,9 @@ Klant is geïdentificeerd
     . De MEDEWERKER vraagt de klant voor het rekeningnummer
     . De KLANT geeft zijn rekeningnummer aan de medewerker
     . De MEDEWERKER gaat na of de klant wel een storting mag doen op die rekening volgens => link:domeinregels.adoc[DR_VGR,window=blank]
-    . De MEDEWERKER vraagt de klant voor het te storten bedrag.
+    . De MEDEWERKER vraagt de klant voor het te storten cash bedrag.
     . De KLANT geeft het cash bedrag aan de medewerker.
-    . De MEDEWERKER telt het bedrag na.
+    . De MEDEWERKER telt het bedrag.
     . De MEDEWERKER werkt het saldo van de rekening bij volgens => link:domeinregels.adoc[DR_VNS,window=blank] 
     . De MEDEWERKER noteert de transactie in de boekhouding => link:domeinregels.adoc[DR_VIB,window=blank]
     . De use case eindigt.
