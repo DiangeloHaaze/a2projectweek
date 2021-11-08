@@ -1,5 +1,3 @@
-
-
 == BUC_SO Spaarrekening openen
 De KLANT wilt een spaarrekening openen.
 
@@ -21,7 +19,6 @@ Bezit een zichtrekening en is al geïdentificeerd.
 . De MEDEWERKER geeft het rekeningnummer aan de KLANT door.
 . De use case eindigt.
 
-
 ==== Postconditie
 De klant heeft een spaarrekening geopend.
 
@@ -34,7 +31,7 @@ De klant heeft een spaarrekening geopend.
 Niets gewijzigd
 
 === Alternatief B: De KLANT geeft geen geldige zichtrekening.
-[start = 5]
+[start = 4]
 . De MEDEWERKER merkt op dat de KLANT geen geldige zichtrekening heeft opgegeven.
 . De MEDEWERKER informeert de KLANT hierover.
 . De use case gaat verder van stap 2.

@@ -1,5 +1,3 @@
-
-
 == BUC_ZO Zichtrekening openen
 De KLANT wilt een zichtrekening openen.
 
@@ -7,6 +5,7 @@ De KLANT wilt een zichtrekening openen.
 KLANT, MEDEWERKER, SYSTEEM
 
 === Preconditie
+De klant is nog niet geïdentificeerd 
 
 === Basis pad
 . De KLANT wilt een zichtrekening openen.
@@ -26,12 +25,12 @@ KLANT, MEDEWERKER, SYSTEEM
 KLANT heeft een zichtrekening maar bezit nog geen bankkaart.
 
 === Alternatief A: Stoppen
-    . De KLANT kan op elk moment beslissen om te stoppen.
-    . De MEDEWERKER maakt eventuele wijzigingen ongedaan.
-    . De use case eindigt.
+. De KLANT kan op elk moment beslissen om te stoppen.
+. De MEDEWERKER maakt eventuele wijzigingen ongedaan.
+. De use case eindigt.
 
 ==== Postconditie
-    Niets gewijzigd.
+Niets gewijzigd.
 
 === Alternatief B: De KLANT bestaat uit meerdere titularissen
 [start = 2]
@@ -42,7 +41,7 @@ KLANT heeft een zichtrekening maar bezit nog geen bankkaart.
 . De use case gaat verder vanaf stap 6.
 
 === Alternatief C: KLANT heeft zijn gegevens verkeerd ingevuld.
-[start = 7]
+[start = 6]
 . De MEDEWERKER vraagt de KLANT zijn gegevens opnieuw in te vullen.
 . De use case gaat verder vanaf stap 5.
 

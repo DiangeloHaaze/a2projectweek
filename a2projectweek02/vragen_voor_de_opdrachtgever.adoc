@@ -1,7 +1,6 @@
 == Vragen BUCM
-
 . Wie beslist over het kredietlimiet?
 . Hoeveel geld mag je afhalen per dag?
 . Moet de titularis een belgische identiteit bezitten?
-. Mag je een nieuwe zichtrekening openen als je op een andere rekening onder nul bent.
-. Moet elke spaarrekening een zichtrekening gebonden hebben.
+. Mag je een nieuwe zichtrekening openen als je op een andere rekening onder nul bent?
+. Moet elke spaarrekening een zichtrekening gebonden hebben?

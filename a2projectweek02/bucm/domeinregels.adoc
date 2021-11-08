@@ -3,7 +3,9 @@
 
 :toc:
 
-== *Domeinregels m.b.t. rekeningen*
+== Domeinregels m.b.t. Rekeningen
+
+=== Rekeningen Openen
 
 ==== *DR_GGC* : Gegevens Controle
 De MEDEWERKER controleerd of de naam, voornaam, rijksregisternummer, straatnaam, huisnummer, postcode en gemeente correct zijn ingevult.
@@ -11,9 +13,9 @@ De MEDEWERKER controleerd of de naam, voornaam, rijksregisternummer, straatnaam,
 ==== *DR_SKZ* Spaarrekening gekoppelt aan zichtrekening.
 Elke spaarrekening moet gelinkt zijn aan een zichtrekening die toebehoort tot de titularis.
 
-== *Domeinregels m.b.t. Verrichtingen*
+== Domeinregels m.b.t. Verrichtingen
 
-=== *Algemene verrichtingen*
+=== Algemene verrichtingen
 
 ==== *DR_VNS* : Verichting Nieuw Saldo
 Bij een verrichting moet het saldo bijgewerkt worden zodat:
@@ -30,7 +32,7 @@ Een financiele verrichting moet altijd bijgehouden worden in de boekhouding; dez
 ==== *DR_VGR* : Verrichting Geldige Rekening
 Een verrichting kan gebeuren vanaf een rekening die in de VSB geregistreerd is en waarvan de opdrachtgever een (co-)titularis is.
 
-=== *Afhalingen*
+=== Afhalingen
 
 ==== *DR_AZR* : Afhaling ZichtRekening
 De klant kan enkel van een zichtrekening geld afhalen.
