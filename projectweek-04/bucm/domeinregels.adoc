@@ -31,6 +31,9 @@ Een financiele verrichting moet altijd bijgehouden worden in de boekhouding; dez
 ==== *DR_VGR* : Verrichting Geldige Rekening
 Een verrichting kan gebeuren indien een rekening in de VSB geregistreerd is.
 
+==== *DR_VZR* : Verrichting ZichtRekening
+Een verrichting kan enkel vanuit een zichtrekening gebeuren.
+
 ==== *DR_VTR* : Verrichting Toegang Rekening
 Een verrichting kan gebeuren indien de opdrachtgever een (co-)titularis is.
 

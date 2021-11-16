@@ -5,7 +5,7 @@ De KLANT wilt een rekening openen.
 *KLANT*, MEDEWERKER
 
 === Preconditie
-De KLANT is niet geïdentificeerd 
+De KLANT is geïdentificeerd 
 
 === Basis pad
 . De KLANT wilt een rekening openen.

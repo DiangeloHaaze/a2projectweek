@@ -1,35 +1,32 @@
-[%autowidth]
-|====
-| link:..\verslag_groep_a01.adoc[Verslag]
-|====
-
 == BUC_GA Geld Afhalen
-De *KLANT* wil geld af halen van een rekening.
+De KLANT wil geld af halen van een rekening.
 
 === Actors
 *KLANT* , MEDEWERKER
 
 === Preconditie
-*KLANT* is geïdentificeerd
+KLANT is geïdentificeerd
 
 === Basis pad 
-. De *KLANT* wil geld afhalen.
-. De MEDEWERKER vraagt de *KLANT* voor zijn rekeningnummer.
-. De *KLANT* geeft zijn rekeningnummer aan de MEDEWERKER.
-. De MEDEWERKER gaat na of de *KLANT* een geldige zichtrekening heeft. => link:domeinregels.adoc[DR_VGR,window=blank]
-. De MEDEWERKER gaat na of de *KLANT* (co-)titualris is. => link:domeinregels.adoc[DR_VTR,window=blank]
-. De MEDEWERKER vraag aan de *KLANT* hoeveel geld hij wilt afhalen.
-. De *KLANT* geeft aan hoeveel geld hij wilt afhalen.
-. De MEDEWERKER gaat na of de *KLANT* het bedrag kan afhalen. => link:domeinregels.adoc[DR_VMB,window=blank]
+. De KLANT wil geld afhalen.
+. De MEDEWERKER vraagt de KLANT voor zijn rekeningnummer.
+. De KLANT geeft zijn rekeningnummer aan de MEDEWERKER.
+. De MEDEWERKER gaat na of de KLANT een geldige rekening heeft opgegeven. => link:domeinregels.adoc[DR_VGR,window=blank]
+. De MEDEWERKER gaat na of de KLANT een zichtrekening heeft opgegeven. => link:domeinregels.adoc[DR_VZR,window=blank]
+. De MEDEWERKER gaat na of de KLANT (co-)titualris is. => link:domeinregels.adoc[DR_VTR,window=blank]
+. De MEDEWERKER vraag aan de KLANT hoeveel geld hij wilt afhalen.
+. De KLANT geeft aan hoeveel geld hij wilt afhalen.
+. De MEDEWERKER gaat na of de KLANT het bedrag kan afhalen. => link:domeinregels.adoc[DR_VMB,window=blank]
 . De MEDEWERKER noteert de transactie in de boekhouding. => link:domeinregels.adoc[DR_VIB,window=blank]
-. De MEDEWERKER geeft het bedrag aan de *KLANT*.
+. De MEDEWERKER geeft het bedrag aan de KLANT
+. De MEDEWERKER geeft een bewijs van de afhaling aan de KLANT.
 . De use case eindigt.
 
 ==== Postconditie
-De *KLANT* heeft het bedrag cash gekregen, en is van zijn zicht rekening afgehaald.
+De KLANT heeft het bedrag cash gekregen, en de tranactie is geregistreerd.
 
 === Alternatief A: Stoppen
-. De *KLANT* kan op elk moment beslissen om te stoppen.
+. De KLANT kan op elk moment beslissen om te stoppen.
 . De MEDEWERKER maakt eventuele wijzigingen ongedaan.
 . De use case eindigt.
 
@@ -39,26 +36,35 @@ Niets gewijzigd
 === Alternatief B: De opgegeven rekening is niet geldig.
 [start = 4]
 . De MEDEWERKER stelt vast dat de opgegeven rekening niet geldig is.
-. De MEDEWERKER informeert de *KLANT* hierover.
-. De use case gaat verder op stap 2.
+. De MEDEWERKER informeert de KLANT hierover.
+. De use case eindigt.
 
 ==== Postconditie
 Niets gewijzigd
 
-=== Alternatief C: *KLANT* heeft geen toegang tot de rekening.
+=== Alternatief C: De opgegeven rekening is geen zichtrekening.
 [start = 5]
-. De MEDEWERKER stelt vast dat de *KLANT* geen (co-)titularis is.
-. De MEDEWERKER informeert de *KLANT* hierover.
-. De use case gaat verder op stap 2.
+. De MEDEWERKER stelt vast dat de opgegeven rekening geen zichtrekening is.
+. De MEDEWERKER informeert de KLANT hierover.
+. De use case eindigt.
 
 ==== Postconditie
 Niets gewijzigd
 
-=== Alternatief D: *KLANT* heeft onvoldoende saldo.
-[start = 8]
-. De MEDEWERKER merkt op dat de *KLANT* een te groot bedrag wilt afhalen.
-. De MEDEWERKER informeert de *KLANT* hierover.
-. De use case gaat verder met stap 7 van het basispad.
+=== Alternatief D: KLANT heeft geen toegang tot de rekening.
+[start = 6]
+. De MEDEWERKER stelt vast dat de KLANT geen (co-)titularis is.
+. De MEDEWERKER informeert de KLANT hierover.
+. De use case eindigt.
+
+==== Postconditie
+Niets gewijzigd
+
+=== Alternatief E: KLANT heeft onvoldoende saldo.
+[start = 9]
+. De MEDEWERKER merkt op dat de KLANT een te groot bedrag wilt afhalen.
+. De MEDEWERKER informeert de KLANT hierover.
+. De use case gaat verder met stap 8 van het basispad.
 
 
 
@@ -87,6 +93,7 @@ Niets gewijzigd
  Zichtrekening BE00 saldo 1000 KL 500 titularis Ashkan cotitularis Diangelo (geldig)
  Zichtrekening BE01 saldo 100 KL 50 titularis Diangelo (geldig)
  Zichtrekening BE69 titularis Thibo (ongeldig)
+ Spaarrekening BE70 titularis Thibo
 
 ==== SC-GA-001 Basis Pad
 *Ashkan* wil *200 euro* afhalen van zijn zichtrekening *BE00*. 
@@ -101,10 +108,14 @@ Dit scenario volgt het basispad tot op het moment dat Askan beslist om te stoppe
 *Thibo* wil *200 euro* afhalen van zijn zichtrekening *BE69*, De medewerker merkt op dat Thibo zijn rekeningnummer ongeldig is en informeert hem hierover. 
 Volgt alternatief B.
 
-==== SC-GA-004 Geen toegang tot rekeningnummer
-*Ashkan* wil *200 euro* afhalen van Diangelo zijn zichtrekening *BE01*. De medewerker merkt op dat Ashkan geen (co-)titularis is van de rekening BE01.
+==== SC-GA-004 Geen zichtrekening
+*Thibo* wil *200 euro* afhalen van zijn spaarrekening *BE70*, De medewerker merkt op dat dit geen zichtrekening is en informeert hem hierover. 
 Volgt alternatief C.
 
-==== SC-GA-005 Onvoldoende saldo
-*Ashkan* wil *1000000 euro* afhalen van zijn zichtrekening *BE00*. De medewerker merkt op dat Ashkan onvoldoede saldo heeft op zijn rekening.
+==== SC-GA-005 Geen toegang tot rekeningnummer
+*Ashkan* wil *200 euro* afhalen van Diangelo zijn zichtrekening *BE01*. De medewerker merkt op dat Ashkan geen (co-)titularis is van de rekening BE01.
 Volgt alternatief D.
+
+==== SC-GA-006 Onvoldoende saldo
+*Ashkan* wil *1000000 euro* afhalen van zijn zichtrekening *BE00*. De medewerker merkt op dat Ashkan onvoldoede saldo heeft op zijn rekening.
+Volgt alternatief E.

@@ -1,5 +1,5 @@
-== BUC_RO Rekening openen
-De KLANT wilt een rekening openen.
+== BUC_SO Spaarrekening openen
+De KLANT wilt een spaarrekening openen.
 
 === Actors
 *KLANT*, MEDEWERKER

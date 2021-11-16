@@ -1,31 +1,25 @@
-[%autowidth]
-|====
-| link:..\verslag_groep_a01.adoc[Verslag]
-|====
-
 == BUC_GS Geld Storten
-De *KLANT* wil geld op een rekening storten.
+De KLANT wil geld op een rekening storten.
 
 === Actors
 *KLANT*, MEDEWERKER
 
 === Preconditie 
-*KLANT* is geïdentificeerd
+KLANT is geïdentificeerd
 
 === Basis pad 
-. De *KLANT* wil een bedrag storten. 
-. De MEDEWERKER vraagt de *KLANT* voor het rekeningnummer waarop hij geld wil storten.
-. De *KLANT* geeft het rekeningnummer aan de MEDEWERKER.
+. De KLANT wil een bedrag storten. 
+. De MEDEWERKER vraagt de KLANT voor het rekeningnummer waarop hij geld wil storten.
+. De KLANT geeft het rekeningnummer aan de MEDEWERKER.
 . De MEDEWERKER gaat na of de opgegeven rekening geldig is. => link:domeinregels.adoc[DR_VGR,window=blank]
-. De *KLANT* geeft het bedrag aan de MEDEWERKER dat hij wilt storten.
-. De MEDEWERKER telt het bedrag.
-. De MEDEWERKER stort het bedrag op de rekening.
+. De MEDEWERKER vraagt de klant voor het te storten cash bedrag.
+. De KLANT geeft het bedrag aan de MEDEWERKER dat hij wilt storten.
 . De MEDEWERKER noteert de transactie in de boekhouding. => link:domeinregels.adoc[DR_VIB,window=blank]
 . De use case eindigt.
 
  
 === Alternatief A: Stoppen
-. De *KLANT* kan op elk moment beslissen om te stoppen.
+. De KLANT kan op elk moment beslissen om te stoppen.
 . De MEDEWERKER maakt eventuele wijzigingen ongedaan.
 . De use case eindigt.
 
@@ -35,36 +29,21 @@ Niets gewijzigd
 === Alternatief B: De opgegeven rekening is niet geldig.
 [start = 4]
 . De MEDEWERKER stelt vast dat de opgegeven reking niet geldig is.
-. De MEDEWERKER informeert de *KLANT* hierover.
+. De MEDEWERKER informeert de KLANT hierover.
 . De use case gaat verder op stap 2.
 
 ==== Postconditie
 Niets gewijzigd
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 === Representatieve Scenario’s
 
-===== Klanten
- Piet
+==== Klanten
+Piet
 
-===== Rekeningen
- Zichtrekening BE00 (geldig)
- Zichtrekening BE69 (ongeldig)
+==== Rekeningen
+Zichtrekening BE00 (geldig)
+
+Zichtrekening BE69 (ongeldig)
 
 ==== SC-GA-001 Basis Pad
 *Piet* wil 100 euro storten op zichtrekening *BE00*.
