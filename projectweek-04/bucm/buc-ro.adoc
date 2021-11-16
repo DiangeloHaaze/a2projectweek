@@ -1,0 +1,53 @@
+[%autowidth]
+|====
+| link:..\verslag_groep_a01.adoc[Verslag]
+|====
+
+== BUC_RO Rekening openen
+De *KLANT* wilt een rekening openen.
+
+=== Actors
+*KLANT*, MEDEWERKER
+
+=== Preconditie
+De *KLANT* is niet geïdentificeerd 
+
+=== Basis pad
+. De *KLANT* wilt een rekening openen.
+. De MEDEWERKER identificeert de *KLANT*.
+. De MEDEWERKER vraagt aan de *KLANT* zijn gegevens in te vullen.
+. De *KLANT* geeft zijn gegevens in.
+. De MEDEWERKER controleert of de gegevens correct zijn ingevuld. => link:domeinregels.adoc[DR_GGC,window=blank]
+. De MEDEWERKER vraagt aan de *KLANT* of er cotitularissen zijn.
+. De MEDEWERKER noteert de *KLANT* zijn cotitularissen.
+. De MEDEWERKER genereert een uniek rekenignummer voor de klant.
+. De MEDEWERKER geeft het rekeningnummer aan de *KLANT* door.
+. De use case eindigt.
+
+==== Postconditie
+*KLANT* heeft een geldige rekening geopend.
+
+=== Alternatief A: Stoppen
+. De *KLANT* kan op elk moment beslissen om te stoppen.
+. De MEDEWERKER maakt eventuele wijzigingen ongedaan.
+. De use case eindigt.
+
+==== Postconditie
+Niets gewijzigd.
+
+=== Alternatief B: *KLANT* zijn gegevens zijn incorrect.
+[start = 5]
+. De MEDEWERKER vraagt de *KLANT* zijn gegevens opnieuw in te vullen.
+. De use case gaat verder vanaf stap 3.
+
+==== Postconditie
+Niets gewijzigd.
+
+=== Alternatief C: De *KLANT* heeft geen cotitularisen.
+[start = 7]
+. De *KLANT* geeft geen cotitularissen mee.
+. De use case gaat verder vanaf stap 8.
+
+==== Postconditie
+Niets gewijzigd.
+

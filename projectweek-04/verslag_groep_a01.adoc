@@ -1,0 +1,47 @@
+[%autowidth]
+|====
+| link:verslag_groep_a01.adoc[Verslag] |
+  link:definitieve_vragen_en_antwoorden.adoc[Definitieve Vragen] |
+  link:bucm\buc-ga.adoc[BUC_GA] |
+  link:bucm\buc-gs.adoc[BUC_GS] |
+  link:bucm\buc-ro.adoc[BUC_RO] |
+  link:bucm\domeinregels.adoc[Domeinregels]
+|====
+
+== Projectweek : *3*
+
+Eindverantwoordelijke: *Arno Baert*
+
+=== Projectmomenten
+
+|====
+|12/11/2021 | refter | groepsleden: 4/4 | +- *3* uur
+|13/11/2021 | Pieters huis | groepsleden: 2/4 | +- *1* uur
+|====
+
+=== Activiteiten per groepslid
+
+==== Arno
+
+Ik heb de juiste folderstructuur aangemaakt.
+Ik heb met Sahsenem de feedback genoteerd tijdens het feedback moment.
+Ik heb samen met de groep de BUC verbeterd met de gekregen feedback en ook de scenarios verbeterd.
+Ik heb samen met Pieter de vragen samengevat.
+we hebben in groep de afgewerkte versie overlopen.
+
+==== Pieter
+
+Pieter heeft samen met de groep de BUC verbeterd met de feedback van Yanic en ook de scenarios verbeterd.
+Pieter heeft samen met Pieter de vragen samengevat.
+we hebben in groep de afgewerkte versie overlopen.
+
+==== Toon
+
+Toon heeft samen met de groep de BUC verbeterd met de gekregen feedback en ook de scenarios verbeterd.
+we hebben in groep de afgewerkte versie overlopen.
+
+==== Sahsenem
+
+Sahsenem heeft met mij de feedback genoteerd tijdens het feedback moment.
+Sahsenem heeft samen met de groep de BUC verbeterd met de gekregen feedback en ook de scenarios verbeterd.
+we hebben in groep de afgewerkte versie overlopen.

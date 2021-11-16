@@ -1,0 +1,100 @@
+[%autowidth]
+|====
+| link:..\verslag_groep_a01.adoc[Verslag]
+|====
+
+// titel '=' heeft speciale betekenis
+//= Project "Vreemde Service Bank" Domeinregels
+
+:toc:
+
+== Domeinregels m.b.t. Rekeningen
+
+=== Rekeningen Openen
+
+==== *DR_GGC* : Gegevens Controle
+De MEDEWERKER controleerd of de naam, voornaam, rijksregisternummer, straatnaam, huisnummer, postcode en gemeente correct zijn ingevult.
+
+==== *DR_SKZ* Spaarrekening gekoppelt aan zichtrekening.
+Elke spaarrekening moet gelinkt zijn aan een zichtrekening die toebehoort tot de titularis.
+
+== Domeinregels m.b.t. Verrichtingen
+
+=== Algemene verrichtingen
+
+==== *DR_VMB* : Verrichting MaximumBedrag
+Het maximumbedrag dat men kan verrichten vanuit een zichtrekening is de kredietlimiet van de zichtrekening + het resterend saldo van de zichtrekening.
+
+==== *DR_VIB* : Verrichting In Boekhouding
+Een financiele verrichting moet altijd bijgehouden worden in de boekhouding; deze transactie bevat de datum, de opdrachtgever, het bedrag, de betrokken rekening(en), de locatie en een optionele commentaar (max 20 karakters).
+
+==== *DR_VGR* : Verrichting Geldige Rekening
+Een verrichting kan gebeuren indien een rekening in de VSB geregistreerd is.
+
+==== *DR_VTR* : Verrichting Toegang Rekening
+Een verrichting kan gebeuren indien de opdrachtgever een (co-)titularis is.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Deze domeinregels worden momenteel niet gebruikt
+////
+=== *DR_VBK* : Verrichtingen Binnen kredietslimiet
+Een klant kan enkel een overschrijving verrichtingen  binnen de toegestane kredietslimiet.
+
+=== *DR_VU*: Verrichting uitvoerbaar
+De ontvangende bank merkt dat de doelrekening bestaat of het IBS bank vindt op basis van het rekeningsnummer, wordt het bedrag overgeschreven.
+
+=== *DR_VNU* : Verrichting niet uitvoerbaar
+Indien de ontvangende bank merkt dat de doelrekening niet bestaat of het IBS geen bank vindt op basis van het rekeningsnummer, wordt het bedrag in een nieuwe overschrijving teruggestuurd (met verduidelijkend commentaar).
+
+== *Domeinregels m.b.t. Rekeningen*
+
+=== *DR_ROS* : Rekening bedraagt Onvoldoende Saldo
+De klant kan maar het gevraagde bedrag afhalen als dit op de rekening staat.
+
+=== *DR_RG* : Rekening is Geblokeerd
+De geblokkeerde rekening kan geen enkele transacties uitvoeren.
+
+=== *DR_ROS* : Rekening bedraagt Onvoldoende Saldo
+Een klant kan maar zo veel geld afhalen als er op zijn rekening staat.
+
+== *Domeinregels m.b.t. Rapportering*
+
+=== *DR_RGVV* : Rapportering GegevensVerzamelingVolmacht
+Alle rekeningen van klanten worden bijgehouden samen met wie hun co- titularissen zijn.
+
+== *Domeinregels m.b.t. Interbancair systeem*
+
+=== *DR_VUDIS* : Verrichtingen uitgevoerd door het Interbancair Systeem
+Het IBS leidt uit het rekeningsnummer af voor welke bank deze gegevens bestemd zijn.
+
+=== *DR_ISC* : Interbancair Systeem Communicatie
+Communicatie met het IBS gebeurt d.m.v. datapakketjes met volgende inhoud:
+* nummer van bron rekening
+* nummer van doel rekening
+* bedrag
+* commentaar
+
+=== *DR_ISVO* : Interbancair Systeem Verwerking Overschrijving
+Dit systeem kan overschrijvingsgegevens accepteren van de VSB en zal proberen deze door te spelen aan de bank van de doelrekening. Het IBS zal ook overschrijvingen aan de VSB leveren wanneer een overschrijving naar een VSB-rekening gebeurt van buitenaf.
+
+=== *DR_TBS* : Toegankelijkheid Interbancair Systeem
+Het interbancair systeem (IBS)is steeds beschikbaar.
+
+== Domeinregels m.b.t. inventaris
+=== *DR_IOC* : Inventaris bedraagt Onvoldoende Cash
+Het gevraagde bedrag van de klant moet minder bedragen dan het bezittende bedrag van de medewerker.
+////

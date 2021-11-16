@@ -1,0 +1,71 @@
+[%autowidth]
+|====
+| link:verslag_groep_a01.adoc[Verslag]
+|====
+
+=== Definitieve vragen en antwoorden
+. Heeft een co-titularis dezelfde rechten als een titularis?
+JA
+
+. Op welke basis van welke wisselkoers werkt de bank?
+GEEN, ENKEL EURO
+
+. Zijn er vereisten om een rekening te openen?
+BELGISCH RIJKSREGISTERNUMMER EN MINSTENS 18 JAAR
+
+. Wat is de limiet voor geld te storten?
+GEEN
+
+. Hoef je een zichtrekening hebben om een spaarrekening te opennen bij de bank?
+NEEN
+
+. Wat zijn de ‘kosten van schulden’?
+ELKE DAG DAT JE REKENING ONDER 0 STAAT, KOST GELD
+
+. Is er een limiet op geldopname?
+JE KUNT NIET MEER OPNEMEN DAN JE SALDO (EN EVT KREDIETLIMIET) TOELATEN
+
+. Hoelang duurt en overschijving binnen IBS?
+OGENBLIKKELIJK
+
+. Is het mogelijk om meerdere spaarrekeningen te openen?
+JA
+
+. Is het mogelijk om meerdere zichtrekeningen te openen?
+JA
+
+. Hoeveel rekeningen kun je maximaal hebben?
+GEEN LIMIET
+
+. Kan je buitenlandse valuta storten?
+NEEN
+
+. Kan je onder 0 gaan op de rekening en wat gebeurt er dan?
+OP ZICHTREKENING KAN JE TOT AAN DE KREDIETLIMIET GAAN ONDER NUL
+
+. Is er een limiet op hoeveel geld je kan storten in één keer?
+NEEN
+
+. Instapkosten? Kost het geld om een rekening te openen?
+NEEN
+
+. Kunnen rekeningen worden afgesloten/stopgezet?
+NEEN
+
+. Kunnen gegevens van de klant worden aangepast?
+NEEN
+
+. Zijn er limieten bij storten/afhalen?
+AFHALEN : SALDO EN KREDIETLIMIET, STORTEN : GEEN
+
+. Welke locatie wordt bijgehouden/bepaald bij een verrichting (ip/plaatsnaam/...?
+LOCATIE VAN HET KANTOOR
+
+. Is het een keuze of je in het rood gaat / moet dit vooraf ingesteld worden?
+DAS DE KREDIETLIMIET, IN TE STELLEN BIJ HET OPENEN VD REKENING
+
+extra vraag
+
+
+moet de leeftijdscontrole een extra stap zijn bij het basis pad? BuCRO stap 5
+
