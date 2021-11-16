@@ -29,7 +29,7 @@ Het maximumbedrag dat men kan verrichten vanuit een zichtrekening is de kredietl
 Een financiele verrichting moet altijd bijgehouden worden in de boekhouding; deze transactie bevat de datum, de opdrachtgever, het bedrag, de betrokken rekening(en), de locatie en een optionele commentaar (max 20 karakters).
 
 ==== *DR_VGR* : Verrichting Geldige Rekening
-Een verrichting kan gebeuren indien een rekening in de VSB geregistreerd is.
+Een verrichting kan gebeuren indien de uitgaande rekening in de VSB geregistreerd is.
 
 ==== *DR_VZR* : Verrichting ZichtRekening
 Een verrichting kan enkel vanuit een zichtrekening gebeuren.
