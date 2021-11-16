@@ -1,0 +1,55 @@
+== Ashkan
+links van de verslagen nie in use case zetten
+geen dialoog medewerker vraagt voor de bedrag
+stort het bedrag op de rekening betekent niks.
+medewerker telt het bedrag hoeft niet
+dr_vgr "bij een storting of afhaling" 
+bij basis pad hoef je de primaire actors niet aan te duiden
+rekeningen bij de scenarios is te openvlakkig, kan niet ongeldig zijn
+bewijs meegeven van transactie aan de klant
+stap 5 eindigen 
+stap 4 eindigen
+postconditie = en de transactie is geregistreerd 
+bij klanten van scenarios rijkregisternummer bij noteren
+een verschil tussen zichtrekening info over kredietvoet
+bij een spaarreking over rentevoet
+
+
+== Muhammed
+Verslagen niet in de use case steken.
+Bedrag vragen in de dialoog.
+De medewerker telt het bedrag hoeft niet bij te staan.
+Een storting of afhaling kan enkel van VSB rekening gebeuren.
+Primaire actor aanduiden 'KLANT' en niet medewerker.
+Je moet weten wie de titularis en saldo is van de rekening.
+De primaire actor enkel bovenaan zetten en niet overal.
+Niet twee controles aan elkaar zetten.
+start = 4 en 5 use case eindigen.
+postconditie = , en transactie is geregistreerd.
+klanten = rijkgisternummer bij zetten.
+Informatie geven over de krediet van de zichtrekening en bij spaarrekening over de rentevoet.
+
+== Thibo
+=== Algemeen
+. geen links naar verslag in use case
+. primaire actor enkel bij Actors
+
+=== buc-gs
+. vraag naar hoeveel geld hij wilt storten
+. geen storting op zichtrekening
+. data scenario's te oppervlakkig
+
+=== buc-ga
+. splits controle geldige zichtrekening
+. bewijs meegeven (zie opgave)
+. use case eindigd bij alternatief B en C 
+. bij postconditie: geld niet afgehaald -> transactie genoteerd
+. rijksregisternummer bij scenario's
+
+=== buc-ro
+. zichtrekening: kredietlimiet en kredietvoet vermelden
+. spaarrekening: rentevoet vermelden
+
+=== domeinregels
+==== DR_GVR
+. meer specifiek welke rekening
