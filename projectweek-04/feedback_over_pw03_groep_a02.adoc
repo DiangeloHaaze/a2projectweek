@@ -1,16 +1,16 @@
-== Algemeen
+== Feedback 03
 
 . Geen links naar verslag in use case zetten.
 . Primaire actor enkel aanduiden bij Actors
 
-== buc-gs
+=== buc-gs
 
 . Vraag naar het bedrag dat de klant wil storten.
 . Er gebeurt geen storting op de zichtrekening.
 . Medewerker hoeft het bedrag niet te tellen.
 . Data bij scenario's is te oppervlakkig, een rekening kan niet gewoon 'ongeldig' zijn.
 
-== buc-ga
+=== buc-ga
 
 . Splits controle in stap 4 in een controle of de rekening bestaat en een controle of het om een zichtrekening gaat.
 . Bewijs meegeven van transactie aan de klant.
@@ -20,13 +20,13 @@
 . Data bij scenario's is te oppervlakkig, een rekening kan niet gewoon 'ongeldig' zijn.
 
 
-== buc-ro
+=== buc-ro
 
 . Bij het openen van een zichtrekening moet de medewerker informatie over kredietlimiet en de kredietvoet meegeven aan de klant.
 . Bij het openen van een spaarrekening moet de medewerker informatie over de rentevoet meegeven aan de klant.
 
-== domeinregels
+=== domeinregels
 
-=== DR_GVR
+==== DR_GVR
 
 . Meer speciefiek vermelden over welke rekening het gaat.

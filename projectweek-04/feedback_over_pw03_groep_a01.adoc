@@ -1,0 +1,53 @@
+== Feedback 03 
+
+. Mappen structuur corrigeren en opletten. ( komende weken -1 hiervoor) 
+
+. Opschrijven als er iemand niet aanwezig is voor een groepsmoment 
+
+=== BUC GA 
+
+. Links naar verslag niet in je BUC GA zetten. 
+
+. Ook een bewijs meegeven aan de klant.-> extra stap 
+
+. In alternatie b en c use case laten eindigen !  
+
+. Postconditie-> en is van zijn rekening gehaald vervangen door en de transactie is geregistreerd 
+
+. Representatieve scenario’s 
+
+. Rijregisternummers bij de klanten noteren voor de rest is alles inorde 
+
+=== BUC GS 
+
+. Dialoog naar het bedrag vragen ! -> vragen Welk bedrag dat hij wilt storten ! Na tellen van het bedrag is niet echt nodig, weglaten. Maakt niet echt uit.  
+
+. Domeinregels-> VGR-> rekening aanpassen van rekening naar zichtrekening, (Een storting of afhaling kan enkel van VSB rekeningen gebeuren).  
+
+. In alternatief, medewerker stelt vast weglaten  
+
+. In actors enkel klant aanduiden de rest niet in bold zetten. 
+
+. bedrag moet niet geteld worden 
+
+. use case eindigen als de rekening ongeldig is. 
+
+. verrichting geldige rekening , specifieren wat :--> registreren is volgens hem te 'vaag' 
+
+. Representatieve scenario’s 
+
+. Aangeven Kredietlimieten saldo,… 
+
+. Een rekening dat niet bestaat maar hoe kan die aangewezen zijn aan Thibo. 
+
+=== BUC GA 
+
+. alternatief b buc-ga , 2 is te kort om van uw basispad af te wijken. 
+
+=== BUC RO 
+
+. Alles wat specifiek is voor een zichtrekening en spaarrekening-> ontbreken, voor een zichtrekening info over kredietvoet en spaarrekening-> intrestvoet ! -> dit bijvoegen aan de BUC. 
+
+=== domeinregels VGR VTR 
+
+. anders formuleren 
