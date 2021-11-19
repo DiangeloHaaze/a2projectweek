@@ -8,7 +8,7 @@
 . Vraag naar het bedrag dat de klant wil storten.
 . Er gebeurt geen storting op de zichtrekening.
 . Medewerker hoeft het bedrag niet te tellen.
-TODO: . Data bij scenario's is te oppervlakkig, een rekening kan niet gewoon 'ongeldig' zijn.
+. Data bij scenario's is te oppervlakkig, een rekening kan niet gewoon 'ongeldig' zijn.
 
 == buc-ga
 
@@ -16,8 +16,9 @@ TODO: . Data bij scenario's is te oppervlakkig, een rekening kan niet gewoon 'on
 . Bewijs meegeven van transactie aan de klant.
 . Laat de use-cases eindigen bij alternatief B en C.
 . Verander in de postconditie 'en is van zijn zicht rekening afgehaald' -> 'en de tranactie is geregistreerd'
-TODO: . Vermeld de rijksregisternummer bij de klanten in de scenario's.
-TODO: . Data bij scenario's is te oppervlakkig, een rekening kan niet gewoon 'ongeldig' zijn.
+. Vermeld de rijksregisternummer bij de klanten in de scenario's.
+. Data bij scenario's is te oppervlakkig, een rekening kan niet gewoon 'ongeldig' zijn.
+
 
 == buc-ro
 
