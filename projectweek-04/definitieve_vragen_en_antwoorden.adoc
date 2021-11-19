@@ -69,3 +69,57 @@ extra vraag
 
 moet de leeftijdscontrole een extra stap zijn bij het basis pad? BuCRO stap 5
 
+
+
+
+. Wie beslist over het kredietlimiet?
+de klant bij het openen vd zictrekening
+
+. Hoe wordt een rekeningnummer geformuleerd? Combinatie cijfers/letters bvb: BE123 123 123...
+BExx 990y yyyy yyyy waarbij xx een controle nummer is en 990y yyyy yyyy een rekeningnummer is bestaande uit 12 cijfers. De 990 dient ter identificatie van de VSB. Voor het controlenummer kiezen we in deze opgave steeds 00 voor de eenvoud.
+
+. Moet de klant een afschrift krijgen bij het afhalen of storten van geld?
+ja
+
+. Aan welke voorwaarden moet men voldoen bij het openen van een rekening? Ouder dan 12, belgische nationaliteit, geen openstaande schulden...
+Je moet klant zijn (BElgisch rijksregisternr en 18jaar  of ouder
+
+. Welke stappen moet een medewerker doorlopen om een zicht/spaarrekening aan te maken
+de nodige informatie vragen aan de klant, cotitularissen checken en uniek rek nr aanmaken en mededelen
+
+. Hoe verloopt het verificatieproces als een klant zijn bewijs van identiteit voorlegt.
+* Antwoord:de klant controleert de identiteitskaart en checkt de foto
+
+. Kan een klant voor iemand anders een rekening aanmaken? ( personen zijn niet gerelateerd)
+neen, iedereen moet aanwezig zijn bij het openen
+
+. Wordt de klant geinformeerd over de intrestvoet op spaarrekeningen / de de kredietvoet op zichtrekeningen?
+ja, bij het openen
+
+4:Waarom kan de kredietlimiet overschreden worden bij de aanrekening van kredietkosten?
+ja, super goeie vraag!!!!
+
+. Kan een klant een zichtrekening openen zonder krediet?
+ja, dan is de kredietlimiet gewoon  0 Eur
+
+. Moeten we rekening houden of de klant al dan niet eerder aangesloten was bij de bank?
+als hij al eerder "aangesloten" was bij de bank, dan is het een klant vd bank en kan die klant alles doen wat andere klanten kunnen
+
+. Heb ik een limiet op hoeveel ik per week kan uitgeven en kan ik deze verhogen    
+geen limiet
+
+. kan ik van mijn spaarrekening naar andere overschrijven 
+ja, op voorwaarde dat de bestemming ook jouw rekening is bij de VSB (andere spaar of zicht rekening)
+
+. Moeten co-titularissen ook aangesloten zijn als klant, zo nee welke gegevens moeten zij dan verplicht opgeven?
+ja, ze moeten klant zijn
+
+
+. Op welke manier kom ik te weten als er een cotitularies geld van mijn rekening heeft afgehaald?
+in de uittreksels
+
+. Zouden er extra kosten bijkomen als ik van bank beslis te veranderen?
+Neen, maar je blijft klant voor het leven
+
+. Wat gebeurd er als krediet niet kan terug betalen naar de bank in de periode dat afgesproken was? hoeveel extra kosten kan ik krijgen?
+de bank maakt gewoon een overschrijving van je rekening voor de kosten, je kan daar zelf niks aan veranderen of tegenhouden. Je gaat dus gewoon NOG meer in het rood.
