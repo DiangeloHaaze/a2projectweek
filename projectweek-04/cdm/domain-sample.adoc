@@ -1,0 +1,14 @@
+== Domain Samples
+
+=== Klanten
+Diangelo : rr nr 00.00
+Ashkan : rr nr 00.01
+Thibo : rr nr 00.02
+Muhammed : rr nr 00.03
+
+
+=== Rekeningen
+ Zichtrekening BE00 saldo 1000 KL 500 titularis Ashkan cotitularis Diangelo
+ Zichtrekening BE01 saldo 100 KL 50 titularis Diangelo
+ Spaarrekening BE70 saldo 1000 rentevoet 3% titularis Thibo
+ Spaarrekening BE72 10000 rentevoet 2%,titularis Muhammed cotitularis Thibo
