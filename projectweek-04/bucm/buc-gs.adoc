@@ -38,23 +38,14 @@ Niets gewijzigd
 
 === Representatieve Scenario’s
 
-==== Klanten
-Piet
-
-==== Rekeningen
-Zichtrekening BE00 (geldig)
-
-Zichtrekening BE69 (ongeldig)
-
 ==== SC-GA-001 Basis Pad
-*Piet* wil 100 euro storten op zichtrekening *BE00*.
-Er zijn geen afwijkingen van het basis pad.
+*Diangelo* wil 100 euro storten op zijn zichtrekening *BE00*.
 Dit scenario volgt het basispad tot het einde.
 
 ==== SC-GA-002 Stoppen
-*Piet* wil 100 euro storten op zichtrekening *BE00*, maar besluit om het toch niet te doen. 
-Dit scenario volgt het basispad tot op het moment dat Piet beslist om te stoppen en schakelt dan over naar alternatief A.
+*Diangelo* wil 100 euro storten op zichtrekening *BE00*, maar besluit om het toch niet te doen. 
+Dit scenario volgt het basispad tot op het moment dat Ashkan beslist om te stoppen en schakelt dan over naar alternatief A.
 
 ==== SC-GA-003 Ongeldig rekeningnummer
-*Piet* wil 100 euro storten op zichtrekening *BE69*, De medewerker merkt op dat Piet zijn rekeningnummer ongeldig is en informeert hem hierover. 
-Volgt alternatief B.
+*Diangelo* wil 100 euro storten op zichtrekening *BE02*, De medewerker merkt op dat Diangelo zijn rekeningnummer ongeldig is en informeert hem hierover. 
+Dit scenario volgt het basispad tot in stap 4, en schakelt dan over naar alternatief B.

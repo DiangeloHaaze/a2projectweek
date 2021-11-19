@@ -48,3 +48,15 @@ Niets gewijzigd.
 
 ==== Postconditie
 Niets gewijzigd.
+
+
+
+=== Representatieve Scenario’s
+
+==== SC-ZO-001 Zichtrekening Openen zonder co-titularissen
+*Diangelo* wilt een zichtrekening zonder co-titularissen openen met een kredietlimiet van 50 euro.
+Dit scenario volgt het basispad tot in stap 7 en schakelt dan over naar alternatief C.
+
+==== SC-ZO-002 Zichtrekening Openen met 1 co-titularis
+*Ashkan* wilt een zichtrekening met *Diangelo* als co-titularis openen met een kredietlimiet van 500 euro.
+Dit scenario volgt het basispad tot het einde.

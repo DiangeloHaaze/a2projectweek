@@ -46,3 +46,15 @@ Niets gewijzigd.
 
 ==== Postconditie
 Niets gewijzigd.
+
+
+
+=== Representatieve Scenario’s
+
+==== SC-SO-001 Spaarrekening Openen zonder co-titularissen
+*Thibo* wilt een spaarrekening zonder co-titularissen openen.
+Dit scenario volgt het basispad tot in stap 7 en schakelt dan over naar alternatief C.
+
+==== SC-SO-002 Spaarrekening Openen met 1 co-titularis
+*Muhammed* wilt een spaarrekening met *Thibo* als co-titularis openen.
+Dit scenario volgt het basispad tot het einde.
