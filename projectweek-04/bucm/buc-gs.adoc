@@ -11,7 +11,7 @@ KLANT is geïdentificeerd
 . De KLANT wil een bedrag storten. 
 . De MEDEWERKER vraagt de KLANT voor het rekeningnummer waarop hij geld wil storten.
 . De KLANT geeft het rekeningnummer aan de MEDEWERKER.
-. De MEDEWERKER gaat na of de opgegeven rekening geldig is. => link:domeinregels.adoc[DR_VGR,window=blank]
+. De MEDEWERKER gaat na of de opgegeven rekening geldig is. => link:domeinregels.adoc[DR_SGR,window=blank]
 . De MEDEWERKER vraagt de klant voor het te storten cash bedrag.
 . De KLANT geeft het bedrag aan de MEDEWERKER dat hij wilt storten.
 . De MEDEWERKER noteert de transactie in de boekhouding. => link:domeinregels.adoc[DR_VIB,window=blank]

@@ -1,22 +1,9 @@
-[%autowidth]
-|====
-| link:..\verslag_groep_a01.adoc[Verslag]
-|====
-
-// titel '=' heeft speciale betekenis
-//= Project "Vreemde Service Bank" Domeinregels
-
-:toc:
-
 == Domeinregels m.b.t. Rekeningen
 
 === Rekeningen Openen
 
 ==== *DR_GGC* : Gegevens Controle
 De MEDEWERKER controleerd of de naam, voornaam, rijksregisternummer, straatnaam, huisnummer, postcode en gemeente correct zijn ingevult.
-
-==== *DR_SKZ* Spaarrekening gekoppelt aan zichtrekening.
-Elke spaarrekening moet gelinkt zijn aan een zichtrekening die toebehoort tot de titularis.
 
 == Domeinregels m.b.t. Verrichtingen
 
@@ -28,11 +15,26 @@ Het maximumbedrag dat men kan verrichten vanuit een zichtrekening is de kredietl
 ==== *DR_VIB* : Verrichting In Boekhouding
 Een financiele verrichting moet altijd bijgehouden worden in de boekhouding; deze transactie bevat de datum, de opdrachtgever, het bedrag, de betrokken rekening(en), de locatie en een optionele commentaar (max 20 karakters).
 
-==== *DR_VGR* : Verrichting Geldige Rekening
-Een verrichting kan gebeuren indien de uitgaande rekening in de VSB geregistreerd is.
-
 ==== *DR_VZR* : Verrichting ZichtRekening
 Een verrichting kan enkel vanuit een zichtrekening gebeuren.
 
 ==== *DR_VTR* : Verrichting Toegang Rekening
-Een verrichting kan gebeuren indien de opdrachtgever een (co-)titularis is.
+Een verrichting kan gebeuren indien de opdrachtgever een (co-)titularis is van de uitgaande rekening.
+
+=== Afhalingen
+
+==== *DR_AGR* : Afhaling Geldige Rekening
+Een afhaling kan enkel gebeuren indien de uitgaande rekening in de VSB geregistreerd is.
+
+=== Stortingen
+
+==== *DR_SGR* : Storting Geldige Rekening
+Een storting kan enkel gebeuren indien de ontvangende rekenening in de VSB geregistreerd is.
+
+=== Overschrijvingen
+
+==== *DR_OGR* : Overschrijving Geldige Rekening
+Een overschrijving kan enkel gebeuren indien de uitgaande rekening in de VSB geregistreerd is.
+
+==== *DR_IOGR* : Interne Overschrijving Geldige Rekening
+Een interne overschrijving kan enkel gebeuren indien de ontvangende rekening in de VSB geregistreerd is.

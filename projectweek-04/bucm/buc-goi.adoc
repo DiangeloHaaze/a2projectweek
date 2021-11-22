@@ -10,7 +10,7 @@ De KLANT is al geïdentificeerd
 . De KLANT wilt geld overschrijven.
 . De MEDEWERKER vraagt de KLANT zijn rekeningnummer.
 . De KLANT geeft zijn rekeningnummer aan de MEDEWERKER.
-. De MEDEWERKER gaat na of de KLANT een geldige rekening heeft opgegeven. => link:domeinregels.adoc[DR_VGR,window=blank]
+. De MEDEWERKER gaat na of de KLANT een geldige rekening heeft opgegeven. => link:domeinregels.adoc[DR_OGR,window=blank]
 . De MEDEWERKER gaat na of de KLANT een zichtrekening heeft opgegeven. => link:domeinregels.adoc[DR_VZR,window=blank]
 . De MEDEWERKER gaat na of de KLANT (co-)titualris is. => link:domeinregels.adoc[DR_VTR,window=blank]
 . De MEDEWERKER vraagt de KLANT hoeveel geld hij wil overschrijven.
@@ -18,7 +18,7 @@ De KLANT is al geïdentificeerd
 . De MEDEWERKER gaat na of de KLANT genoeg geld heeft voor de overschrijving. => link:domeinregels.adoc[DR_VMB,window=blank]
 . De MEDEWERKER vraagt aan de KLANT naar welk rekeningnummer hij wil overschrijven.
 . De KLANT geeft het begunstigde rekeningnummer aan de MEDEWERKER.
-. De MEDEWERKER gaat na of de rekeningnummer geldig is. => link:domeinregels.adoc[DR_VGR,window=blank]
+. De MEDEWERKER gaat na of de rekeningnummer geldig is. => link:domeinregels.adoc[DR_IOGR,window=blank]
 . De MEDEWERKER verricht de overschrijving.
 . De MEDEWERKER noteert de transactie in de boekhouding. => link:domeinregels.adoc[DR_VIB,window=blank]
 . De use case eindigt.
@@ -65,10 +65,10 @@ Niets gewijzigd
 [start = 9]
 . De MEDEWERKER merkt op dat de KLANT een te groot bedrag wilt afhalen.
 . De MEDEWERKER informeert de KLANT hierover.
-. De use case gaat verder met stap 8 van het basispad.
+. De use case gaat verder met stap 7 van het basispad.
 
 === Alternatief F: De opgegeven rekening van de begunstige is niet geldig.
 [start = 12]
 . De MEDEWERKER stelt vast dat de opgegeven rekening niet geldig is.
 . De MEDEWERKER informeert de KLANT hierover.
-. De use case gaat verder vanaf stap 11 van het basispad.
+. De use case gaat verder vanaf stap 10 van het basispad.
