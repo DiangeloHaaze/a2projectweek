@@ -1,8 +1,3 @@
-[%autowidth]
-|====
-| link:verslag_groep_a01.adoc[Verslag]
-|====
-
 === Definitieve vragen en antwoorden
 . Heeft een co-titularis dezelfde rechten als een titularis?
 JA
