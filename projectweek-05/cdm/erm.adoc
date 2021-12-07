@@ -1,0 +1,123 @@
+
+=== *1. Entiteitsklasse Klant*
+
+Alle personen waartoe we de klantgegevens geregistreerd hebben.
+
+Attributen: rijksregisternummer, achternaam, voornaam, geboortedatum
+
+==== 1.1. attribuut rijksregisternummer
+
+Dit is het rijksregisternummer van de klant.
+
+Tekst, verplicht, uniek.
+
+==== 1.2. attribuut achternaam
+
+Dit is de achternaam van de klant.
+
+Tekst, verplicht, niet uniek.
+
+==== 1.3. attribuut voornaam
+
+Dit is de voornaam van de klant.
+
+Tekst, verplicht, niet uniek.
+
+==== 1.4. attribuut geboortedatum
+
+Dit is de geboortedatum van de klant.
+
+Date, verplicht, niet uniek.
+
+
+=== _1.5. Relatie : Klant "beheert" een rekening (M-M)_
+
+De klant beheert geen of meer rekeningen.
+
+De klant kan geen of meerdere rekeningen beheren.
+Een rekening wordt beheerd door 1 of meerdere klant(en).
+
+
+
+
+=== *2. Entiteitsklasse Rekening*
+
+De rekening is een middel waarop de klant transacties kan verrichten.
+
+Attributen: kredietlimiet, rekeningnummer en saldo.
+
+==== 2.1. attribuut kredietlimiet
+
+Is een maximum dat je mag opnemen van je rekening.
+
+Numeriek, verplicht, niet uniek.
+
+
+==== 2.2. attribuut rekeningnummer
+
+Dit is de unieke aangemaakte rekening die uit een landcode en 10 cijfers bestaat.
+
+Tekst, verplicht, uniek.
+
+==== 2.3. attribuut saldo
+
+Is het bedrag op je rekening.
+
+Numeriek, verplicht, niet uniek.
+
+
+=== _2.4. Relatie : Elke transactie "bevat" gegevens over één rekening (M-1)_
+
+Een transactie bevat gegevens van één rekening
+
+Elke transactie bevat gegevens over één en enkel één rekening.
+één rekening mag meerdere transacties bevatten.
+
+
+=== *3. Entiteitsklasse transacties*
+
+In het logboek worden alle gegevens over de verrichtingen bijgehouden.
+
+Attributen: datum, tijd, rekening, bedrag, locatie, medewerkerID.
+
+==== 3.1. attribuut datum
+
+Datum van de transactie.
+
+Date, verplicht, niet uniek..
+
+==== 3.2. attribuut tijd
+
+Tijdstip van de transactie.
+
+Time, verplicht, niet uniek.
+
+==== 3.3. attribuut rekening
+
+Dit is de rekening van de klant. 
+
+Tekst, verplicht, uniek.
+
+==== 3.4. attribuut bedrag
+
+Het bedrag waarmee je de transactie mee uitvoert.
+
+Numeriek, verplicht, niets uniek. 
+
+==== 3.5. attribuut locatie
+
+De locatie waar de transactie plaatsvindt. Bijvoorbeeld locatie thuis, geldautomaat, kantoor.
+
+Tekst, verplicht, niet uniek.
+
+==== 3.6. attribuut medewerkerID
+
+Is de medewerker die de transactie behandeld.
+
+Numeriek, verplicht, uniek.
+
+
+
+
+
+

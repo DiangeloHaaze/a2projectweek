@@ -1,0 +1,121 @@
+== Projectweek : *1*
+
+Eindverantwoordelijke: *Pieter Daenen*
+
+=== Projectmomenten
+
+|====
+|22/10/2021 | Campusmercator | 4 | +- 45min
+|====
+
+=== Activiteiten per groepslid
+
+==== Arno Baert
+
+Arno heeft gewerkt aan de BUC Geld Afhalen, alsook de bijbehorende domeinregels.
+Arno is hiermee samen met mij een uurtje of 2 a 3 bezig geweest.
+De domeinregels hebben we per BUC apart gedaan, om ze op het einde samen te voegen in groep tijdens het projectmoment.
+
+
+==== Pieter Daenen
+
+Ikzelf heb me beziggehouden met de BUC Geld Afhalen, samen met Arno.
+Eens dit af was hebben we de BUC Geld Storten vergeleken en besproken met de groep tijdens het eindmoment.
+De domeinregels hebben we per BUC apart gedaan, om op het einde samen te voegen in groep. Ik ben ongeveer een uurtje of 2 a 3 bezig geweest.
+De vragen hebben we samen in het lesmoment in groep gedaan.
+
+==== Toon Van de Voorde
+Toon heeft met Sahsenem gewerkt ook de BUC Geld Storten, alsook de bijbehorende domeinregels.
+De domeinregels zijn op het laatste projectmoment besproken in groep.
+Hij is hier een dik anderhalf uur bezig geweest.
+
+==== Sahsenem Taskapu
+
+Sahsenem heeft met Toon gewerkt aan het BUC Geld Storten, alsook de bijbehorende domeinregels.
+De domeinregels zijn op het laatste moment besproken en samengevoegd.
+Ze is hier ongeveer een uur a anderhalf bezig geweest.
+
+
+- Versie 1 : Projectweek 1 ( 26-10-2021)
+
+
+
+
+
+== Projectweek : *3*
+
+Eindverantwoordelijke: *Arno Baert*
+
+=== Projectmomenten
+
+|====
+|12/11/2021 | Campusmercator | groepsleden: 4/4 | +- 3 uur
+|13/11/2021 | Pieters huis | groepsleden: 2/4 | +- 1 uur
+|====
+
+=== Activiteiten per groepslid
+
+==== Arno Baert
+
+Ik heb de juiste folderstructuur aangemaakt.
+Ik heb met Sahsenem de feedback genoteerd tijdens het feedback moment.
+Ik heb samen met de groep de BUC verbeterd met de gekregen feedback en ook de scenarios verbeterd.
+Ik heb samen met Pieter de vragen samengevat.
+we hebben in groep de afgewerkte versie overlopen.
+
+==== Pieter Daenen
+
+Pieter heeft samen met de groep de BUC verbeterd met de feedback van Yanic en ook de scenarios verbeterd.
+Pieter heeft samen met Pieter de vragen samengevat.
+we hebben in groep de afgewerkte versie overlopen.
+
+==== Toon Van de Voorde
+Toon heeft samen met de groep de BUC verbeterd met de gekregen feedback en ook de scenarios verbeterd.
+we hebben in groep de afgewerkte versie overlopen.
+
+==== Sahsenem Taskapu
+
+Sahsenem heeft met mij de feedback genoteerd tijdens het feedback moment.
+Sahsenem heeft samen met de groep de BUC verbeterd met de gekregen feedback en ook de scenarios verbeterd.
+we hebben in groep de afgewerkte versie overlopen.
+
+
+- Versie 1 : Projectweek 3  ( 19-11-2021)
+
+
+
+
+== Projectweek : *5*
+
+Eindverantwoordelijke: *Sahsenem Taskapu*
+
+=== Projectmomenten
+
+|====
+|26/11/2021 | refter mercator gebouw C | groepsleden: 4/4 | +- 2,15 uur
+|29/11/2021 | refter mercator gebouw C | groepsleden: 4/4 | +- 2 uur
+|01/12/2021 | refter mercator gebouw C | groepsleden: 4/4 | +- 1 uur
+|====
+
+=== Activiteiten per groepslid
+
+==== Arno Baert
+Arno heeft samen met mij en Toon de feedback genoteerd. Arno heeft samen met Pieter BUC_KR, bijhorende domeinregels en scenario's gemaakt.
+We hebben alle vier gebrainstormd voor de 4 nieuwe vragen. Arno heeft samen met Pieter de attributen uit de BUC gehaald. Arno heeft erm.adoc nagekeken. We hebben samen erm.adoc versie 3 gemaakt.
+We hebben samen de extra feedback verwerkt op erm.adoc, zo kwamen we aan een versie 4. Tijdens de herwerking heeft Arno nog voor de duidelijkheid de ERD getekend zodat we het makkelijker in tekst konden gieten. 
+
+==== Pieter Daenen
+Pieter heeft samen met Arno BUC_KR, bijhorende domeinregels en scenario's gemaakt. We hebben alle vier gebrainstormd voor de 4 nieuwe vragen.
+Pieter heeft samen met Arno de attributen uit de BUC gehaald. Pieter heeft erm.adoc nagekeken. Pieter heeft versie 2 gemaakt van erm.adoc en de ERD getekend. We hebben samen erm.adoc versie 3 gemaakt.
+We hebben samen de extra feedback verwerkt op erm.adoc, zo kwamen we aan een versie 4. 
+
+==== Toon Van de Voorde
+Toon heeft samen met mij en Arno de feedback genoteerd. We hebben alle vier gebrainstormd voor de 4 nieuwe vragen. Toon en ik hebben de feedback verwerkt. Toon heeft erm.adoc nagekeken en een verbetering gemaakt.
+We hebben samen erm.adoc versie 3 gemaakt. We hebben samen de extra feedback verwerkt op erm.adoc, zo kwamen we aan een versie 4. 
+
+==== Sahsenem Taskapu
+Ik heb de juiste folderstructuur aangemaakt. Ik heb samen met Toon en Arno de feedback genoteerd. We hebben alle vier gebrainstormd voor de 4 nieuwe vragen. Ik en Toon hebben de feedback verwerkt.
+Ik heb versie 1 van erm.adoc gemaakt. We hebben samen erm.adoc versie 3 gemaakt.We hebben samen de extra feedback verwerkt op erm.adoc, zo kwamen we aan een versie 4. 
+
+
+- Versie 1 : Projectweek 3  ( 29-11-2021)

@@ -1,0 +1,30 @@
+== Feedback Projectweek 04
+
+=== BUC Geld afhalen 
+VZR -> hier in deze domein niet vaag zijn, specifiek zijn, geld afhalen
+
+een verrichting kan enkel vanuit een zichtrekening..
+--> een geldafhaling kan..
+
+AGR-> is goed 
+Scenario -> goed
+
+=== BUC zicht rekening openen 
+De identificatie gebeurt niet, je weet wie de persoon is, dus stap 2-4 vallen weg stap 1 blijft samen stap 5
+
+Na dat de medewerker vraagt achter een co titularis moet de klant nog antwoord geven 
+
+Ervan uitgaan dat stap 7 fout gaat -> voor het geval dat de co titularis niet kan geïdentificeerd kan worden hier een alternatief maken.
+
+Scenario -> uitleg over de data, 001-> onder aan noteren, alternatief c en dan terug naar BP, is een succes pad -> rekeningnummer?
+
+=== BUC geld overschrijven 
+
+Code ! buc-go heeft geen code vanboven staan. (geld ovverschrijven intern)?
+
+Stap 5-> je kan perfect overschrijven van een spaarrekening naar een zichtrekening, domeinregel-> als je bronrekening een spaar rekening is dan kan je enkel overschrijven naar 1 van je eigen rekening.
+dr vrz: een verrichting kan enkel vanaf een zichtrekening gebeuren (r14)
+
+VMB-> je houd een maximum bedrag van een zichtrekening maar je gaat ook rekening met een spaarrekening dus je VMB moet gelden voor spaar en zichtrekening-> zo heb je dan 1 domeinregel voor 2 soort rekeningen
+
+Domain samples -> goed 

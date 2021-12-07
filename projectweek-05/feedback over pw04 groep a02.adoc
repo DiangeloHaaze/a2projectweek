@@ -1,0 +1,35 @@
+== Feedback 04
+
+
+
+=== BUC GA
+. Alternatief D: geen (co-)titularis 'van die rekening.'
+
+
+
+=== BUC ZO
+. Preconditie: Klant is WEL geidentificeerd
+. ...de klant antwoordt wie de cotitularissen zijn
+. Alternatief toevoegen voor falen van BUC_KI
+. Voeg ook het rekeningnummer toe aan de representatieve scenario's
+
+
+
+=== BUC GOI
+. Voeg code toe bovenaan
+. Kan ook overschrijven vanuit spaarrekening naar zichtrekenening (controleer ook maximumbedrag v/e spaarrekening!)
+
+
+
+=== domeinregels
+
+
+
+==== DR VZR
+. Te vaag => specifiek geld afhaling
+
+
+
+==== DR VMB
+. Voeg ook maximumbedrag voor spaarrekenignen toe
+

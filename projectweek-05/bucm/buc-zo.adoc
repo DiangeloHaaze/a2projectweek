@@ -1,0 +1,67 @@
+== BUC_ZO Zichtrekening openen
+De KLANT wilt een zichtrekening openen.
+
+=== Actors
+*KLANT*, MEDEWERKER
+
+=== Preconditie
+De KLANT is geïdentificeerd 
+
+=== Basis pad
+. De KLANT wilt een zichtrekening openen.
+. De MEDEWERKER vraagt aan de KLANT of er co-titularis(sen) zijn.
+. De KLANT geeft zijn co-titularis(sen) aan.
+. De MEDEWERKER identificeert de cotitularissen => voer link:buc-ki.adoc[BUC_KI,window=blank] uit.
+. De MEDEWERKER noteert de KLANT zijn cotitularissen.
+. De MEDEWERKER vraagt aan de KLANT wat de gewenste kredietlimiet is.
+. De KLANT geeft zijn gewenste kredietlimiet door aan de MEDEWERKER.
+. De MEDEWERKER informeert de KLANT over de kredietvoet.
+. De MEDEWERKER genereert een uniek rekeningnummer voor de klant.
+. De MEDEWERKER geeft het rekeningnummer aan de KLANT door.
+. De use case eindigt.
+
+==== Postconditie
+KLANT heeft een geldige zichtrekening geopend.
+
+=== Alternatief A: Stoppen
+. De KLANT kan op elk moment beslissen om te stoppen.
+. De MEDEWERKER maakt eventuele wijzigingen ongedaan.
+. De use case eindigt.
+
+==== Postconditie
+Niets gewijzigd.
+
+=== Alternatief B: KLANT zijn gegevens zijn incorrect.
+[start = 5]
+. De MEDEWERKER vraagt de KLANT zijn gegevens opnieuw in te vullen.
+. De use case gaat verder vanaf stap 3.
+
+==== Postconditie
+Niets gewijzigd.
+
+=== Alternatief C: De KLANT heeft geen cotitularisen.
+[start = 6]
+. De KLANT geeft geen cotitularissen mee.
+. De use case gaat verder vanaf stap 9.
+
+=== Alternatief D: Gegevens van de co-titularis(sen) zijn incorrect.
+[start = 3]
+. De MEDEWERKER vraagt de KLANT zijn gegevens opnieuw in te vullen.
+. De use case gaat verder vanaf stap 4.
+
+
+==== Postconditie
+Niets gewijzigd.
+
+
+
+=== Representatieve Scenario’s
+
+==== SC-ZO-001 Zichtrekening Openen zonder co-titularissen
+*Diangelo* wilt een zichtrekening zonder co-titularissen openen met een kredietlimiet van 50 euro.
+Dit scenario volgt het basispad tot in stap 6 en schakelt dan over naar alternatief C. De medewerker genereert een uniek rekeningnummer BE00.00 voor Diangelo.
+De use case eindigt.
+
+==== SC-ZO-002 Zichtrekening Openen met 1 co-titularis
+*Ashkan* wilt een zichtrekening met *Diangelo* als co-titularis openen met een kredietlimiet van 500 euro.
+Dit scenario volgt het basispad tot het einde.
