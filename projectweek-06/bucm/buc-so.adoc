@@ -1,0 +1,61 @@
+== BUC_SO Spaarrekening openen
+De KLANT wilt een spaarrekening openen.
+
+=== Actors
+*KLANT*, MEDEWERKER
+
+=== Preconditie
+De KLANT is niet geïdentificeerd 
+
+=== Basis pad
+. De KLANT wilt een spaarrekening openen.
+. De MEDEWERKER identificeert de KLANT => voer link:buc-ki.adoc[BUC_KI,window=blank] uit.
+. De MEDEWERKER vraagt aan de KLANT zijn gegevens in te vullen.
+. De KLANT geeft zijn gegevens in.
+. De MEDEWERKER controleert of de gegevens correct zijn ingevuld. => link:domeinregels.adoc[DR_GGC,window=blank]
+. De MEDEWERKER vraagt aan de KLANT of er cotitularissen zijn.
+. De MEDEWERKER identificeert de cotitularissen => voer link:buc-ki.adoc[BUC_KI,window=blank] uit.
+. De MEDEWERKER noteert de KLANT zijn cotitularissen.
+. De MEDEWERKER informeert de KLANT over de intrestvoet.
+. De MEDEWERKER genereert een uniek rekenignummer voor de klant.
+. De MEDEWERKER geeft het rekeningnummer aan de KLANT door.
+. De use case eindigt.
+
+==== Postconditie
+KLANT heeft een geldige spaarrekening geopend.
+
+=== Alternatief A: Stoppen
+. De KLANT kan op elk moment beslissen om te stoppen.
+. De MEDEWERKER maakt eventuele wijzigingen ongedaan.
+. De use case eindigt.
+
+==== Postconditie
+Niets gewijzigd.
+
+=== Alternatief B: KLANT zijn gegevens zijn incorrect.
+[start = 5]
+. De MEDEWERKER vraagt de KLANT zijn gegevens opnieuw in te vullen.
+. De use case gaat verder vanaf stap 3.
+
+==== Postconditie
+Niets gewijzigd.
+
+=== Alternatief C: De KLANT heeft geen cotitularisen.
+[start = 6]
+. De KLANT geeft geen cotitularissen mee.
+. De use case gaat verder vanaf stap 9.
+
+==== Postconditie
+Niets gewijzigd.
+
+
+
+=== Representatieve Scenario’s
+
+==== SC-SO-001 Spaarrekening Openen zonder co-titularissen
+*Thibo* wilt een spaarrekening zonder co-titularissen openen.
+Dit scenario volgt het basispad tot in stap 6 en schakelt dan over naar alternatief C.
+
+==== SC-SO-002 Spaarrekening Openen met 1 co-titularis
+*Muhammed* wilt een spaarrekening met *Thibo* als co-titularis openen.
+Dit scenario volgt het basispad tot het einde.

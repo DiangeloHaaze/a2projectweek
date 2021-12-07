@@ -1,0 +1,51 @@
+== BUC_GS Geld Storten
+De KLANT wil geld op een rekening storten.
+
+=== Actors
+*KLANT*, MEDEWERKER
+
+=== Preconditie 
+KLANT is geïdentificeerd
+
+=== Basis pad 
+. De KLANT wil een bedrag storten. 
+. De MEDEWERKER vraagt de KLANT voor het rekeningnummer waarop hij geld wil storten.
+. De KLANT geeft het rekeningnummer aan de MEDEWERKER.
+. De MEDEWERKER gaat na of de opgegeven rekening geldig is. => link:domeinregels.adoc[DR_SGR,window=blank]
+. De MEDEWERKER vraagt de klant voor het te storten cash bedrag.
+. De KLANT geeft het bedrag aan de MEDEWERKER dat hij wilt storten.
+. De MEDEWERKER noteert de transactie in de boekhouding. => link:domeinregels.adoc[DR_VIB,window=blank]
+. De MEDEWERKER geeft een bewijs van de storting aan de KLANT.
+. De use case eindigt.
+
+ 
+=== Alternatief A: Stoppen
+. De KLANT kan op elk moment beslissen om te stoppen.
+. De MEDEWERKER maakt eventuele wijzigingen ongedaan.
+. De use case eindigt.
+
+==== Postconditie
+Niets gewijzigd
+
+=== Alternatief B: De opgegeven rekening is niet geldig.
+[start = 4]
+. De MEDEWERKER stelt vast dat de opgegeven reking niet geldig is.
+. De MEDEWERKER informeert de KLANT hierover.
+. De use case gaat verder op stap 2.
+
+==== Postconditie
+Niets gewijzigd
+
+=== Representatieve Scenario’s
+
+==== SC-GA-001 Basis Pad
+*Diangelo* wil 100 euro storten op zijn zichtrekening *BE00*.
+Dit scenario volgt het basispad tot het einde.
+
+==== SC-GA-002 Stoppen
+*Diangelo* wil 100 euro storten op zichtrekening *BE00*, maar besluit om het toch niet te doen. 
+Dit scenario volgt het basispad tot op het moment dat Ashkan beslist om te stoppen en schakelt dan over naar alternatief A.
+
+==== SC-GA-003 Ongeldig rekeningnummer
+*Diangelo* wil 100 euro storten op zichtrekening *BE02*, De medewerker merkt op dat Diangelo zijn rekeningnummer ongeldig is en informeert hem hierover. 
+Dit scenario volgt het basispad tot in stap 4, en schakelt dan over naar alternatief B.

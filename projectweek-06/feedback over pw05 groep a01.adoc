@@ -1,0 +1,44 @@
+== Feedback 05
+
+=== BUC_KR
+
+. Registeren => Registreren
+. "invullen" is overbodig
+. Postconditie: klant is geregistreerd en geidentificeerd
+
+=== BUC_ZO
+
+. Nummering alternatief van stap 3 naar 4
+
+=== BUC_SO
+
+. Moet gelijklopen met BUC_ZO (of omgekeerd)
+. Alternatief voor stap 7
+
+=== BUC_GOI
+
+. Controle (co-)titularis moet eerst
+. Overschrijving kan ook vanuit spaarrekening
+
+=== domeinsample
+
+. rentevoet hoeft niet bij spaarrekeningen, kredietvoet wel bij zichtrekeningen
+
+=== erm
+
+. saldo moet niet bijgehouden worden
+. attributen niet dubbel schrijven
+. wees consistent in het gebruik van enkelvoud en meervoud voor entiteitsnamen
+. medewerkerID niet bijhouden
+. 3.3 attribuut rekening niet uniek
+. 1.5 klant beheert => klant is (co)titularis?
+. 1.5 (M-M) => (N-M)
+. 1.5 splits op in "is titularis" en "is cotitularis"
+
+=== domeinregels
+
+==== DR_GGC
+. Deze domeinregel zegt niets
+
+==== DR_VZR
+. Gaat over afhaling (niet overschrijving)

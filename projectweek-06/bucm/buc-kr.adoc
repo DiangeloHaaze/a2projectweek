@@ -1,0 +1,51 @@
+== BUC_KR Klant Registeren
+De KLANT wilt geregistreerd worden.
+
+=== Actors
+*KLANT*, MEDEWERKER
+
+=== Preconditie
+De KLANT is niet geïdentificeerd 
+
+=== Basis pad
+. De KLANT wilt geregistreerd worden.
+. De MEDEWERKER vraagt aan de KLANT zijn gegevens in te vullen.
+. De KLANT geeft zijn gegevens aan de MEDEWERKER.
+. De MEWERKER noteert de gegevens.
+. De MEDEWERKER controleert of de gegevens correct zijn ingevuld. => link:domeinregels.adoc[DR_GGC,window=blank]
+. De use case eindigt.
+
+==== Postconditie
+KLANT is geregistreerd.
+
+=== Alternatief A: Stoppen
+. De KLANT kan op elk moment beslissen om te stoppen.
+. De MEDEWERKER maakt eventuele wijzigingen ongedaan.
+. De use case eindigt.
+
+==== Postconditie
+Niets gewijzigd.
+
+=== Alternatief B: De KLANT zijn gegevens voldoen niet aan de vereisten.
+[start = 5]
+. De MEDEWERKER informeert de KLANT hierover.
+. De use case eindigt.
+
+==== Postconditie
+Niets gewijzigd.
+
+
+=== Representatieve Scenario’s
+
+==== SC-KR-001 Klant registreren
+*Diangelo* wilt geregistreerd worden.
+Dit scenario volgt het basispad tot het einde.
+
+==== SC-KR-002 Klant registreren dan stoppen
+*Diangelo* wilt geregistreerd worden maar beslist om te stoppen.
+Dit scenario volgt het basispad tot het moment dat Diangelo beslist om te stoppen.
+
+==== SC-KR-003 Klant is minderjarig
+*Toon* wilt geregistreerd worden.
+Dit scenario volgt het basispad tot stap 5 en schakelt dan over naar alternatief B .
+

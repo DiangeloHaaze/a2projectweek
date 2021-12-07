@@ -1,0 +1,15 @@
+== Domain Samples
+
+=== Klanten
+. Diangelo : rijksregisternr. 95.00.02
+. Ashkan : rijksregisternr. 96.01.06
+. Thibo : rijksregisternr. 97.02.07
+. Muhammed : rijksregisternr. 99.03.03
+. Toon : rijksregisternr. 08.04.08
+
+
+=== Rekeningen
+ . Zichtrekening BE00 saldo 1000 KL 500 titularis Ashkan cotitularis Diangelo
+ . Zichtrekening BE01 saldo 100 KL 50 titularis Diangelo
+ . Spaarrekening BE70 saldo 1000 rentevoet 2% titularis Thibo
+ . Spaarrekening BE72 saldo 10000 rentevoet 2%,titularis Muhammed cotitularis Thibo
