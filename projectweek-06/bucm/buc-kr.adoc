@@ -1,4 +1,4 @@
-== BUC_KR Klant Registeren
+== BUC_KR Klant Registreren
 De KLANT wilt geregistreerd worden.
 
 === Actors
@@ -9,14 +9,17 @@ De KLANT is niet geïdentificeerd
 
 === Basis pad
 . De KLANT wilt geregistreerd worden.
-. De MEDEWERKER vraagt aan de KLANT zijn gegevens in te vullen.
-. De KLANT geeft zijn gegevens aan de MEDEWERKER.
-. De MEWERKER noteert de gegevens.
-. De MEDEWERKER controleert of de gegevens correct zijn ingevuld. => link:domeinregels.adoc[DR_GGC,window=blank]
+. De MEDEWERKER vraagt aan de KLANT zijn identiteitskaart.
+. De KLANT geeft zijn identiteitskaart aan de MEDEWERKER.
+. De MEDEWERKER controleert de foto van de identiteitskaart.
+. De MEDEWERKER controleert het rijksregisternummer. => link:domeinregels.adoc[DR_RKR,window=blank]
+. De MEDEWERKER controleert de geboortedatum. => link:domeinregels.adoc[DR_RKM,window=blank]
+. De MEDEWERKER noteert de gegevens.
+. De MEDEWERKER geeft de identiteitskaart terug aan KLANT.
 . De use case eindigt.
 
 ==== Postconditie
-KLANT is geregistreerd.
+KLANT is geregistreerd en geidentificeerd.
 
 === Alternatief A: Stoppen
 . De KLANT kan op elk moment beslissen om te stoppen.
@@ -26,14 +29,32 @@ KLANT is geregistreerd.
 ==== Postconditie
 Niets gewijzigd.
 
-=== Alternatief B: De KLANT zijn gegevens voldoen niet aan de vereisten.
-[start = 5]
+=== Alternatief B: De KLANT komt niet overeen met de foto
+[start = 4]
+. De MEDEWERKER merkt dat de klant niet overeenkomt met de foto op de identiteitskaart.
 . De MEDEWERKER informeert de KLANT hierover.
 . De use case eindigt.
 
 ==== Postconditie
 Niets gewijzigd.
 
+=== Alternatief C: Geen Belgisch rijksregisternummer 
+[start=5]
+. De MEDEWERKER merkt dat de identiteitskaart geen Belgisch rijksregisternummer vermeldt.
+. De MEDEWERKER informeert de KLANT hierover.
+. De use case eindigt.
+
+==== Postconditie
+Niets gewijzigd.
+
+=== Alternatief D: De KLANT is minderjarig
+[start=6]
+. De MEDEWERKER merkt dat de KLANT minderjarig is.
+. De MEDEWERKER informeert de KLANT hierover.
+. De use case eindigt.
+
+==== Postconditie
+Niets gewijzigd.
 
 === Representatieve Scenario’s
 
@@ -45,7 +66,14 @@ Dit scenario volgt het basispad tot het einde.
 *Diangelo* wilt geregistreerd worden maar beslist om te stoppen.
 Dit scenario volgt het basispad tot het moment dat Diangelo beslist om te stoppen.
 
-==== SC-KR-003 Klant is minderjarig
-*Toon* wilt geregistreerd worden.
-Dit scenario volgt het basispad tot stap 5 en schakelt dan over naar alternatief B .
+==== SC-KR-003 Klant komt niet overeen met de foto op de identiteitskaart
+*Diangelo* wilt geregistreerd worden, maar heeft de identiteitskaart van *Thibo* bij.
+Dit scenario volgt het basispad tot stap 4 en schakelt dan over naar alternatief B.
 
+==== SC-KR-004 Klant heeft geen belgisch rijksregisternummer
+*Arno* wilt geregistreerd worden.
+Dit scenario volgt het basispad tot stap 5 en schakelt dan over naar alternatief C.
+
+==== SC-KR-005 Klant is minderjarig
+*Toon* wilt geregistreerd worden.
+Dit scenario volgt het basispad tot stap 6 en schakelt dan over naar alternatief D.

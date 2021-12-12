@@ -1,33 +1,36 @@
 == Domeinregels m.b.t. Rekeningen
 
-=== Rekeningen Openen
+=== Klant Registreren
 
-==== *DR_GGC* : Gegevens Controle
-De MEDEWERKER controleert of de naam, voornaam, rijksregisternummer, straatnaam, huisnummer, postcode, gemeente en leeftijd correct zijn ingevuld.
+==== *DR_RKM* : Registratie Klant Meerderjarig
+Een klant kan enkel geregistreerd worden als hij/zij 18 of ouder is.
+
+==== *DR_RKR* : Registratie Klant Rijksregisternummer
+Een klant kan enkel geregistreerd worden als hij/zij een belgisch rijksregisternummer heeft.
 
 == Domeinregels m.b.t. Verrichtingen
 
 === Algemene verrichtingen
 
 ==== *DR_VMB* : Verrichting MaximumBedrag
-Het maximumbedrag dat men kan verrichten vanuit een zichtrekening of spaarrekening is de kredietlimiet van de zichtrekening of spaarrekening + het resterend saldo van de zichtrekening of spaarrekening.
+Het maximumbedrag dat men kan verrichten vanuit een rekening is:
+
+* Het resterend saldo indien de rekening een spaarrekening is.
+* Het resterend saldo + de kredietlimiet indien de rekening een zichtrekening is.
 
 ==== *DR_VIB* : Verrichting In Boekhouding
 Een financiele verrichting moet altijd bijgehouden worden in de boekhouding; deze transactie bevat de datum, de opdrachtgever, het bedrag, de betrokken rekening(en), de locatie en een optionele commentaar (max 20 karakters).
-
-==== *DR_VZR* : Verrichting ZichtRekening
-Een geldafhaling kan enkel vanuit een zichtrekening gebeuren. 
-
-==== *DR_VSR* : Verrichting SpaarRekening
-Een verrichting vanuit een spaar rekening kan enkel gebeuren naar één van je eigen zichtrekening(en).
-
-==== *DR_VTR* : Verrichting Toegang Rekening
-Een verrichting kan gebeuren indien de opdrachtgever een (co-)titularis is van de uitgaande rekening.
 
 === Afhalingen
 
 ==== *DR_AGR* : Afhaling Geldige Rekening
 Een afhaling kan enkel gebeuren indien de uitgaande rekening in de VSB geregistreerd is.
+
+==== *DR_AZR* : Afhaling ZichtRekening
+Een afhaling kan enkel vanuit een zichtrekening gebeuren. 
+
+==== *DR_ATR* : Afhaling Toegang Rekening
+Een afhaling kan enkel gebeuren indien de opdrachtgever een (co-)titularis is van de uitgaande rekening.
 
 === Stortingen
 
@@ -41,3 +44,9 @@ Een overschrijving kan enkel gebeuren indien de uitgaande rekening in de VSB ger
 
 ==== *DR_IOGR* : Interne Overschrijving Geldige Rekening
 Een interne overschrijving kan enkel gebeuren indien de ontvangende rekening in de VSB geregistreerd is.
+
+==== *DR_OZR* : Overschrijving ZichtRekening
+Een overschrijving kan enkel gebeuren indien de uitgaande rekening een zichtrekening is.
+
+==== *DR_OTR* : Overschrijving Toegang Rekening
+Een overschrijving kan enkel gebeuren indien de opdrachtgever een (co-)titularis is van de uitgaande rekening.

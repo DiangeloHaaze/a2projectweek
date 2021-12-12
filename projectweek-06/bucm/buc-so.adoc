@@ -5,15 +5,12 @@ De KLANT wilt een spaarrekening openen.
 *KLANT*, MEDEWERKER
 
 === Preconditie
-De KLANT is niet geïdentificeerd 
+De KLANT is geïdentificeerd.
 
 === Basis pad
 . De KLANT wilt een spaarrekening openen.
-. De MEDEWERKER identificeert de KLANT => voer link:buc-ki.adoc[BUC_KI,window=blank] uit.
-. De MEDEWERKER vraagt aan de KLANT zijn gegevens in te vullen.
-. De KLANT geeft zijn gegevens in.
-. De MEDEWERKER controleert of de gegevens correct zijn ingevuld. => link:domeinregels.adoc[DR_GGC,window=blank]
 . De MEDEWERKER vraagt aan de KLANT of er cotitularissen zijn.
+. De KLANT geeft zijn co-titularis(sen) aan.
 . De MEDEWERKER identificeert de cotitularissen => voer link:buc-ki.adoc[BUC_KI,window=blank] uit.
 . De MEDEWERKER noteert de KLANT zijn cotitularissen.
 . De MEDEWERKER informeert de KLANT over de intrestvoet.
@@ -32,22 +29,22 @@ KLANT heeft een geldige spaarrekening geopend.
 ==== Postconditie
 Niets gewijzigd.
 
-=== Alternatief B: KLANT zijn gegevens zijn incorrect.
-[start = 5]
-. De MEDEWERKER vraagt de KLANT zijn gegevens opnieuw in te vullen.
-. De use case gaat verder vanaf stap 3.
-
-==== Postconditie
-Niets gewijzigd.
-
-=== Alternatief C: De KLANT heeft geen cotitularisen.
-[start = 6]
+=== Alternatief B: De KLANT heeft geen cotitularissen.
+[start = 3]
 . De KLANT geeft geen cotitularissen mee.
-. De use case gaat verder vanaf stap 9.
+. De use case gaat verder vanaf stap 6.
 
 ==== Postconditie
 Niets gewijzigd.
 
+=== Alternatief C: Cotitularis(sen) kon(den) niet geidentificeerd worden.
+[start = 4]
+. De MEDEWERKER kon de cotitularis(sen) niet identificeren.
+. De MEDEWERKER informeert de klant hierover.
+. De use case eindigd.
+
+==== Postconditie
+Niets gewijzigd.
 
 
 === Representatieve Scenario’s

@@ -5,7 +5,7 @@ De KLANT wilt een zichtrekening openen.
 *KLANT*, MEDEWERKER
 
 === Preconditie
-De KLANT is geïdentificeerd 
+De KLANT is geïdentificeerd. 
 
 === Basis pad
 . De KLANT wilt een zichtrekening openen.
@@ -31,24 +31,16 @@ KLANT heeft een geldige zichtrekening geopend.
 ==== Postconditie
 Niets gewijzigd.
 
-=== Alternatief B: KLANT zijn gegevens zijn incorrect.
-[start = 5]
-. De MEDEWERKER vraagt de KLANT zijn gegevens opnieuw in te vullen.
-. De use case gaat verder vanaf stap 3.
-
-==== Postconditie
-Niets gewijzigd.
-
-=== Alternatief C: De KLANT heeft geen cotitularisen.
-[start = 6]
-. De KLANT geeft geen cotitularissen mee.
-. De use case gaat verder vanaf stap 9.
-
-=== Alternatief D: Gegevens van de co-titularis(sen) zijn incorrect.
+=== Alternatief B: De KLANT heeft geen cotitularissen.
 [start = 3]
-. De MEDEWERKER vraagt de KLANT zijn gegevens opnieuw in te vullen.
-. De use case gaat verder vanaf stap 4.
+. De KLANT geeft geen cotitularissen mee.
+. De use case gaat verder vanaf stap 6.
 
+=== Alternatief C: Cotitularis(sen) kon(den) niet geidentificeerd worden.
+[start = 4]
+. De MEDEWERKER kon de cotitularis(sen) niet identificeren.
+. De MEDEWERKER informeert de klant hierover.
+. De use case eindigd.
 
 ==== Postconditie
 Niets gewijzigd.

@@ -1,40 +1,44 @@
-== Feedback 7/12/2021 
+== Feedback 05
 
-=== Klant registreren  
+=== BUC_KR
 
-- R tekort in de titel 
-- Je vraagt aan de klant zijn gegevens en hij geeft zijn gegevens. Niet invullen. 
-- Domeinregel-> hij zegt niet echt iets, weglaten. Enkel noteren dat de medewerker de gegevens controleert. 
-- Postconditie-> klant is geïdentificeerd ipv geregistreerd. 
+- Registeren => Registreren
+- "invullen" is overbodig
+- Postconditie: klant is geregistreerd en geidentificeerd
 
-=== Rekening afhalen  
+=== BUC_ZO
 
-- Alternatief aanpassen van stap 3 
-- Zo en so op elkaar afstemmen 
-- Alternatief in stap 7 
+- Nummering alternatief van stap 3 naar 4
 
-=== Geld overschrijven intern 
+=== BUC_SO
 
-- Controle co titularis moet voor je controle soort rekening. 
-- Domein regel VZR -> geld afhaling -> geld overschrijven aanpassen  
-- Je stap van je controle van je bronrekening gebeurt achteraf 
-- Je overschrijven van spaarrekening/ zichtrekening alternatief en controles na checken  
+- Moet gelijklopen met BUC_ZO (of omgekeerd)
+- Alternatief voor stap 7
 
-=== Domainsample 
+=== BUC_GOI
 
-- Rentevoet moet je niet bij alles vermelden want gelijk voor elke rekening 
+- Controle (co-)titularis moet eerst
+- Overschrijving kan ook vanuit spaarrekening
 
-=== Datamodel 
+=== domeinsample
 
-- Je opsomming niet 2 keer noteren van de attributen, enkelvoud nemen in je entiteitsklassen 
-- Entiteitsklasse transacties 
-- Datum en tijd kan je samen nemen als date/time 
-- Transactie geld afhalen als naam  
-- Medewerker Id is niet nodig  
-- Attribuut rekening-> niet uniek 
+- rentevoet hoeft niet bij spaarrekeningen, kredietvoet wel bij zichtrekeningen
 
-=== Relaties 
+=== erm
 
-- M-N 
-- Je gaat ook iets moeten doen aan je co-titularissen  
-- 1-M 
+- saldo moet niet bijgehouden worden
+- attributen niet dubbel schrijven
+- wees consistent in het gebruik van enkelvoud en meervoud voor entiteitsnamen
+- medewerkerID niet bijhouden
+- 3.3 attribuut rekening niet uniek
+- 1.5 klant beheert => klant is (co)titularis?
+- 1.5 (M-M) => (N-M)
+- 1.5 splits op in "is titularis" en "is cotitularis"
+
+=== domeinregels
+
+==== DR_GGC
+- Deze domeinregel zegt niets
+
+==== DR_VZR
+- Gaat over afhaling (niet overschrijving)

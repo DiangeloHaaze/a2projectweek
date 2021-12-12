@@ -1,0 +1,84 @@
+== Projectweek : *2*
+
+Eindverantwoordelijke: *Diangelo Haaze*
+
+=== Projectmomenten
+
+|====
+|26/10/2021 | Online via teams | 4 | +- 3 uur
+|28/10/2021 | Online via teams | 4 | +- 2 uur
+|====
+
+=== Activiteiten per groepslid
+
+==== Diangelo Haaze
+
+Heeft samen met Ashkan gewerkt aan buc_zo en buc_so gewerkt. En heeft in groep geholpen met de vragen.
+Hij heeft er  ongeveer 3 uur aan gewerkt.
+
+
+==== Thibo Frans
+
+Heeft samen met Muhammed gewerkt aan het verbeteren van buc_ga, buc_gs en de domeinregels.
+En heeft geholpen met de vragen. Hij heeft hier ongeveer drie uur aan gewerkt.
+
+==== Muhammed Utkucu
+
+Heeft samen met Thibo gewerkt aan het verbeteren van buc_ga, buc_gs en de domeinregels.
+En heeft geholpen met de vragen. Hij heeft hier ongeveer drie uur aan gewerkt.
+
+==== Ashkan Amiri
+
+Heeft samen met Diangelo gewerkt aan buc_zo en buc_so gewerkt. En heeft in groep geholpen met de vragen.
+Hij heeft er ongeveer 3 uur aan gewerkt.
+
+
+
+
+
+- Versie 1 : Projectweek 2 ( 28-10-2021)
+
+
+
+
+
+
+== Projectweek : *4*
+
+Eindverantwoordelijke: *Muhammed Utkucu*
+
+=== Projectmomenten
+
+|====
+|16/11/2021 | Online via teams | 4 | 3 uur
+|19/11/2021 | Online via teams | 4 | 1.5 uur
+|====
+
+=== Activiteiten per groepslid
+
+==== Diangelo Haaze
+
+Heeft samen met Ashkan gewerkt aan buc_goi en domain sample. En heeft in groep geholpen met de vragen.
+Hij heeft er 4 uur voor aan gewerkt.
+
+
+==== Thibo Frans
+
+Heeft samen met Muhammed gewerkt en hebben de scenarios geschreven en de feedback verwerkt.
+En hij heeft ook geholpen met de vragen. Hij heeft hiervoor 4 uur aan gewerkt.
+
+==== Muhammed Utkucu
+
+Heeft samen met Thibo gewerkt en hebben de scenarios geschreven en de feedback verwerkt.
+En hij heeft ook geholpen met de vragen. Hij heeft hiervoor 4 uur aan gewerkt.
+
+==== Ashkan Amiri
+
+Heeft samen met Diangelo gewerkt aan buc_goi en domain sample. En heeft in groep geholpen met de vragen.
+Hij heeft hiervoor 4 uur aan gewerkt.
+
+
+
+
+
+- Versie 2 : Projectweek 4 ( 16-11-2021)

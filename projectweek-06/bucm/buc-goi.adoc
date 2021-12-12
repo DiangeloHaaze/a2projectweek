@@ -9,23 +9,24 @@ De KLANT is al geïdentificeerd
 
 === Basis pad
 . De KLANT wilt geld overschrijven.
-. De MEDEWERKER vraagt de KLANT zijn rekeningnummer.
-. De KLANT geeft zijn rekeningnummer aan de MEDEWERKER.
-. De MEDEWERKER gaat na of de KLANT een geldige rekening heeft opgegeven. => link:domeinregels.adoc[DR_OGR,window=blank]
-. De MEDEWERKER gaat na of de KLANT een zichtrekening heeft opgegeven. => link:domeinregels.adoc[DR_VZR,window=blank]
-. De MEDEWERKER gaat na of de KLANT (co-)titualris is. => link:domeinregels.adoc[DR_VTR,window=blank]
+. De MEDEWERKER vraagt de KLANT het rekeningnummer van de uitgaande rekening.
+. De KLANT geeft het rekeningnummer van de uitgaande rekening.
+. De MEDEWERKER gaat na of de KLANT een geldig uitgaand rekeningnummer heeft opgegeven. => link:domeinregels.adoc[DR_OGR,window=blank]
+. De MEDEWERKER gaat na of de KLANT (co-)titularis is van de uitgaande rekening. => link:domeinregels.adoc[DR_OTR,window=blank]
+. De MEDEWERKER vraagt de KLANT het rekeningnummer van de ontvangende rekening.
+. De KLANT geeft het rekeningnummer van de ontvangende rekening.
+. De MEDEWERKER gaat na of de KLANT een geldig ontvangend rekeningnummer heeft opgegeven. => link:domeinregels.adoc[DR_IOGR,window=blank]
+. De MEDEWERKER gaat na of de KLANT (co-)titularis is van de ontvangende rekening.
+. De MEDEWERKER gaat na of de uitgaande rekening een zichtrekening is. => link:domeinregels.adoc[DR_OZR,window=blank]
 . De MEDEWERKER vraagt de KLANT hoeveel geld hij wil overschrijven.
-. De KLANT geeft aan hoeveel geld hij wil overschrijven.
+. De KLANT geeft aan hoevel geld hij wil overschrijven.
 . De MEDEWERKER gaat na of de KLANT genoeg geld heeft voor de overschrijving. => link:domeinregels.adoc[DR_VMB,window=blank]
-. De MEDEWERKER vraagt aan de KLANT naar welk rekeningnummer hij wil overschrijven. 
-. De KLANT geeft het begunstigde rekeningnummer aan de MEDEWERKER.
-. De MEDEWERKER gaat na of de rekeningnummer geldig is. => link:domeinregels.adoc[DR_IOGR,window=blank]
-. De MEDEWERKER verricht de overschrijving.=> link:domeinregels.adoc[DR_VSR,window=blank]
-. De MEDEWERKER noteert de transactie in de boekhouding. => link:domeinregels.adoc[DR_VIB,window=blank]
+. De MEDEWERKER verricht de overschrijving.
+. De MEDEWERKER noteerd de transactie in de boekhouding. => link:domeinregels.adoc[DR_VIB,window=blank]
 . De use case eindigt.
 
 ==== Postconditie
-de klant heeft het geld overgeschreven naar de gewenste rekening.
+De KLANT heeft het geld overgeschreven naar de gewenste rekening.
 
 === Alternatief A: Stoppen
 . De KLANT kan op elk moment beslissen om te stoppen.
@@ -35,26 +36,17 @@ de klant heeft het geld overgeschreven naar de gewenste rekening.
 ==== Postconditie
 Niets gewijzigd.
 
-=== Alternatief B: De opgegeven rekening is niet geldig.
+=== Alternatief B: De uitgaande rekening is niet geldig.
 [start = 4]
-. De MEDEWERKER stelt vast dat de opgegeven rekening niet geldig is.
+. De MEDEWERKER stelt vast dat de uitgaande rekening niet geldig is.
 . De MEDEWERKER informeert de KLANT hierover.
 . De use case eindigt.
 
 ==== Postconditie
 Niets gewijzigd
 
-=== Alternatief C: De opgegeven rekening is geen zichtrekening.
+=== Alternatief C: KLANT heeft geen toegang tot de uitgaande rekening.
 [start = 5]
-. De MEDEWERKER stelt vast dat de opgegeven rekening geen zichtrekening is.
-. De MEDEWERKER informeert de KLANT hierover.
-. De use case eindigt.
-
-==== Postconditie
-Niets gewijzigd
-
-=== Alternatief D: KLANT heeft geen toegang tot de rekening.
-[start = 6]
 . De MEDEWERKER stelt vast dat de KLANT geen (co-)titularis is.
 . De MEDEWERKER informeert de KLANT hierover.
 . De use case eindigt.
@@ -62,19 +54,31 @@ Niets gewijzigd
 ==== Postconditie
 Niets gewijzigd
 
-=== Alternatief E: KLANT heeft onvoldoende saldo.
+=== Alternatief D: De ontvangende rekening is niet geldig.
+[start = 8]
+. De MEDEWERKER stelt vast dat de ontvangende rekening niet geldig is.
+. De MEDEWERKER informeert de KLANT hierover.
+. De use case eindigt.
+
+==== Postconditie
+Niets gewijzigd
+
+=== Alternatief E: KLANT is _wel_ (co-)titularis van de ontvangende rekening
 [start = 9]
-. De MEDEWERKER merkt op dat de KLANT een te groot bedrag wilt afhalen.
-. De MEDEWERKER informeert de KLANT hierover.
-. De use case gaat verder met stap 7 van het basispad.
+. De MEDEWERKER stelt vast dat de KLANT wel (co-)titularis van de ontvangende rekening is.
+. De use case gaat verder in stap 11 van het basispad.
 
-=== Alternatief F: De opgegeven rekening van de begunstige is niet geldig.
-[start = 12]
-. De MEDEWERKER stelt vast dat de opgegeven rekening niet geldig is.
-. De MEDEWERKER informeert de KLANT hierover.
-. De use case gaat verder vanaf stap 10 van het basispad.
+=== Alternatief F: De uitgaande rekening is geen zichtrekening.
+[start = 10]
+. De MEDEWERKER stelt vast dat de uitgaande rekening geen zichtrekening is.
+. De MEDEWERKER informeert de klant hierover.
+. De use case eindigt.
 
-=== Alternatief G: De KLANT kan niet overschrijven naar een spaarrekening
- [start = 13]
-. De MEDEWERKER stelt vast dat de verrichting niet kan.
-. . De use case gaat verder vanaf stap 14 van het basispad.
+==== Postconditie
+Niets gewijzigd
+
+=== Alternatief G: KLANT wil een te groot bedrag overschrijven.
+[start = 13]
+. De MEDEWERKER merkt op dat de KLANT een te groot bedrag wil overschrijven.
+. De MEDEWERKER informeert de KLANT hierover.
+. De use case gaat verder met stap 11 van het basispad.
