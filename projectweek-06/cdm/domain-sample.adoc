@@ -3,17 +3,17 @@
 === Klanten
 
 * Diangelo
-    ** rijksregisternummer: 95.00.02
+    ** rijksregisternummer: BE.95.00.02
 * Ashkan 
-    ** rijksregisternummer: 96.01.06
+    ** rijksregisternummer: BE.96.01.06
 * Thibo 
-    ** rijksregisternummer: 97.02.07
+    ** rijksregisternummer: BE.97.02.07
 * Muhammed 
-    ** rijksregisternummer: 99.03.03
+    ** rijksregisternummer: BE.99.03.03
 * Toon
-    ** rijksregisternummer: 08.04.08
+    ** rijksregisternummer: BE.08.04.08
 * Arno
-    ** rijksregisternummer: 1234hoedjevanpapier
+    ** rijksregisternummer: NL.01.23.45
 
 === Rekeningen
 

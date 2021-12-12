@@ -1,4 +1,5 @@
 :toc:
+:toclevels: 5
 
 == Afspraken vooraf
 
@@ -37,10 +38,27 @@ De rekening is een middel waarop de klant transacties kan verrichten.
 
 * rekeningnummer: Tekst, Uniek
     ** Dit is de unieke aangemaakte rekening die uit een landcode en 10 cijfers bestaat.
+
+===== Constraints
+
+==== Subtypes (rekening)
+
+===== Spaarrekening
+
+====== Attributen
+
+* rentevoet: Numeriek
+    ** Bepaalt hoeveel rente je krijgt
+
+===== Zichtrekening
+
+====== Attributen
+
 * kredietlimiet: Numeriek
     ** Is een maximum dat je mag opnemen van je rekening.
 
-===== Constraints
+* kredietvoet: Numeriek
+    ** Bepaalt hoeveel een opgenomen krediet kost.
 
 === Transactie
 
@@ -50,8 +68,10 @@ In het logboek worden alle gegevens over de verrichtingen bijgehouden.
 
 * tijdstip: Datum en Tijd
     ** Tijdstip van de transactie.
-* rekening: Tekst
-    ** Dit is de rekening van de klant. 
+* uitgaande rekening: Tekst
+    ** Dit is de uitgaande rekening van de klant. 
+* ontvangende rekening: Tekst, Optioneel 
+    ** Dit is de ontvangende rekening van de klant. 
 * bedrag: Numeriek
     ** Het bedrag waarmee je de transactie mee uitvoert.
 * locatie: Tekst
@@ -75,10 +95,9 @@ De klant is cotitularis van geen of meer rekeningen.
 * Elke klant (rol: cotitularis) kan cotitularis zijn van één of meerdere rekeningen.
 * Elke rekening kan één of meerdere cotitularissen hebben.
 
-=== Transactie-Rekening (1-N)
+=== Transactie-Rekening (N-M)
 
-Een transactie bevat gegevens van één rekening
+Een transactie bevat gegevens van één of meerdere rekening
 
-* Elke transactie moet gegevens over één en enkel één rekening bevatten.
+* Elke transactie moet gegevens over één of meerdere rekening bevatten.
 * Elke rekening kan één of meerdere transacties bevatten.
-
