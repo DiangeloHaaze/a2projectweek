@@ -29,12 +29,12 @@
     ** Kredietlimiet: 50
     ** Titularis: Diangelo
     ** Cotitularissen: geen
-* BE00
+* BE02
     ** Spaarrekening
     ** Saldo: 1000
     ** Titularis: Thibo
     ** Cotitularissen: geen
-* BE00
+* BE03
     ** Spaarrekening
     ** Saldo: 10000
     ** Titularis: Muhammed

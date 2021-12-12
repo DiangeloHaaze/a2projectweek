@@ -82,3 +82,33 @@ Niets gewijzigd
 . De MEDEWERKER merkt op dat de KLANT een te groot bedrag wil overschrijven.
 . De MEDEWERKER informeert de KLANT hierover.
 . De use case gaat verder met stap 11 van het basispad.
+
+=== Representatieve Scenario’s
+
+==== SC-GOI-001 Basis Pad
+*Ashkan* wil 100 euro overschrijven van *BE00* naar *BE01*.
+Dit scenario volgt het basispad tot het einde.
+
+==== SC-GOI-002 Uitgaande Rekening is niet geldig
+*Diangelo* wil 100 euro overschrijven van *BE69* naar *BE00*.
+Dit scenario volgt het basispad tot in stap 4 en schakelt dan over naar alternatief B.
+
+==== SC-GOI-003 Klant heeft geen toegang tot de uitgaande rekening
+*Thibo* wil 100 euro overschrijven van *BE01* naar *BE00*.
+Dit scenario volgt het basispad tot in stap 5 en schakelt dan over naar alternatief C.
+
+==== SC-GOI-004 De ontvangende rekening is niet geldig
+*Diangelo* wil 100 euro overschrijven van *BE01* naar *BE69*.
+Dit scenario volgt het basispad tot in stap 8 en schakelt dan over naar alternatief D.
+
+==== SC-GOI-005 De Klant is WEL (co-)titularis van de ontvangende rekening
+*Diangelo* wil 100 euro overschrijven van *BE01* naar *BE00*.
+Dit scenario volgt het basispad tot in stap 9 en schakelt dan over naar alternatief E.
+
+==== SC-GOI-006 De uitgaande rekening is geen zichtrekening
+*Thibo* wil 100 euro overschrijven van *BE02* naar *BE01*.
+Dit scenario volgt het basispad tot in stap 10 en schakelt dan over naar alternatief F.
+
+==== SC-GOI-007 De klant wil een te groot bedrag overschrijven
+*Ashkan* wil 2000 euro overschrijven van *BE00* naar *BE01*.
+Dit scenario volgt het basispad tot in stap 13 en schakelt dan over naar alternatief G.
