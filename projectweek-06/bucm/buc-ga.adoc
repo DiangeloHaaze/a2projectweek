@@ -64,7 +64,7 @@ Niets gewijzigd
 [start = 9]
 . De MEDEWERKER merkt op dat de KLANT een te groot bedrag wilt afhalen.
 . De MEDEWERKER informeert de KLANT hierover.
-. De use case gaat verder met stap 8 van het basispad.
+. De use case gaat verder met stap 7 van het basispad.
 
 
 

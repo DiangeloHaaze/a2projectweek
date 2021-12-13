@@ -15,7 +15,7 @@ De KLANT is niet geïdentificeerd
 . De MEDEWERKER controleert het rijksregisternummer. => link:domeinregels.adoc[DR_RKR,window=blank]
 . De MEDEWERKER controleert de geboortedatum. => link:domeinregels.adoc[DR_RKM,window=blank]
 . De MEDEWERKER noteert de gegevens.
-. De MEDEWERKER geeft de identiteitskaart terug aan KLANT.
+. De MEDEWERKER geeft de identiteitskaart terug aan de KLANT.
 . De use case eindigt.
 
 ==== Postconditie
@@ -33,6 +33,7 @@ Niets gewijzigd.
 [start = 4]
 . De MEDEWERKER merkt dat de klant niet overeenkomt met de foto op de identiteitskaart.
 . De MEDEWERKER informeert de KLANT hierover.
+. De MEDEWERKER geeft de identiteitskaart terug aan de KLANT.
 . De use case eindigt.
 
 ==== Postconditie
@@ -42,6 +43,7 @@ Niets gewijzigd.
 [start=5]
 . De MEDEWERKER merkt dat de identiteitskaart geen Belgisch rijksregisternummer vermeldt.
 . De MEDEWERKER informeert de KLANT hierover.
+. De MEDEWERKER geeft de identiteitskaart terug aan de KLANT.
 . De use case eindigt.
 
 ==== Postconditie
@@ -51,6 +53,7 @@ Niets gewijzigd.
 [start=6]
 . De MEDEWERKER merkt dat de KLANT minderjarig is.
 . De MEDEWERKER informeert de KLANT hierover.
+. De MEDEWERKER geeft de identiteitskaart terug aan de KLANT.
 . De use case eindigt.
 
 ==== Postconditie
@@ -75,5 +78,5 @@ Dit scenario volgt het basispad tot stap 4 en schakelt dan over naar alternatief
 Dit scenario volgt het basispad tot stap 5 en schakelt dan over naar alternatief C.
 
 ==== SC-KR-005 Klant is minderjarig
-*Toon* wilt geregistreerd worden.
+*Toon* wilt geregistreerd worden, maar hij is minderjarig.
 Dit scenario volgt het basispad tot stap 6 en schakelt dan over naar alternatief D.
