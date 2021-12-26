@@ -27,6 +27,14 @@ Alle personen waartoe we de klantgegevens geregistreerd hebben.
     ** De voornaam van deze klant.
 * geboortedatum: Datum
     ** De geboortedatum van deze klant.
+* straatnaam: Tekst
+    ** De straatnaam van het adres van deze klant.
+* huisnummer: Tekst
+    ** Het huisnummer van het adres van deze klant.
+* postcode: Tekst
+    ** De postcode van het adres van deze klant.
+* gemeente: Tekst
+    ** De gemeente van het adres van deze klant.
 
 
 === Rekening
@@ -38,52 +46,67 @@ De rekening is een middel waarop de klant transacties kan verrichten.
 * rekeningnummer: Tekst, Uniek
     ** Dit is de unieke aangemaakte rekening die uit een landcode en 10 cijfers bestaat.
 
+=== Spaarrekening (subtype van Rekening)
+
+Een spaarrekening is een soort Rekening waarmee klanten kunnen sparen. 
+
+==== Attributen
+
+/
+
+=== Zichtrekening (subtype van Rekening)
+
+Een zichtrekening is een rekening waarmee klanten kunnen transacties kunnen verrichten.
+
+==== Attributen
+
+* kredietlimiet: Numeriek, verplicht
+    ** De kredietlimiet bepaalt hoeveel een klant onder nul kan gaan op zijn rekening.
 
 === Transactie
 
 in het logboek worden alle gegevens over de verrichtingen bijgehouden.
 
 ==== Attributen
-* tijdstip : DateTime, niet uniek : tijdstip van de transactie.
-* bedrag : Numeriek , niet uniek : het bedrag dat wordt overgeschreven.
-* locatie : text, tekst niet uniek : locatie waar de transactie plaatsvindt.
-* Commentaar : Tekst niet uniek.
-
-=== Titularis 
-Een persoon die de rekening beheerd.
-
-==== Attributen
-/
-
-=== Co-titularis 
-Een persoon/meerdere personen die de rekening co-beheren.
-
-===== Attributen
-/
-
+* tijdstip : DateTime 
+    ** Het tijdstip van de transactie.
+* bedrag : Numeriek
+    ** Het bedrag dat wordt overgeschreven.
+* locatie : Tekst
+    ** De locatie waar de transactie plaatsvindt.
+* Commentaar : Tekst, Optioneel
+    ** Een optionele commentaar door de klant op te geven.
 
 == Relaties
 
-=== Klant-Rekening (1-1)
+=== Klant-Rekening (1-N)
 
 De klanten die toegang hebben tot een rekening moeten co-titularis of titularis zijn.
 
-* Elke klant moet minstens titularis zijn van één of meerdere rekeningen. (rol : titularis)
-* Elke rekening moet één en enkel één titularis hebben.
+* Elke klant is titularis van nul of meerdere rekeningen. (rol : titularis)
+* Elke rekening heeft exact één titularis.
 
 === Klant-Rekening (N-M)
 
 De klanten die toegang hebben tot een rekening moeten co-titularis of titularis zijn.
 
-* Elke klant kan cotitularis zijn van één of meerdere rekeningen. (rol:co-titularis)
-* Elke rekening kan één of meerdere cotitularissen hebben.
+* Elke klant is cotitularis van één of meerdere rekeningen. (rol:co-titularis)
+* Elke rekening heeft één of meerdere cotitularissen.
 
+==== Constraint
+
+* Een rekening kan maximum 2 cotitularissen hebben.
 
 === Transactie-Rekening (1-N)
 
-Een transactie bevat gegevens over de transactie uitgevoerd. 
+Een transactie heeft een rekening (rol: uitgaande rekening).
 
-* Een transactie mag/kan één of meerdere transacties bevatten.
-* Elke transactie bevat één en slechts één rekening.
- 
+* Een uitgaande rekening bevat nul of meer transacties.
+* Elke transactie heeft nul of één uitgaande rekening.
 
+=== Transactie-Rekening (1-N)
+
+Een transactie heeft een rekening (rol: ontvangende rekening).
+
+* Een ontvangende rekening bevat nul of meer transacties.
+* Elke transactie heeft nul of één ontvangende rekening.

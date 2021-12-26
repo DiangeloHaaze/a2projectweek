@@ -46,7 +46,7 @@
 	Een rekening buiten de vsb. 
 * BE122 
     ** Rekening : ongeldig
-  		Een rekening die niet geldig is.
+  		Een rekening die niet geldig is en we vaak gebruiken.
 
 	 
 	
