@@ -63,6 +63,14 @@ Een zichtrekening is een rekening waarmee klanten kunnen transacties kunnen verr
 * kredietlimiet: Numeriek, verplicht
     ** De kredietlimiet bepaalt hoeveel een klant onder nul kan gaan op zijn rekening.
 
+=== Externe rekening (subtype van Rekening)
+
+Een rekening van een andere bank.
+
+==== Attributen
+
+/
+
 === Transactie
 
 in het logboek worden alle gegevens over de verrichtingen bijgehouden.

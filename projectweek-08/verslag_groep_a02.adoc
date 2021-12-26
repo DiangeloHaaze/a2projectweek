@@ -117,8 +117,75 @@ Hij heeft er 4 uur voor aan gewerkt.
 Heeft samen gewerkt met Thibo, Diangelo, Muhammed met het herwerken van erm.adoc, ERD, feedback en de scenarios.
 Hij heeft er 4 uur voor aan gewerkt.
 
-
-
-
-
 - Versie 3 : Projectweek 6 ( 12-12-2021)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+== Projectweek : *8*
+
+Eindverantwoordelijke: *Thibo Frans*
+
+=== Projectmomenten
+
+|====
+|21/12/2021 | Online via teams | 4 | +- 1 uur
+|26/12/2021 | Online via teams | 4 | +- 2 uur
+|====
+
+=== Activiteiten per groepslid
+
+==== Diangelo Haaze
+
+Hij heeft samen met Ashkan gewerkt aan:
+
+* herwerken feedback van buc_goi, buc_goe
+* herwerken van buc_so en buc_zo tot buc_ro
+
+Hij heeft er  ongeveer 3 uur aan gewerkt.
+
+
+==== Thibo Frans
+
+Heeft samen met Muhammed gewerkt aan:
+
+* herwerken feedback erm
+* het uitbreiden van het erm met geld overschrijven extern
+* maken van een nieuwe ERD
+
+Hij heeft hier ongeveer drie uur aan gewerkt.
+
+==== Muhammed Utkucu
+
+Heeft samen met Thibo gewerkt aan:
+
+* herwerken feedback erm
+* het uitbreiden van het erm met geld overschrijven extern
+* maken van een nieuwe ERD
+
+Hij heeft hier ongeveer drie uur aan gewerkt.
+
+==== Ashkan Amiri
+
+Hij heeft samen met Diangelo gewerkt aan:
+
+* herwerken feedback van buc_goi, buc_goe
+* herwerken van buc_so en buc_zo tot buc_ro
+
+Hij heeft er ongeveer 3 uur aan gewerkt.
+
+
+
+
+
+- Versie 4 : Projectweek 8 ( 26-12-2021)

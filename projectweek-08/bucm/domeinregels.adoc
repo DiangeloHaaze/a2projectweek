@@ -46,7 +46,7 @@ Een overschrijving kan enkel gebeuren indien de uitgaande rekening in de VSB ger
 Een interne overschrijving kan enkel gebeuren indien de ontvangende rekening in de VSB geregistreerd is.
 
 ==== *DR_EOGR* Externe overschrijving Geldige Rekening
-Een externe overschrijving kan enkel gebeuren indien de ontvangende rekening door het IBS wordt herkend.
+Een externe overschrijving kan enkel gebeuren indien de ontvangende rekening door het IBS is geaccepteerd.
 
 ==== *DR_OZR* : Overschrijving naar interne ZichtRekening
 Kan overschrijven vanuit een zichtrekening naar eender welk soort rekening.
