@@ -16,8 +16,7 @@ De KLANT is al geïdentificeerd
 . De MEDEWERKER vraagt de KLANT het rekeningnummer van de ontvangende rekening.
 . De KLANT geeft het rekeningnummer van de ontvangende rekening.
 . De MEDEWERKER gaat na of de KLANT een geldig ontvangend rekeningnummer heeft opgegeven. => link:domeinregels.adoc[DR_IOGR,window=blank]
-. De MEDEWERKER gaat na of de KLANT geen (co-)titularis is van de ontvangende rekening.
-. De MEDEWERKER gaat na of de uitgaande rekening een zichtrekening is. => link:domeinregels.adoc[DR_OZR,window=blank]
+. De medewerker gaat na of de combinatie van bron en doelrekening kloppen. => link:domeinregels.adoc[DR_OZR,window=blank]
 . De MEDEWERKER vraagt de KLANT hoeveel geld hij wil overschrijven.
 . De KLANT geeft aan hoevel geld hij wil overschrijven.
 . De MEDEWERKER gaat na of de KLANT genoeg geld heeft voor de overschrijving. => link:domeinregels.adoc[DR_VMB,window=blank]

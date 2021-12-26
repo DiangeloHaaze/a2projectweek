@@ -27,14 +27,12 @@
 === ERM
 
 
-- klant moet geen titularis zijn, 
+- klant moet geen titularis zijn,
 - voeg contraint toe: max 2 cotitularissen per rekening
 - voeg adres en postcode toe aan Klant
 - opnieuw tekenen , nieuwe relaties
-- attributen aanpassen 
+- attributen aanpassen
 
 === Domeinregels
 
 - domeinregels overschrijving extern en intern aanpassen, ook in buc's
-
-

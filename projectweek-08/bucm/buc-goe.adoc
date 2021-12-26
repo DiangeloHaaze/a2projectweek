@@ -15,12 +15,12 @@ De KLANT is reeds geïdentificeerd
 . De MEDEWERKER gaat na of de KLANT (co-)titularis is van de uitgaande rekening. => link:domeinregels.adoc[DR_OTR,window=blank]
 . De MEDEWERKER vraagt de KLANT het rekeningnummer van de externe ontvangende rekening.
 . De KLANT geeft het rekeningnummer van de extern ontvangende rekening.
-. De MEDEWERKER gaat na of de KLANT een geldig ontvangend rekeningnummer heeft opgegeven. => link:domeinregels.adoc[DR_IOGR,window=blank]
+. De MEDEWERKER gaat na of de KLANT een geldig ontvangend rekeningnummer heeft opgegeven. => link:domeinregels.adoc[DR_EOGR,window=blank]
 . De MEDEWERKER vraagt de KLANT hoeveel geld hij wil overschrijven.
 . De KLANT geeft aan hoeveel geld hij wil overschrijven.
 . De MEDEWERKER gaat na of de KLANT genoeg geld heeft voor de overschrijving. => link:domeinregels.adoc[DR_VMB,window=blank]
-. De MEDEWERKER verricht de overschrijving.
 . De MEDEWERKER noteerd de transactie in de boekhouding. => link:domeinregels.adoc[DR_VIB,window=blank]
+. De MEDEWERKER geeft het datapakket aan IBS door.
 . De use case eindigt.
 
 ==== Postconditie
@@ -61,10 +61,6 @@ Niets gewijzigd
 ==== Postconditie
 Niets gewijzigd
 
-
-==== Postconditie
-Niets gewijzigd
-
 === Alternatief E: KLANT wil een te groot bedrag overschrijven.
 [start = 11]
 . De MEDEWERKER merkt op dat de KLANT een te groot bedrag wil overschrijven.
@@ -73,26 +69,26 @@ Niets gewijzigd
 
 === Representatieve Scenario’s
 
-==== SC-GOI-001 Basis Pad
-*Ashkan* wil 100 euro overschrijven van *BE00* naar *BE69*.
+==== SC-GOE-001 Basis Pad
+*Ashkan* wil 100 euro overschrijven van *BE00* naar *BE04*.
 Dit scenario volgt het basispad tot het einde.
 
-==== SC-GOI-002 Uitgaande Rekening is niet geldig
-*Diangelo* wil 100 euro overschrijven van *B122* naar *BE69*.
+==== SC-GOE-002 Uitgaande Rekening is niet geldig
+*Diangelo* wil 100 euro overschrijven van *BE122* naar *BE04*.
 Dit scenario volgt het basispad tot in stap 4 en schakelt dan over naar alternatief B.
 
-==== SC-GOI-003 Klant heeft geen toegang tot de uitgaande rekening
-*Thibo* wil 100 euro overschrijven van *BE01* naar *BE69*.
+==== SC-GOE-003 Klant heeft geen toegang tot de uitgaande rekening
+*Thibo* wil 100 euro overschrijven van *BE01* naar *BE04*.
 Dit scenario volgt het basispad tot in stap 5 en schakelt dan over naar alternatief C.
 
-==== SC-GOI-004 De ontvangende rekening is niet geldig
+==== SC-GOE-004 De ontvangende rekening is niet geldig
 *Diangelo* wil 100 euro overschrijven van *BE01* naar *BE122*.
 Dit scenario volgt het basispad tot in stap 8 en schakelt dan over naar alternatief D.
 
-==== SC-GOI-006 De uitgaande rekening is geen zichtrekening
-*Thibo* wil 100 euro overschrijven van *BE02* naar *BE69*.
+==== SC-GOE-006 De uitgaande rekening is geen zichtrekening
+*Thibo* wil 100 euro overschrijven van *BE02* naar *BE04*.
 Dit scenario volgt het basispad tot in stap 10 en schakelt dan over naar alternatief F.
 
-==== SC-GOI-007 De klant wil een te groot bedrag overschrijven
-*Ashkan* wil 2000 euro overschrijven van *BE00* naar *BE69*.
+==== SC-GOE-007 De klant wil een te groot bedrag overschrijven
+*Ashkan* wil 2000 euro overschrijven van *BE00* naar *BE04*.
 Dit scenario volgt het basispad tot in stap 13 en schakelt dan over naar alternatief G.

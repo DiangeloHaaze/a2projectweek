@@ -27,7 +27,7 @@ Een financiele verrichting moet altijd bijgehouden worden in de boekhouding; dez
 Een afhaling kan enkel gebeuren indien de uitgaande rekening in de VSB geregistreerd is.
 
 ==== *DR_AZR* : Afhaling ZichtRekening
-Een afhaling kan enkel vanuit een zichtrekening gebeuren. 
+Een afhaling kan enkel vanuit een zichtrekening gebeuren.
 
 ==== *DR_ATR* : Afhaling Toegang Rekening
 Een afhaling kan enkel gebeuren indien de opdrachtgever een (co-)titularis is van de uitgaande rekening.
@@ -49,7 +49,8 @@ Een interne overschrijving kan enkel gebeuren indien de ontvangende rekening in 
 Een externe overschrijving kan enkel gebeuren indien de ontvangende rekening door het IBS wordt herkend.
 
 ==== *DR_OZR* : Overschrijving naar interne ZichtRekening
-Een interne overschrijving van een spaarrekening kan enkel naar een rekening waarvan de opdrachtgever (co)titularis is.
+Kan overschrijven vanuit een zichtrekening naar eender welk soort rekening.
+Overschrijven vanuit een spaarrekening naar een rekening waarvan de opdrachtgever (co)titularis is.
 
 ==== *DR_UTR* : Overschrijving toegang uitgaande rekening.
 Een overschrijving kan enkel gebeuren indien de opdrachtgever een (co-)titularis is van de uitgaande rekening.
