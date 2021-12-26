@@ -1,0 +1,35 @@
+== Projectweek : *7*
+
+Eindverantwoordelijke: *Toon Van de Voorde*
+
+=== Projectmomenten
+
+|====
+|16/12/2021 |	On Campus (Gebouw G) | 4 | +3 uur
+|20/12/2021 | 	On Campus (Gebouw G  | 4 | 1,5u
+|====
+
+=== Activiteiten per groepslid
+
+==== Toon Van de Voorde
+
+Het onderhouden van de documentstructuur, opstellen van de verbeterde ERD's (Visual Paradigm)
+De feedback geheel samen overlopen en gecorrigeerd waar nodig.
+
+
+==== Pieter Daenen
+
+Heeft samen met het team geholpen de buc-goe te creëren en het verbeteren van het domain data model op basis van de
+verkregen feedback. De structuur samen overlopen en geholpen bij het creëren van de gepaste scenario's.
+
+==== Sahsenem Taskapu
+
+Heeft samen met het team geholpen de buc-goe en het verbeteren van het domain data model op basis van de
+verkregen feedback. De structuur samen overlopen en de volledige opdracht overlopen om onduidelijkheden weg te werken. 
+
+
+==== Arno Baert
+
+Heeft een extra inspanning geleverd en samen met het team geholpen de buc-goe alsook de ERD's op te stellen alsook 
+daarnaast geholpen met de lijst van definitieve vragen en antwoorden te vervolledigen. 
+

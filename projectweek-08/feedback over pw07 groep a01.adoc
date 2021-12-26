@@ -1,0 +1,40 @@
+== Feedback 07
+
+=== BUC_GOI
+
+- stap 9 aanpassen
+
+=== BUC_GOE
+
+- DR_IOGR moet DR_EOGR worden
+- noteren is twee maal hetzelfde op eind basispad.
+- lay out in orde maken
+- ddm i.v.m. onbekende rekening bijwerken
+- scenarios herwerken (naam, nummering, inhoud) goi->goe
+
+=== domain sample
+
+- ongeldige rekening => rekeningnummer dat niet geldig is en we vaak gebruiken om
+- kr ook erin verwerken
+
+=== ERD
+
+- splits relatie Transactie-Rekening op in bronrekening en doelrekening
+- geen subtypes voor klant
+- wel subtypes voor spaar/zichtrekening
+- erd relaties aanpassen
+
+=== ERM
+
+
+- klant moet geen titularis zijn, 
+- voeg contraint toe: max 2 cotitularissen per rekening
+- voeg adres en postcode toe aan Klant
+- opnieuw tekenen , nieuwe relaties
+- attributen aanpassen 
+
+=== Domeinregels
+
+- domeinregels overschrijving extern en intern aanpassen, ook in buc's
+
+

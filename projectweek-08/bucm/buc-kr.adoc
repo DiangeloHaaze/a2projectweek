@@ -1,0 +1,59 @@
+== BUC_KR Klant Registreren
+De KLANT wil geregistreerd worden.
+
+=== Actors
+*KLANT*, MEDEWERKER
+
+=== Preconditie
+De KLANT is niet geïdentificeerd 
+
+=== Basis pad
+. De KLANT wil geregistreerd worden.
+. De MEDEWERKER vraagt aan de KLANT zijn identiteitskaart.
+. De KLANT geeft zijn identiteitskaart aan de MEDEWERKER.
+. De MEDEWERKER controleert het rijksregisternummer. => link:domeinregels.adoc[DR_RKR,window=blank]
+. De MEDEWERKER controleert de geboortedatum. => link:domeinregels.adoc[DR_RKM,window=blank]
+. De MEDEWERKER noteert de gegevens.
+. De MEDEWERKER geeft de identiteitskaart terug aan de KLANT.
+. De use case eindigt.
+
+==== Postconditie
+KLANT is geregistreerd en geidentificeerd.
+
+
+
+=== Alternatief A: De klant wil stoppen.
+. De KLANT kan op elk moment beslissen om te stoppen.
+. De MEDEWERKER maakt eventuele wijzigingen ongedaan.
+. De MEDEWERKER geeft de identiteitskaart terug aan de KLANT.
+. De use case eindigt.
+
+==== Postconditie
+Niets gewijzigd.
+
+
+=== Alternatief B: Geen Belgisch rijksregisternummer 
+[start=4]
+. De MEDEWERKER merkt dat de identiteitskaart geen Belgisch rijksregisternummer vermeldt.
+. De MEDEWERKER informeert de KLANT hierover.
+. De MEDEWERKER geeft de identiteitskaart terug aan de KLANT.
+. De use case eindigt.
+
+==== Postconditie
+Niets gewijzigd.
+
+
+=== Alternatief C: De KLANT is minderjarig
+[start=5]
+. De MEDEWERKER merkt dat de KLANT minderjarig is.
+. De MEDEWERKER informeert de KLANT hierover.
+. De MEDEWERKER geeft de identiteitskaart terug aan de KLANT.
+. De use case eindigt.
+
+==== Postconditie
+Niets gewijzigd.
+
+
+
+
+

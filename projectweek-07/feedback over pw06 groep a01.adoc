@@ -1,0 +1,25 @@
+== Feedback 06
+
+=== BUC_ZO & BUC_SO
+
+- Alternatief B weglaten
+- Schrijffouten
+
+=== BUC_GOI
+
+- DR_OZR -> Men kan enkel van spaarrekening naar eigen rekening overschrijven, in domeinregel noteren dat doelrekening dezelfde titularis(co) moet zijn als van de bronrekening 
+- Op elkaar afstemmen, spelfouten controleren (medewerker gaat no of combi van doel en spaarr voldoet)
+- stap 9 aanpassen , de medewerker gaat na of de klant geen co-titularis is (controle omdraaien)
+
+=== ERD
+
+- Kredietvoet/rentevoet is dezelfde voor alle rekeningen dus schrappen
+- Voeg attribuut "commentaar" toe aan Transactie 
+- In ERD géén rekening houden met Foreign Keys.
+- Attributen uitgaande- en ontvangende rekening eruithalen
+- Relatie moet de naam van de entiteitsklasse krijgen
+- 'kan' Is onduidelijk taalgebruik (=nul of meerdere..)
+- De relatie tussen klant en rekening : opsplitsen in twee apparte relaties.
+- Erd relaties aanpassen (-/0)
+
+

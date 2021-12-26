@@ -1,0 +1,89 @@
+:toc:
+:toclevels: 5
+
+== Afspraken vooraf
+
+Om het ERM wat efficiënter te noteren, spreken het volgende af :
+
+* elk attribuut is verplicht tenzij er expliciet "optioneel" bij staat
+* elk attribuut laat dubbels toe, tenzij er expliciet "uniek" bij staat
+* een rol wordt enkel getoond indien zij verschilt van de naam van de entiteitsklasse
+    ** Bv. indien de rol van "Klant" in een relatie gewoon "klant" is dan vermelden we die rol niet
+    ** Bv. indien de rol van "Klant" in een relatie "huurder" is, dan vermelden we die rol wel bij die relatie
+
+== Entiteitsklassen
+
+=== Klant
+
+Alle personen waartoe we de klantgegevens geregistreerd hebben.
+
+==== Attributen
+
+* rijksregisternummer: Tekst, Uniek
+    ** Het rijksregisternummer van deze klant.
+* achternaam: Tekst
+    ** De achternaam van deze klant.
+* voornaam: Tekst
+    ** De voornaam van deze klant.
+* geboortedatum: Datum
+    ** De geboortedatum van deze klant.
+
+
+=== Rekening
+
+De rekening is een middel waarop de klant transacties kan verrichten.
+
+==== Attributen
+
+* rekeningnummer: Tekst, Uniek
+    ** Dit is de unieke aangemaakte rekening die uit een landcode en 10 cijfers bestaat.
+
+
+=== Transactie
+
+in het logboek worden alle gegevens over de verrichtingen bijgehouden.
+
+==== Attributen
+* tijdstip : DateTime, niet uniek : tijdstip van de transactie.
+* bedrag : Numeriek , niet uniek : het bedrag dat wordt overgeschreven.
+* locatie : text, tekst niet uniek : locatie waar de transactie plaatsvindt.
+* Commentaar : Tekst niet uniek.
+
+=== Titularis 
+Een persoon die de rekening beheerd.
+
+==== Attributen
+/
+
+=== Co-titularis 
+Een persoon/meerdere personen die de rekening co-beheren.
+
+===== Attributen
+/
+
+
+== Relaties
+
+=== Klant-Rekening (1-1)
+
+De klanten die toegang hebben tot een rekening moeten co-titularis of titularis zijn.
+
+* Elke klant moet minstens titularis zijn van één of meerdere rekeningen. (rol : titularis)
+* Elke rekening moet één en enkel één titularis hebben.
+
+=== Klant-Rekening (N-M)
+
+De klanten die toegang hebben tot een rekening moeten co-titularis of titularis zijn.
+
+* Elke klant kan cotitularis zijn van één of meerdere rekeningen. (rol:co-titularis)
+* Elke rekening kan één of meerdere cotitularissen hebben.
+
+
+=== Transactie-Rekening (1-N)
+
+Een transactie bevat gegevens over de transactie uitgevoerd. 
+
+* Een transactie mag/kan één of meerdere transacties bevatten.
+* Elke transactie bevat één en slechts één rekening.
+ 
+

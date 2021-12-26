@@ -1,0 +1,55 @@
+== Domeinregels m.b.t. Rekeningen
+
+=== Klant Registreren
+
+==== *DR_RKM* : Registratie Klant Meerderjarig
+Een klant kan enkel geregistreerd worden als hij/zij 18 of ouder is.
+
+==== *DR_RKR* : Registratie Klant Rijksregisternummer
+Een klant kan enkel geregistreerd worden als hij/zij een belgisch rijksregisternummer heeft.
+
+== Domeinregels m.b.t. Verrichtingen
+
+=== Algemene verrichtingen
+
+==== *DR_VMB* : Verrichting MaximumBedrag
+Het maximumbedrag dat men kan verrichten vanuit een rekening is:
+
+* Het resterend saldo indien de rekening een spaarrekening is.
+* Het resterend saldo + de kredietlimiet indien de rekening een zichtrekening is.
+
+==== *DR_VIB* : Verrichting In Boekhouding
+Een financiele verrichting moet altijd bijgehouden worden in de boekhouding; deze transactie bevat de datum, de opdrachtgever, het bedrag, de betrokken rekening(en), de locatie en een optionele commentaar (max 20 karakters).
+
+=== Afhalingen
+
+==== *DR_AGR* : Afhaling Geldige Rekening
+Een afhaling kan enkel gebeuren indien de uitgaande rekening in de VSB geregistreerd is.
+
+==== *DR_AZR* : Afhaling ZichtRekening
+Een afhaling kan enkel vanuit een zichtrekening gebeuren. 
+
+==== *DR_ATR* : Afhaling Toegang Rekening
+Een afhaling kan enkel gebeuren indien de opdrachtgever een (co-)titularis is van de uitgaande rekening.
+
+=== Stortingen
+
+==== *DR_SGR* : Storting Geldige Rekening
+Een storting kan enkel gebeuren indien de ontvangende rekenening in de VSB geregistreerd is.
+
+=== Overschrijvingen
+
+==== *DR_OGR* : Overschrijving Geldige Rekening
+Een overschrijving kan enkel gebeuren indien de uitgaande rekening in de VSB geregistreerd is.
+
+==== *DR_IOGR* : Interne Overschrijving Geldige Rekening
+Een interne overschrijving kan enkel gebeuren indien de ontvangende rekening in de VSB geregistreerd is.
+
+==== *DR_EOGR* Externe overschrijving Geldige Rekening
+Een externe overschrijving kan enkel gebeuren indien de ontvangende rekening door het IBS wordt herkend.
+
+==== *DR_OZR* : Overschrijving naar interne ZichtRekening
+Een interne overschrijving van een spaarrekening kan enkel naar een rekening waarvan de opdrachtgever (co)titularis is.
+
+==== *DR_UTR* : Overschrijving toegang uitgaande rekening.
+Een overschrijving kan enkel gebeuren indien de opdrachtgever een (co-)titularis is van de uitgaande rekening.

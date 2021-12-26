@@ -1,0 +1,26 @@
+== Feedback 06
+
+=== BUC_ZO
+
+- Alternatief B niet nodig
+- "Eindigd" moet "eindigt" zijn
+
+=== BUC_GOI
+
+- stap 9 moet ook domeinregel krijgen
+- stap 9 controle omdraaien (klant is GEEN (co-)titularis)
+
+=== ERD/ERM
+
+- kredietvoet/rentevoet niet onthouden bij elke rekening (is dezelfde voor alle rekeningen)
+- voeg attribuut "commentaar" toe aan Transactie
+- relatie Transactie-Rekening staat er dubbel (er zijn ook attributen van de rekeningen in de transactie)
+- relatie moet de naam van de entiteitsklasse krijgen, niet van de rol
+- pas kan/moet aan naar geen of meer/een of meer
+- splits de relatie Transactie-Rekening op in twee
+
+=== Domeinregels
+
+==== DR_OZR
+
+- Domeinregel is niet correct

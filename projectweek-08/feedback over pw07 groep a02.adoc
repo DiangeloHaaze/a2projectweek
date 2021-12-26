@@ -1,0 +1,40 @@
+== Feedback 07
+
+=== BUC_GOI
+
+- neem stap 9 en 10 samen tot "de medewerker gaat na of de combinatie van bron en doelrekening kloppen"
+
+=== BUC_GOE
+
+- DR_IOGR moet DR_EOGR worden
+- Kan niet overschrijven naar spaarrekening
+- overschrijving verrichten is hetzelfde als noteren in boekhouding
+- twee postcondities?
+- BE69 => BE122
+- scenarios herwerken (naam, nummering, inhoud)
+- medewerker geeft ook een datapakket aan het IBS
+
+=== domain sample
+
+- ongeldige rekening => rekeningnummer dat niet geldig is en we vaak gebruiken voor...
+
+=== ERD
+
+- splits relatie Transactie-Rekening op in bronrekening en doelrekening
+- geen subtypes voor klant
+- wel subtypes voor spaar/zichtrekening
+
+=== ERM
+
+- voeg adres en postcode toe aan Klant
+- Rekening: locatie: tekst staat dubbel
+- Bij subtypes het supertype aangeven
+- kan/moet vervangen door nul/een
+- klant moet geen titularis zijn
+- voeg contraint toe: max 2 cotitularissen per rekening
+
+=== Domeinregels
+
+==== DR_EOGR
+
+- "door het IBS herkent" veranderen

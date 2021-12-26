@@ -1,0 +1,57 @@
+== Domain Samples
+
+=== Klanten
+
+* Diangelo
+    ** rijksregisternummer: BE.95.00.02
+* Ashkan 
+    ** rijksregisternummer: BE.96.01.06
+* Thibo 
+    ** rijksregisternummer: BE.97.02.07
+* Muhammed 
+    ** rijksregisternummer: BE.99.03.03
+* Toon
+    ** rijksregisternummer: BE.08.04.08
+* Arno
+    ** rijksregisternummer: NL.01.23.45
+
+
+=== Rekeningen
+
+* BE00
+    ** Zichtrekening
+    ** Saldo: 1000
+    ** Kredietlimiet: 500
+    ** Titularis: Ashkan
+    ** Cotitularissen: Diangelo
+	
+* BE01
+    ** Zichtrekening
+    ** Saldo: 100
+    ** Kredietlimiet: 50
+    ** Titularis: Diangelo
+    ** Cotitularissen: geen
+* BE02
+    ** Spaarrekening
+    ** Saldo: 1000
+    ** Titularis: Thibo
+    ** Cotitularissen: geen
+* BE03
+    ** Spaarrekening
+    ** Saldo: 10000
+    ** Titularis: Muhammed
+    ** Cotitularissen: Thibo
+* BE04 
+    ** Rekening : extern
+	Een rekening buiten de vsb. 
+* BE122 
+    ** Rekening : ongeldig
+  		Een rekening die niet geldig is.
+
+	 
+	
+
+=== Andere data
+
+* Kredietvoet van zichtrekeningen is 8%.
+* Rentevoet van spaarrekeningen is 2%.
