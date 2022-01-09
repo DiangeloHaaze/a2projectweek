@@ -42,11 +42,10 @@ Niets gewijzigd.
 ==== Postconditie
 Niets gewijzigd.
 
-
 === Alternatief C: De KLANT wil een spaarrekening openen.
 [start = 6]
 
-. De Klant wenst een spaarrekening te openen.
+. De KLANT wenst een spaarrekening te openen.
 . De MEDEWERKER informeert de KLANT over de intrestvoet.
 . De MEDEWERKER genereert een uniek rekenignummer voor de klant.
 . De MEDEWERKER geeft het rekeningnummer aan de KLANT door.
@@ -72,3 +71,4 @@ Dit scenario volgt het basispad tot in stap 6 en schakelt dan over naar alternat
 ==== SC-RO-004 Spaarrekening Openen met 1 co-titularis
 *Muhammed* wilt een spaarrekening met *Thibo* als co-titularis openen.
 Dit scenario volgt het basispad tot in stap 6 en schakelt dan over naar alternatief C.
+

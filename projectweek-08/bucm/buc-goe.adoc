@@ -20,7 +20,7 @@ De KLANT is reeds geïdentificeerd
 . De KLANT geeft aan hoeveel geld hij wil overschrijven.
 . De MEDEWERKER gaat na of de KLANT genoeg geld heeft voor de overschrijving. => link:domeinregels.adoc[DR_VMB,window=blank]
 . De MEDEWERKER noteerd de transactie in de boekhouding. => link:domeinregels.adoc[DR_VIB,window=blank]
-. De MEDEWERKER geeft het datapakket aan IBS door.
+. De MEDEWERKER geeft het datapakket aan het IBS door.
 . De use case eindigt.
 
 ==== Postconditie
@@ -92,3 +92,4 @@ Dit scenario volgt het basispad tot in stap 10 en schakelt dan over naar alterna
 ==== SC-GOE-007 De klant wil een te groot bedrag overschrijven
 *Ashkan* wil 2000 euro overschrijven van *BE00* naar *BE04*.
 Dit scenario volgt het basispad tot in stap 13 en schakelt dan over naar alternatief G.
+

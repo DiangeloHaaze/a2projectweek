@@ -16,7 +16,7 @@ De KLANT is al geïdentificeerd
 . De MEDEWERKER vraagt de KLANT het rekeningnummer van de ontvangende rekening.
 . De KLANT geeft het rekeningnummer van de ontvangende rekening.
 . De MEDEWERKER gaat na of de KLANT een geldig ontvangend rekeningnummer heeft opgegeven. => link:domeinregels.adoc[DR_IOGR,window=blank]
-. De medewerker gaat na of de combinatie van bron en doelrekening kloppen. => link:domeinregels.adoc[DR_OZR,window=blank]
+. De medewerker gaat na of de combinatie van bron en doelrekening kloppen. => link:domeinregels.adoc[DR_IOCR,window=blank]
 . De MEDEWERKER vraagt de KLANT hoeveel geld hij wil overschrijven.
 . De KLANT geeft aan hoevel geld hij wil overschrijven.
 . De MEDEWERKER gaat na of de KLANT genoeg geld heeft voor de overschrijving. => link:domeinregels.adoc[DR_VMB,window=blank]
@@ -89,7 +89,7 @@ Niets gewijzigd
 Dit scenario volgt het basispad tot het einde.
 
 ==== SC-GOI-002 Uitgaande Rekening is niet geldig
-*Diangelo* wil 100 euro overschrijven van *BE69* naar *BE00*.
+*Diangelo* wil 100 euro overschrijven van *BE122* naar *BE00*.
 Dit scenario volgt het basispad tot in stap 4 en schakelt dan over naar alternatief B.
 
 ==== SC-GOI-003 Klant heeft geen toegang tot de uitgaande rekening
@@ -97,7 +97,7 @@ Dit scenario volgt het basispad tot in stap 4 en schakelt dan over naar alternat
 Dit scenario volgt het basispad tot in stap 5 en schakelt dan over naar alternatief C.
 
 ==== SC-GOI-004 De ontvangende rekening is niet geldig
-*Diangelo* wil 100 euro overschrijven van *BE01* naar *BE69*.
+*Diangelo* wil 100 euro overschrijven van *BE01* naar *BE122*.
 Dit scenario volgt het basispad tot in stap 8 en schakelt dan over naar alternatief D.
 
 ==== SC-GOI-005 De Klant is WEL (co-)titularis van de ontvangende rekening
@@ -111,3 +111,4 @@ Dit scenario volgt het basispad tot in stap 10 en schakelt dan over naar alterna
 ==== SC-GOI-007 De klant wil een te groot bedrag overschrijven
 *Ashkan* wil 2000 euro overschrijven van *BE00* naar *BE01*.
 Dit scenario volgt het basispad tot in stap 13 en schakelt dan over naar alternatief G.
+

@@ -55,3 +55,4 @@
 
 * Kredietvoet van zichtrekeningen is 8%.
 * Rentevoet van spaarrekeningen is 2%.
+

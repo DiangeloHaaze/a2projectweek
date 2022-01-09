@@ -1,6 +1,3 @@
-:toc:
-:toclevels: 5
-
 == Afspraken vooraf
 
 Om het ERM wat efficiënter te noteren, spreken het volgende af :
@@ -35,7 +32,6 @@ Alle personen waartoe we de klantgegevens geregistreerd hebben.
     ** De postcode van het adres van deze klant.
 * gemeente: Tekst
     ** De gemeente van het adres van deze klant.
-
 
 === Rekening
 
@@ -89,16 +85,16 @@ in het logboek worden alle gegevens over de verrichtingen bijgehouden.
 
 === Klant-Rekening (1-N)
 
-De klanten die toegang hebben tot een rekening moeten co-titularis of titularis zijn.
+Een rekening wordt beheerd door een klant (rol : titularis).
 
-* Elke klant is titularis van nul of meerdere rekeningen. (rol : titularis)
+* Elke klant is titularis van nul of meerdere rekeningen.
 * Elke rekening heeft exact één titularis.
 
 === Klant-Rekening (N-M)
 
-De klanten die toegang hebben tot een rekening moeten co-titularis of titularis zijn.
+Een rekening kan worden beheerd door een of meerdere klanten (rol:cotitularis).
 
-* Elke klant is cotitularis van één of meerdere rekeningen. (rol:co-titularis)
+* Elke klant is cotitularis van één of meerdere rekeningen.
 * Elke rekening heeft één of meerdere cotitularissen.
 
 ==== Constraint
@@ -118,3 +114,4 @@ Een transactie heeft een rekening (rol: ontvangende rekening).
 
 * Een ontvangende rekening bevat nul of meer transacties.
 * Elke transactie heeft nul of één ontvangende rekening.
+

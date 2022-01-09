@@ -49,3 +49,4 @@ Dit scenario volgt het basispad tot op het moment dat Diangelo beslist om te sto
 ==== SC-GA-003 Ongeldig rekeningnummer
 *Diangelo* wil 100 euro storten op zichtrekening *BE02*, De medewerker merkt op dat Diangelo zijn rekeningnummer ongeldig is en informeert hem hierover. 
 Dit scenario volgt het basispad tot in stap 4, en schakelt dan over naar alternatief B.
+

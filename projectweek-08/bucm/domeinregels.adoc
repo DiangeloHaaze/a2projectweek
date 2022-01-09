@@ -42,15 +42,18 @@ Een storting kan enkel gebeuren indien de ontvangende rekenening in de VSB gereg
 ==== *DR_OGR* : Overschrijving Geldige Rekening
 Een overschrijving kan enkel gebeuren indien de uitgaande rekening in de VSB geregistreerd is.
 
-==== *DR_IOGR* : Interne Overschrijving Geldige Rekening
-Een interne overschrijving kan enkel gebeuren indien de ontvangende rekening in de VSB geregistreerd is.
-
 ==== *DR_EOGR* Externe overschrijving Geldige Rekening
 Een externe overschrijving kan enkel gebeuren indien de ontvangende rekening door het IBS is geaccepteerd.
 
-==== *DR_OZR* : Overschrijving naar interne ZichtRekening
-Kan overschrijven vanuit een zichtrekening naar eender welk soort rekening.
-Overschrijven vanuit een spaarrekening naar een rekening waarvan de opdrachtgever (co)titularis is.
+==== *DR_IOGR* : Interne Overschrijving Geldige Rekening
+Een interne overschrijving kan enkel gebeuren indien de ontvangende rekening in de VSB geregistreerd is.
 
-==== *DR_UTR* : Overschrijving toegang uitgaande rekening.
+==== *DR_IOCR* : Interne Overschrijving Combinatie Rekening
+Een overschrijving kan enkel gebeuren indien een van de volgende voorwaarden voldaan is:
+
+* De uitgaande rekening is een zichtrekening.
+* De uitgaande rekening is een spaarrekening _en_ de opdrachtgever is ook titularis van de ontvangende rekening.
+
+==== *DR_OTR* : Overschrijving toegang uitgaande rekening.
 Een overschrijving kan enkel gebeuren indien de opdrachtgever een (co-)titularis is van de uitgaande rekening.
+

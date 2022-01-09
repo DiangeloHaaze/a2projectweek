@@ -80,11 +80,11 @@ Dit scenario volgt het basispad tot het einde.
 Dit scenario volgt het basispad tot op het moment dat Askan beslist om te stoppen en schakelt dan over naar alternatief A.
 
 ==== SC-GA-003 Ongeldige rekeningnummer
-*Thibo* wil 200 euro afhalen van zijn zichtrekening *BE69*, De medewerker merkt dat dit geen geldige rekeningnummer is bij de VSB en informeert hem hierover. 
+*Thibo* wil 200 euro afhalen van zijn zichtrekening *BE122*, De medewerker merkt dat dit geen geldige rekeningnummer is bij de VSB en informeert hem hierover. 
 Dit scenario volgt het basispad tot in stap 4 en volgt dan alternatief B.
 
 ==== SC-GA-004 Geen zichtrekening
-*Thibo* wil 200 euro afhalen van zijn spaarrekening *BE70*, De medewerker merkt op dat dit geen zichtrekening is en informeert hem hierover. 
+*Thibo* wil 200 euro afhalen van zijn spaarrekening *BE02*, De medewerker merkt op dat dit geen zichtrekening is en informeert hem hierover. 
 Dit scenario volgt het basispad tot in stap 5 en volgt dan alternatief C.
 
 ==== SC-GA-005 Geen toegang tot rekeningnummer
@@ -94,3 +94,4 @@ Dit scenario volgt het basispad tot in stap 6 en volgt dan alternatief D.
 ==== SC-GA-006 Onvoldoende saldo
 *Ashkan* wil 1000000 euro afhalen van zijn zichtrekening *BE00*. De medewerker merkt op dat Ashkan onvoldoede saldo heeft op zijn rekening.
 Dit scenario volgt het basispad tot in stap 9 en volgt dan alternatief E.
+
